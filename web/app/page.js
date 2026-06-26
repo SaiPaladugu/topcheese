@@ -2,6 +2,7 @@ import A from "../data/analysis.json";
 
 const S = A.summary;
 const B = A.benchmark;
+const D = A.duo;
 
 function wrClass(wr, ref = 51.5) {
   if (wr >= ref + 1.5) return "good";
@@ -83,6 +84,7 @@ export default function Page() {
           <a href="#champs">Champions</a>
           <a href="#matchups">Matchups</a>
           <a href="#tilt">Tilt &amp; scheduling</a>
+          <a href="#duo">The Calatis effect</a>
           <a href="#form">Form</a>
           <a href="#plan">Action plan</a>
         </nav>
@@ -381,6 +383,131 @@ export default function Page() {
           <Chart src="/charts/streak_wr.png" cap="Win rate by streak state — the chud tilts and keeps queueing anyway." />
           <Chart src="/charts/hour_wr.png" cap="Win rate by hour. Functional at 8 PM, fully cooked by 1 AM." />
           <Chart src="/charts/gamesperday_wr.png" cap="Win rate by games per day (short days look bad partly because he ragequits after losing)." />
+        </section>
+
+        {/* ---------- THE CALATIS EFFECT ---------- */}
+        <section id="duo">
+          <h2>The Calatis effect — can the duo carry this chud?</h2>
+          <p className="lead">
+            He&apos;s queued up with <b>Calatis</b> {D.sharedGamesAnyQueue} times across{" "}
+            {D.accounts.length} alt accounts ({D.accounts.map((a) => a.id).join(", ")}).
+            Restricting to ranked solo/duo for a fair read: the verdict is that not even his
+            friend can drag this NPC up the ladder.
+          </p>
+          <div className="cards">
+            <div className="card">
+              <div className="k">WR duo&apos;d with Calatis</div>
+              <div className={"v " + (D.together.wr >= D.alone.wr ? "good" : "bad")}>
+                {D.together.wr}%
+              </div>
+              <div className="k">{D.together.games} ranked games</div>
+            </div>
+            <div className="card">
+              <div className="k">WR without Calatis</div>
+              <div className="v">{D.alone.wr}%</div>
+              <div className="k">{D.alone.games} ranked games</div>
+            </div>
+            <div className="card">
+              <div className="k">Net effect of the duo</div>
+              <div className={"v " + (D.together.wr - D.alone.wr >= 0 ? "good" : "bad")}>
+                {(D.together.wr - D.alone.wr).toFixed(1)}%
+              </div>
+              <div className="k">friendship is not a win condition</div>
+            </div>
+            <div className="card">
+              <div className="k">Calatis&apos; own KDA / KP</div>
+              <div className="v good">
+                {D.calatisSelf.kda} / {D.calatisSelf.kp}%
+              </div>
+              <div className="k">
+                vs his {D.hisStatsAlone.kda} / {D.hisStatsAlone.kp}% — the jungler does more
+              </div>
+            </div>
+          </div>
+
+          <h3 style={{ margin: "24px 0 4px 2px", fontSize: 17 }}>
+            Same friend, different account, opposite results
+          </h3>
+          <div className="tablewrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Calatis account</th>
+                  <th className="num">Games</th>
+                  <th className="num">His WR duo&apos;d</th>
+                  <th>Verdict</th>
+                </tr>
+              </thead>
+              <tbody>
+                {D.perAccount.map((a) => (
+                  <tr key={a.id}>
+                    <td>{a.id}</td>
+                    <td className="num">{a.games}</td>
+                    <td className="num">
+                      <span className={"pill " + wrClass(a.wr)}>{a.wr}%</span>
+                    </td>
+                    <td>
+                      <span className={"pill " + (a.wr >= 51.5 ? "good" : "bad")}>
+                        {a.wr >= 51.5 ? "win condition ✅" : "anchor ❌"}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="lead" style={{ marginTop: 14 }}>
+            His most-played Calatis account ({D.perAccount[0].id}, {D.perAccount[0].games}{" "}
+            games) is a {D.perAccount[0].wr}% grief — and he keeps re-queueing with it anyway.
+            Calatis is a jungle/mid main (
+            {Object.keys(D.calatisRoles)
+              .slice(0, 2)
+              .map((r) => r.toLowerCase())
+              .join(" / ")}
+            ), mostly on {D.calatisChamps.slice(0, 3).map((c) => c[0]).join(", ")}.
+          </p>
+
+          <h3 style={{ margin: "24px 0 4px 2px", fontSize: 17 }}>
+            Does Calatis change how he plays? No. He&apos;s a chud either way.
+          </h3>
+          <div className="tablewrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>His stat</th>
+                  <th className="num">With Calatis</th>
+                  <th className="num">Without</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["KDA", "kda"],
+                  ["CS / min", "csPerMin"],
+                  ["Kill participation %", "kp"],
+                  ["Team damage %", "teamDmgPct"],
+                  ["Deaths", "deaths"],
+                  ["Dragon takedowns", "dragonTakedowns"],
+                ].map(([label, k]) => (
+                  <tr key={k}>
+                    <td>{label}</td>
+                    <td className="num">{D.hisStatsTogether[k]}</td>
+                    <td className="num">{D.hisStatsAlone[k]}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="callout loss">
+            <h3>The cope-destroying verdict</h3>
+            <p>
+              His numbers are basically identical with or without his friend — so no, it&apos;s
+              not his teammates. Calatis posts a {D.calatisSelf.kda} KDA and {D.calatisSelf.kp}%
+              kill participation from the jungle while this gooner coasts at {D.hisStatsAlone.teamDmgPct}%
+              damage share, and they still only manage {D.together.wr}%. When your buddy is
+              statistically carrying you to a coin flip, the problem was never the duo — it was
+              the {D.hisStatsTogether.teamDmgPct}%-damage chud sitting bot. Run it back at the gym instead.
+            </p>
+          </div>
         </section>
 
         {/* ---------- FORM ---------- */}

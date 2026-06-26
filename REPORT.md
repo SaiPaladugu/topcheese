@@ -142,7 +142,53 @@ He plays **short, deranged sessions** (avg 2.5 games) and the *timing* is half h
 
 ---
 
-## 7. The intervention plan (read it twice, NPC)
+## 7. The Calatis effect (does his duo carry him? no.)
+
+This chud has queued up with his buddy **Calatis** **63 times** across three meme alt
+accounts (`Calatis#uwu` ×45, `Calatis#zoe` ×16, `Calatis#owo` ×2). Restricting to ranked
+solo/duo for a fair, apples-to-apples read, here's the brutal truth: **his friend cannot
+drag him up the ladder either.**
+
+| | Games | His WR |
+|---|---|---|
+| **Duo'd with Calatis** | 38 | **50.0%** |
+| **Flying solo** | 787 | **51.6%** |
+
+Net effect of bringing his friend along: **−1.6%**. He plays *worse* with backup. Friendship
+is many things; a win condition for this gooner is not one of them.
+
+### Same friend, different account, opposite results
+
+| Calatis account | Games | His WR duo'd | Verdict |
+|---|---|---|---|
+| **Calatis#uwu** | 22 | **45.5%** | ❌ anchor |
+| **Calatis#zoe** | 16 | **56.2%** | ✅ win condition |
+
+His **most-played** Calatis account is the 45.5% griefing one — and he keeps re-queueing with
+it anyway, because pattern recognition is not in this NPC's kit. The `#zoe` account is
+genuinely good for him; he plays it less. Of course he does.
+
+### It's not the teammates — it's the chud
+
+His own stats barely flinch whether Calatis is there or not:
+
+| His stat | With Calatis | Without |
+|---|---|---|
+| KDA | 3.49 | 3.32 |
+| CS / min | 7.15 | 7.23 |
+| Kill participation % | 43.8 | 44.5 |
+| Team damage % | 22.7 | 23.0 |
+| Deaths | 5.1 | 5.5 |
+| Dragon takedowns | 0.89 | 0.89 |
+
+Identical. The passive-farming-chud personality is load-bearing and travels with him. Worse:
+**Calatis is statistically the better player.** From the jungle/mid (Jarvan, Zoe, Nidalee),
+Calatis posts a **5.19 KDA** and **55.5% kill participation** — while topcheese sits bot at
+**44% KP** and a feather-light **23% damage share** — and they *still* only scrape 50%. When
+your friend is hard-carrying you to a coin flip, the leak was never the duo. It was the chud
+in the bot lane who should be running it back on a treadmill.
+
+## 8. The intervention plan (read it twice, NPC)
 
 **This week (things even he can do):**
 1. ❌ **Delete Sivir** from the pool. Default Caitlyn / Miss Fortune. ~+9 wins for the low low price of self-awareness.
@@ -160,7 +206,7 @@ He plays **short, deranged sessions** (avg 2.5 games) and the *timing* is half h
 
 ---
 
-## 8. Methodology & caveats (the part where we're nice for one paragraph)
+## 9. Methodology & caveats (the part where we're nice for one paragraph)
 
 - **Data:** all 825 ranked-solo games + frame-by-frame timelines from the Riot Match-V5 API (history reaches ~Jul 2024). Metrics use Riot's own `challenges` fields plus timeline-derived lane diffs at 10/14 min vs his direct opponent.
 - **Benchmark:** 194 ADC performances sampled from 120 Diamond-ladder players' recent solo games — a real peer baseline, not aspirational numbers.

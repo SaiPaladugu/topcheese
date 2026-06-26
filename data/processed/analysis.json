@@ -5374,5 +5374,100 @@
     "avgFirstDeathMin": 7.66,
     "avgDeathsBefore15": 2.25,
     "pctGamesEarlyDeath": 68.4
+  },
+  "duo": {
+    "partner": "Calatis",
+    "note": "Core comparison is ranked solo/duo (queue 420) only, for a fair apples-to-apples read.",
+    "sharedGamesAnyQueue": 63,
+    "accounts": [
+      {
+        "id": "Calatis#uwu",
+        "games": 45
+      },
+      {
+        "id": "Calatis#zoe",
+        "games": 16
+      },
+      {
+        "id": "Calatis#owo",
+        "games": 2
+      }
+    ],
+    "together": {
+      "games": 38,
+      "wr": 50.0
+    },
+    "alone": {
+      "games": 787,
+      "wr": 51.6
+    },
+    "perAccount": [
+      {
+        "id": "Calatis#uwu",
+        "games": 22,
+        "wins": 10,
+        "wr": 45.5
+      },
+      {
+        "id": "Calatis#zoe",
+        "games": 16,
+        "wins": 9,
+        "wr": 56.2
+      }
+    ],
+    "hisStatsTogether": {
+      "kda": 3.49,
+      "csPerMin": 7.15,
+      "kp": 43.82,
+      "teamDmgPct": 22.65,
+      "deaths": 5.11,
+      "dragonTakedowns": 0.89
+    },
+    "hisStatsAlone": {
+      "kda": 3.32,
+      "csPerMin": 7.23,
+      "kp": 44.48,
+      "teamDmgPct": 23.03,
+      "deaths": 5.54,
+      "dragonTakedowns": 0.89
+    },
+    "calatisRoles": {
+      "JUNGLE": 19,
+      "MIDDLE": 17,
+      "UTILITY": 2
+    },
+    "calatisChamps": [
+      [
+        "JarvanIV",
+        15
+      ],
+      [
+        "Zoe",
+        13
+      ],
+      [
+        "Nidalee",
+        4
+      ],
+      [
+        "Hwei",
+        2
+      ],
+      [
+        "Seraphine",
+        2
+      ],
+      [
+        "Akali",
+        1
+      ]
+    ],
+    "calatisSelf": {
+      "wr": 50.0,
+      "kda": 5.19,
+      "kp": 55.52,
+      "csPerMin": 6.43,
+      "deaths": 5.53
+    }
   }
 }
