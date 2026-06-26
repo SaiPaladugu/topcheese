@@ -2,7 +2,7 @@
 
 Data-analysis project on the account **`Topcheese044#NA1`** (NA region).
 
-**🔗 Live dashboard:** https://web-delta-gilt-20.vercel.app
+**🔗 Live dashboard:** https://topcheese044.vercel.app
 **📄 Full written report:** [REPORT.md](REPORT.md)
 
 - **PUUID:** `YjdM96oTQM4DnqbroX9G_BaMKfjc_IDyAhjq7MyDHyaEgxBXG2ehQOpQi_nAZcR4IhdRL6vTcHfyrA`
