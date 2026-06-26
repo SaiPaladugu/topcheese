@@ -1,4 +1,5 @@
 import A from "../data/analysis.json";
+import Interactive3D from "./Interactive3D";
 
 const S = A.summary;
 const B = A.benchmark;
@@ -93,6 +94,7 @@ export default function Page() {
           <a href="#diagnostics">Filthy diagnostics</a>
           <a href="#maps">Heatmaps</a>
           <a href="#misc">More stats</a>
+          <a href="#threed">3D / interactive</a>
           <a href="#form">Form</a>
           <a href="#plan">Action plan</a>
         </nav>
@@ -874,6 +876,9 @@ export default function Page() {
             </p>
           </div>
         </section>
+
+        {/* ---------- 3D / INTERACTIVE ---------- */}
+        <Interactive3D />
 
         {/* ---------- FORM ---------- */}
         <section id="form">
