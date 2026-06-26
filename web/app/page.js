@@ -54,9 +54,10 @@ export default function Page() {
     <>
       <header className="hero">
         <div className="hero-inner">
-          <h1>Topcheese044 — Solo Queue Coaching Report</h1>
+          <h1>Topcheese044 — Solo Queue Intervention 🤡</h1>
           <p className="sub">
-            {S.nGames} ranked games · {S.dateFrom} → {S.dateTo} · {S.rank} · ADC
+            {S.nGames} games of a chud farming minions instead of farming a calorie deficit ·{" "}
+            {S.dateFrom} → {S.dateTo} · {S.rank} · ADC (allegedly) · BMI (classified)
           </p>
           <div className="badges">
             <span className="badge">
@@ -88,11 +89,13 @@ export default function Page() {
 
         {/* ---------- DIAGNOSIS ---------- */}
         <section id="diagnosis">
-          <h2>The diagnosis: a safe, clean farmer who under-converts</h2>
+          <h2>The diagnosis: a passive farming chud who refuses to impact the game</h2>
           <p className="lead">
-            Benchmarked against {B.n} real Diamond ADCs, he is average on almost
-            everything, with one consistent shape: he plays safe and farms his lane,
-            but generates less damage, gold, and objective pressure than his peers.
+            Benchmarked against {B.n} real Diamond ADCs who actually press their abilities
+            on enemy champions, this NPC is statistically average at everything — with one
+            consistent personality trait: he farms safe and refuses to do anything that
+            involves risk, courage, or a single ounce of agency — much like his refusal to
+            do a single ounce of cardio.
           </p>
           <div className="cards">
             <div className="card">
@@ -116,7 +119,7 @@ export default function Page() {
               <div className="k">Diamond {B.means.controlWards} 🚩</div>
             </div>
           </div>
-          <Chart src="/charts/benchmark.png" cap="Him vs Diamond-ADC baseline (100 = at rank average). Red = below peers." />
+          <Chart src="/charts/benchmark.png" cap="Him vs real Diamond ADCs (100 = at rank average). All that red = the chud underperforming his own rank." />
           <div className="tablewrap">
             <table>
               <thead>
@@ -150,26 +153,28 @@ export default function Page() {
             </table>
           </div>
           <div className="callout">
-            <h3>Read</h3>
+            <h3>Translation for the NPC</h3>
             <p>
-              He is not losing because of mechanics or farming — he wins lane on CS and
-              avoids dying. He is losing because lane leads aren&apos;t turned into team
-              impact. That&apos;s a decision-making problem, which climbs faster than a
-              mechanics one.
+              He is not hardstuck because of his mechanics — he wins lane on CS and avoids
+              dying. He is hardstuck because he plays the entire mid-game like a very polite
+              spectator. Good news, gooner: a coward problem climbs faster than a bad-hands
+              problem, so you actually have a path out of this if you grow a spine — and,
+              ideally, shrink a waistline.
             </p>
           </div>
         </section>
 
         {/* ---------- WHAT DECIDES GAMES ---------- */}
         <section id="decide">
-          <h2>What actually decides his games</h2>
+          <h2>What actually decides his games (not his mechanics, lol)</h2>
           <p className="lead">
             Every metric compared between his wins and losses, ranked by effect size
-            (Cohen&apos;s d). Ignoring KDA (a scoreboard echo), the controllable
-            differentiators are objective presence and gold conversion — bigger than
-            laning itself.
+            (Cohen&apos;s d). Ignoring KDA (a scoreboard echo for chuds who think KDA is a
+            personality), the controllable differences are objective presence and gold
+            conversion — both bigger than the laning he won&apos;t shut up about, and both
+            smaller than his pant size.
           </p>
-          <Chart src="/charts/winloss_effect.png" cap="What separates his wins from losses (standardized effect size)." />
+          <Chart src="/charts/winloss_effect.png" cap="What separates his wins from losses. Spoiler: it's showing up to objectives, which he doesn't." />
           <div className="tablewrap">
             <table>
               <thead>
@@ -192,25 +197,28 @@ export default function Page() {
               </tbody>
             </table>
           </div>
-          <Chart src="/charts/lane14_winloss.png" cap="Lane lead at 14 minutes: wins vs losses." />
+          <Chart src="/charts/lane14_winloss.png" cap="Lane lead at 14 minutes: wins vs losses. He gets the lead and then squanders it." />
           <div className="callout win">
-            <h3>Headline</h3>
+            <h3>The headline this chud needs tattooed</h3>
             <p>
-              For this player, objective presence (dragon takedowns: {wlDragon()}) and
-              gold generation outrank laning. He already wins lane — the leak is grouping
-              for dragons and converting leads into gold, plates, and kills.
+              Objective presence (dragon takedowns: {wlDragon()}) and gold conversion matter
+              MORE than laning — and he already wins lane. The leak is 100% between his ears:
+              he gets a lead and then does absolutely nothing with it. A lead is wasted on
+              this man. Walk to the dragon, NPC — and then keep walking, for the cardio.
             </p>
           </div>
         </section>
 
         {/* ---------- CHAMPIONS ---------- */}
         <section id="champs">
-          <h2>Champion pool</h2>
+          <h2>The champion pool (aka the Caitlyn comfort blanket)</h2>
           <p className="lead">
-            Caitlyn-dominant ({champPct("Caitlyn")}% of games). His best high-volume champ
-            is actually Miss Fortune. Sivir is a heavy anchor he should bench.
+            {champPct("Caitlyn")}% Caitlyn, because heaven forbid the chud learn a second
+            character. His actual best high-volume champ is Miss Fortune — which he plays
+            half as much as his worst champ, Sivir. NPC behavior — and his champ pool, like
+            his portion sizes, badly needs trimming.
           </p>
-          <Chart src="/charts/champion_wr.png" cap="Win rate by champion (≥10 games). Reference line = his 51.5% average." />
+          <Chart src="/charts/champion_wr.png" cap="Win rate by champion (≥10 games). The line is his 51.5% average — note how many bars are below the chud's own mediocrity." />
           <div className="tablewrap">
             <table>
               <thead>
@@ -247,21 +255,26 @@ export default function Page() {
             </table>
           </div>
           <div className="callout loss">
-            <h3>The Sivir problem</h3>
+            <h3>The Sivir crime scene</h3>
             <p>
-              {sivir().games} games at {sivir().wr}% — his best CS/min yet his worst win
-              rate, the classic sign of a champ he farms on but can&apos;t carry with.
-              Replacing those games with his ~53% champs is worth roughly +9 wins.
+              {sivir().games} games at {sivir().wr}% — his BEST CS/min yet his WORST win
+              rate. The textbook signature of a chud who farms gorgeously and contributes
+              nothing. He stared at a 40% win rate {sivir().games} separate times and went
+              &quot;run it back.&quot; Swapping those griefs for his ~53% champs is worth
+              ~+9 wins, or as he calls it, &quot;variance&quot; — the same word he uses for
+              his weight.
             </p>
           </div>
         </section>
 
         {/* ---------- MATCHUPS ---------- */}
         <section id="matchups">
-          <h2>Matchups — pick Caitlyn on purpose, not autopilot</h2>
+          <h2>Matchups — pick Caitlyn on purpose, not on autopilot, chud</h2>
           <p className="lead">
-            Caitlyn&apos;s win rate swings wildly by enemy ADC. Into her bad matchups,
-            lock Miss Fortune instead.
+            Caitlyn&apos;s win rate swings wildly by enemy ADC, and this gooner locks her
+            blind every single game because reading the enemy comp would mean looking up
+            from his own minimap. Into her bad matchups, lock Miss Fortune. He won&apos;t —
+            same energy as the gym membership he keeps renewing and never using.
           </p>
           <div className="grid2">
             <div className="tablewrap">
@@ -310,7 +323,7 @@ export default function Page() {
             </div>
           </div>
           <h3 style={{ margin: "24px 0 4px 2px", fontSize: 17 }}>
-            Enemy ADCs that beat him regardless of pick
+            Enemy ADCs that beat this chud no matter what he picks
           </h3>
           <div className="tablewrap">
             <table>
@@ -338,95 +351,111 @@ export default function Page() {
 
         {/* ---------- TILT ---------- */}
         <section id="tilt">
-          <h2>Tilt &amp; scheduling — when to queue, when to stop</h2>
+          <h2>Tilt &amp; scheduling — the chud cannot stop himself</h2>
           <p className="lead">
-            When he plays matters as much as how. Local time inferred from his activity
+            When this LTN plays is half his problem; what he&apos;s snacking on while he
+            plays is the other half. Local time inferred from his sleep-deprived activity
             pattern as UTC{A.time.inferredUtcOffset} (US Central).
           </p>
           <div className="grid2">
             <div className="callout loss">
-              <h3>🛑 Stop after 3 losses</h3>
+              <h3>🛑 Log off after 3 losses, LTN</h3>
               <p>
-                His win rate drops to {streak("after 3+ losses")}% after three straight
-                losses — by far his worst state. Continuing is a statistically losing bet.
+                His win rate craters to {streak("after 3+ losses")}% after three straight
+                losses — his brain is soup and he queues anyway. Every game past that is a
+                donation to the enemy team, much like every late-night snack is a donation
+                to the gut.
               </p>
             </div>
             <div className="callout loss">
-              <h3>🌙 No ranked after midnight</h3>
+              <h3>🌙 No ranked after midnight, gooner</h3>
               <p>
                 Midnight–1&nbsp;AM runs {hour(0)}–{hour(1)}% over {hourGames(0) + hourGames(1)}{" "}
-                games. His evening window (8–9&nbsp;PM) is his best at {hour(20)}–{hour(21)}%.
+                games — and midnight is his single most-played hour. He&apos;s gooner-queueing
+                into the void at 1&nbsp;AM with one eye open and one hand in the chip bag.
+                His good window (8–9&nbsp;PM) is {hour(20)}–{hour(21)}% — the other good
+                window is called &quot;the gym, in the morning.&quot;
               </p>
             </div>
           </div>
-          <Chart src="/charts/streak_wr.png" cap="Win rate by streak state — losing streaks compound." />
-          <Chart src="/charts/hour_wr.png" cap="Win rate by hour of day (local). Evening peaks, post-midnight collapses." />
-          <Chart src="/charts/gamesperday_wr.png" cap="Win rate by games played that day (note: short days are confounded by quitting after losses)." />
+          <Chart src="/charts/streak_wr.png" cap="Win rate by streak state — the chud tilts and keeps queueing anyway." />
+          <Chart src="/charts/hour_wr.png" cap="Win rate by hour. Functional at 8 PM, fully cooked by 1 AM." />
+          <Chart src="/charts/gamesperday_wr.png" cap="Win rate by games per day (short days look bad partly because he ragequits after losing)." />
         </section>
 
         {/* ---------- FORM ---------- */}
         <section id="form">
-          <h2>Two-year form: a plateau</h2>
+          <h2>Two-year form: a plateau (and not the only thing that&apos;s plateaued)</h2>
           <p className="lead">
-            Rolling 50-game win rate has oscillated around 50% for two years — exactly
-            what an average-everything profile produces. Breaking the plateau means
-            raising the flagged metrics above.
+            Rolling 50-game win rate has bounced around 50% for two straight years — that&apos;s
+            not a plateau, it&apos;s a lifestyle, much like the cardio he&apos;s been meaning to
+            start. Breaking it means raising the flagged metrics above and possibly his heart
+            rate above resting for once.
           </p>
-          <Chart src="/charts/form.png" cap="Rolling 50-game win rate over time." />
+          <Chart src="/charts/form.png" cap="Rolling 50-game win rate over time — flatter than the treadmill he never uses." />
         </section>
 
         {/* ---------- PLAN ---------- */}
         <section id="plan">
-          <h2>The action plan</h2>
+          <h2>The intervention plan (read it twice, NPC)</h2>
           <ol className="plan">
             <li>
-              <b>Bench Sivir.</b> Default to Caitlyn / Miss Fortune. Worth ~+9 wins on
-              this sample size alone.
+              <b>Delete Sivir.</b> Default to Caitlyn / Miss Fortune. ~+9 wins for the low
+              price of self-awareness — and while you&apos;re deleting things, delete the
+              third snack.
             </li>
             <li>
-              <b>Rotate to every dragon</b> with 30s+ warning — target 1.3 dragon
-              takedowns/game (his win-rate level).
+              <b>Walk to every dragon</b> with 30s+ warning — target 1.3 takedowns/game.
+              The drake is the big lizard, mid is that way, and the walk counts as steps.
             </li>
             <li>
-              <b>Two hard stops:</b> log off after 3 losses; no ranked after midnight.
+              <b>Two hard stops:</b> log off after 3 losses; no ranked after midnight — use
+              the spare time to see a squat rack.
             </li>
             <li>
-              <b>Ward lane bushes by 2:30</b> and avoid the pre-10-min death — cut
-              early-death games from {A.deaths.pctGamesEarlyDeath}% toward 50%.
+              <b>Ward the bush by 2:30</b> and skip the minute-7 suicide — drag early-death
+              games from {A.deaths.pctGamesEarlyDeath}% toward 50%, and drag yourself onto a
+              treadmill.
             </li>
             <li>
               <b>Counter-pick discipline:</b> Caitlyn only into her good matchups; Miss
-              Fortune into Kai&apos;Sa / Jinx / Sivir / Zeri.
+              Fortune into Kai&apos;Sa / Jinx / Sivir / Zeri. Cut the weight off your champ
+              pool and, frankly, off you.
             </li>
             <li>
-              <b>Convert leads:</b> when ahead at 14 min, group for plates + dragon
-              instead of farming side lane.
+              <b>Use your leads:</b> when ahead at 14, group for plates + drake instead of
+              solo-farming a side lane like an LTN — calories aren&apos;t the only thing
+              worth burning.
             </li>
             <li>
-              <b>Buy a control ward every back</b> (0.45/game now vs 0.71 for peers).
+              <b>Buy a control ward every back</b> (0.45/game now vs 0.71 for actual
+              Diamonds). It&apos;s 75 gold, gooner — roughly one skipped energy drink.
             </li>
             <li>
-              <b>Ladder in the 8–9&nbsp;PM window</b> when possible.
+              <b>Ladder at 8–9&nbsp;PM</b> when his brain is online. Morning slot&apos;s
+              open for a run.
             </li>
           </ol>
           <div className="callout win">
             <h3>Expected impact</h3>
             <p>
-              The Sivir cut, matchup discipline, and two scheduling rules each target
-              5–13 point win-rate swings on meaningful samples. Even partial adoption
-              should move him from 51.5% toward 54–55% — enough to climb out of Diamond III.
+              The Sivir cut, matchup discipline, and two scheduling rules each target 5–13
+              point swings on real samples. Even half-effort moves him from 51.5% toward
+              54–55% — out of Diamond III and into a tier where he can disappoint fresh
+              people. The diet&apos;s on him, but the math says shed both the Sivir games and
+              a few pounds.
             </p>
           </div>
         </section>
 
         <footer>
           <p>
-            <b>Methodology:</b> {S.nGames} ranked-solo games + frame-by-frame timelines
-            from the Riot Match-V5 API, benchmarked against {B.n} ADC performances sampled
-            from {120} Diamond-ladder players. Effect size = Cohen&apos;s d. Small-sample
-            champs/matchups (&lt;10 games) are directional only. Local time inferred, not
-            from client. Generated from his own data — see the full written report and code
-            on GitHub.
+            <b>Methodology (the one nice paragraph):</b> {S.nGames} ranked-solo games +
+            frame-by-frame timelines from the Riot Match-V5 API, benchmarked against {B.n}{" "}
+            ADC performances sampled from {120} Diamond-ladder players. Effect size =
+            Cohen&apos;s d. Small-sample champs/matchups (&lt;10 games) are directional only.
+            Local time inferred, not from client. Every insult is affectionate and every
+            number is real — which is the funniest possible combination. Now go for a jog.
           </p>
         </footer>
       </div>

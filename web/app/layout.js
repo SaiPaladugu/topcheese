@@ -1,9 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Topcheese044 — Solo Queue Coaching Report",
+  title: "Topcheese044 — Solo Queue Intervention 🤡",
   description:
-    "Data-driven League of Legends solo-queue analysis for Topcheese044#NA1: win/loss differentials, champion pool, matchups, and tilt patterns across 825 ranked games.",
+    "A data-driven roast of Topcheese044#NA1: 825 ranked games proving this chud is a passive farming NPC who should bench Sivir, walk to a dragon, and also lose some weight.",
 };
 
 export default function RootLayout({ children }) {

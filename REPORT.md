@@ -1,171 +1,169 @@
-# Topcheese044 — Solo Queue Coaching Report
+# Topcheese044 — Solo Queue Intervention (Roast Edition)
 
-**Account:** `Topcheese044#NA1` (NA) · **Rank at pull:** Diamond III, 84 LP
-**Sample:** 825 ranked-solo games, 24 Jul 2024 → 25 Jun 2026 · **Overall: 51.5% WR** (425–400)
-**Role:** ADC (761 of 825 games bottom lane) · **Champions:** 22 played, heavily Caitlyn-weighted
+**Account:** `Topcheese044#NA1` (NA) · **Rank at pull:** Diamond III, 84 LP (congrats, you're the best player in your bronze friend group)
+**Sample:** 825 ranked-solo games, 24 Jul 2024 → 25 Jun 2026 · **Overall: 51.5% WR** (425–400, i.e. a coin flip with extra steps)
+**Role:** ADC (761 of 825 games bottom lane, where this chud goes to farm minions and avoid all responsibility, cardio included)
+**Champions:** 22 played, 444 of them Caitlyn, because heaven forbid the NPC learn a second character or a second vegetable
 
-> Every number below comes from his own match + timeline data, benchmarked against a
-> 194-game sample of real Diamond ADCs we pulled from the ladder. Methodology at the end.
-
----
-
-## TL;DR — the 5 highest-leverage changes
-
-1. **Bench Sivir.** 40.3% over **67 games** — his worst-by-far high-volume champ, ~13 points below his average. Those games alone cost him an estimated **~9 wins**. ([details](#4-champion-pool))
-2. **Stop queuing after 3 losses, and stop at midnight.** WR craters to **41.3% after 3+ losses** and to **40–49% after midnight** (159 games). His evening window (8–9 PM) is **60–65%**. ([details](#6-tilt--scheduling))
-3. **Play for objectives, not just lane.** The single biggest skill gap between his wins and losses is **dragon participation** (1.28 in wins vs 0.48 in losses) and **gold generation** — bigger than laning itself. ([details](#3-what-actually-decides-his-games))
-4. **Match-pick his main.** Caitlyn is **64% into Jhin** and **78% into Twitch**, but **33% into Sivir / 40% into Kai'Sa / 48% into Jinx**. Into those, pick **Miss Fortune** (54.5%, +584 gold@14) instead. ([details](#4-champion-pool))
-5. **Cut the early deaths.** He gives up a death before 10 min in **68% of games** (avg first death **7.7 min**). Fewer early deaths is a clear win-marker. ([details](#5-early-game--deaths))
+> Every number below is pulled from this gooner's own match + timeline data and benchmarked
+> against 194 real Diamond ADCs who, unlike him, occasionally press their abilities on enemy
+> champions. Methodology at the end. None of the numbers are made up — that's the sad part.
 
 ---
 
-## 1. The diagnosis: a safe, clean farmer who under-converts
+## TL;DR — five things chudffrey does that are actively griefing his own LP
 
-Benchmarked against Diamond ADCs, he is **remarkably average on nearly everything, with one consistent shape**: he plays *safe and clean* but generates *less impact*.
+1. **Bench Sivir, you menace.** 40.3% over **67 games** — his worst high-volume champ by a mile, ~13 points below his already-mediocre average. He looked at a 40% win rate sixty-seven separate times and went "yeah let's run it back." Those games alone donated an estimated **~9 wins** straight into the trash, right next to the salad he never finished. ([details](#4-the-champion-pool-aka-the-caitlyn-comfort-blanket))
+2. **Log off after 3 losses, LTN.** His win rate face-plants to **41.3% after 3+ losses**, and to **40–49% after midnight** (159 games of pure tilt-queueing). His brain stops working at midnight but the queue button still works, apparently — and so does the snack drawer. ([details](#6-tilt--scheduling-the-chud-cant-stop-himself))
+3. **Be present for objectives for once in your life.** The single biggest thing separating his wins from his losses is **dragon participation** (1.28 in wins vs 0.48 in losses). This NPC is bot-lane-pathing while his team 4v5s the drake; the only thing he commits to is second dinner. ([details](#3-what-actually-decides-his-games-not-his-mechanics-lol))
+4. **Pick Caitlyn on purpose, not on autopilot, chud.** She's **64% into Jhin** and **78% into Twitch**, but **33% into Sivir / 40% into Kai'Sa / 48% into Jinx**. He locks her in anyway because reading the enemy team comp would require looking up from his own minimap — about as likely as him reading a nutrition label. ([details](#4-the-champion-pool-aka-the-caitlyn-comfort-blanket))
+5. **Stop dying at minute 7, gooner.** He gives up a death before 10 minutes in **68% of games** (average first death: a humiliating **7.7 minutes**). He flames his jungler in 68% of games for a death he walked into personally — the most exercise he gets is that walk into the enemy jungle. ([details](#5-the-early-game-where-the-gooner-keeps-dying))
+
+---
+
+## 1. The diagnosis: a passive farming chud who refuses to impact the game
+
+Benchmarked against actual Diamond ADCs, he is **statistically average at everything, with one consistent personality trait**: he farms safe and refuses to do anything that might involve risk, courage, or a single ounce of agency.
 
 ![Him vs Diamond ADC baseline](web/public/charts/benchmark.png)
 
-| | Him | Diamond ADC avg | Read |
+| | Him | Diamond ADC avg | The verdict |
 |---|---|---|---|
-| Deaths / game | **5.5** | 6.1 | ✅ dies less |
-| CS diff vs lane @14 | **+5.1** | +1.6 | ✅ out-farms his laner |
-| CS / min | 7.3 | 7.5 | ≈ par |
-| Kill participation | 45.3% | 48.7% | 🚩 under-involved |
-| Damage / min | 820 | 875 | 🚩 lower output |
-| Gold / min | 457 | 486 | 🚩 lower |
-| **Control wards / game** | **0.45** | 0.71 | 🚩 buys ~⅓ fewer |
+| Deaths / game | **5.5** | 6.1 | ✅ dies less (because he never does anything) |
+| CS diff vs lane @14 | **+5.1** | +1.6 | ✅ out-farms his laner (cool, minions defeated) |
+| CS / min | 7.3 | 7.5 | ≈ par (perfectly mid, like everything about him) |
+| Kill participation | 45.3% | 48.7% | 🚩 NPC isn't in the fights |
+| Damage / min | 820 | 875 | 🚩 tickles the enemy |
+| Gold / min | 457 | 486 | 🚩 broke boy economy |
+| **Control wards / game** | **0.45** | 0.71 | 🚩 allergic to spending 75 gold |
 
-**Interpretation:** he wins his lane on CS and avoids dying — but converts that into fewer fights, less damage, less gold, and less map/objective pressure than his peers. He is not losing because of mechanics or farming. **He is losing because lane leads aren't being turned into team impact.** That's good news: it's a decision-making problem, which climbs faster than a mechanics problem.
+**Translation:** he wins lane on CS and avoids dying — and then converts that into *nothing*. Less damage, less gold, zero map pressure. He is not hardstuck because of his mechanics. **He is hardstuck because he plays the entire mid-game like a very polite spectator.** Genuinely good news, though: a coward problem climbs faster than a bad-hands problem, so chudffrey actually has a path out of this if he grows a spine and loses the spare tire.
 
 ---
 
-## 2. Where he stands
+## 2. Where this chud stands
 
-- **51.5% lifetime WR** is consistent with someone correctly placed around Diamond — he is at his MMR, not stuck below it.
-- Rolling form has oscillated around 50% for two years (see chart) — he has **plateaued**, which is exactly what you'd expect from an average-everything profile. Breaking the plateau means raising the metrics flagged 🚩 above.
+- **51.5% lifetime WR** means the matchmaker has him perfectly placed. He is exactly as good as he thinks he's unlucky, and exactly as heavy as he thinks he's "big-boned."
+- Rolling form has bounced around 50% for **two straight years** (see chart). Two years, gooner. That's not a plateau, that's a lifestyle — the same lifestyle that's plateaued his step count at zero. He has been hardstuck long enough to vote.
 
 ![Recent form](web/public/charts/form.png)
 
 ---
 
-## 3. What actually decides his games
+## 3. What actually decides his games (not his mechanics, lol)
 
-Comparing every metric in his **wins vs his losses** (standardized effect size — bigger bar = more decisive):
+Comparing every metric in his **wins vs his losses** — bigger bar = the thing that actually matters:
 
 ![What separates wins from losses](web/public/charts/winloss_effect.png)
 
-Ignoring KDA (which is just a scoreboard echo of winning), the **real, controllable** differentiators are:
+Ignoring KDA (a scoreboard echo for NPCs who think KDA is a personality), the **real, controllable** differences are:
 
-| Differentiator | In wins | In losses | Takeaway |
+| Differentiator | In wins | In losses | What the chud needs to hear |
 |---|---|---|---|
-| **Gold / min** | 493 | 419 | Wins = he snowballs gold. Group & take objectives to keep earning. |
-| **Dragon takedowns** | 1.28 | 0.48 | **Be present for drakes.** This is the clearest behavioral lever. |
-| **Deaths** | 4.4 | 6.7 | Deaths swing games hard — every avoided death matters. |
-| **Time spent dead** | 7.0% | 10.4% | Same story: respawn timers in losses are brutal. |
-| **Gold/XP diff @14** | +582 / +312 | −257 / −134 | Lane leads matter, but **less than objectives/deaths**. |
-| **Turret plates** | 5.4 | 2.6 | Convert early leads into plates → gold → snowball. |
+| **Gold / min** | 493 | 419 | When he wins he's rich. When he loses he's farming side lane alone like an LTN. |
+| **Dragon takedowns** | 1.28 | 0.48 | **Show up to the dragon.** Your team can see you bot-lane farming, you NPC. |
+| **Deaths** | 4.4 | 6.7 | Every int is a gift to the enemy ADC who is better than you. |
+| **Time spent dead** | 7.0% | 10.4% | In losses he spends a tenth of the game on the grey screen typing in all-chat. |
+| **Gold/XP diff @14** | +582 / −257 | +312 / −134 | Lane leads matter — but less than just *showing up to objectives*, gooner. |
+| **Turret plates** | 5.4 | 2.6 | Plates are free gold. He leaves them on the table to go farm a wave. |
 
-![Lane lead at 14 minutes](web/public/charts/lane14_winloss.png)
-
-**The headline:** for this player, *objective presence and gold conversion outrank laning*. He already wins lane on CS; the leak is **not grouping for dragons and not translating leads into gold/plates/kills**.
+**The headline:** for this chud, objective presence and gold conversion matter MORE than laning — and he already wins lane. The leak is 100% between his ears: he gets a lead and then does absolutely nothing with it. A lead is wasted on this man, like a treadmill in his apartment.
 
 ---
 
-## 4. Champion pool
+## 4. The champion pool (aka the Caitlyn comfort blanket)
 
 ![Win rate by champion](web/public/charts/champion_wr.png)
 
-| Champion | Games | WR | Gold@14 | Dmg% | Verdict |
+| Champion | Games | WR | Gold@14 | Dmg% | The roast |
 |---|---|---|---|---|---|
-| **Miss Fortune** | 123 | **54.5%** | **+584** | 24.8 | ⭐ **Best champ. Play more.** Dominant early. |
-| **Caitlyn** | 444 | 54.3% | +264 | 23.6 | ✅ Solid main — but matchup-dependent (below). |
-| Jhin | 38 | 50.0% | +402 | 19.3 | ⚪ OK but low damage share. |
-| Jinx | 36 | 50.0% | −631 | 23.7 | ⚠️ Gets crushed early (−631!), relies on scaling. |
-| Ashe | 31 | 51.6% | −117 | 17.9 | ⚪ Utility pick, fine. |
-| **Brand** | 24 | **62.5%** | — | 21.7 | 💡 Niche bright spot (likely sup/mid) — keep as pocket pick. |
-| **Sivir** | **67** | **40.3%** | −114 | 22.7 | ❌ **BENCH.** Farms well (8.1 cs/min) but loses. Biggest leak. |
-| Kai'Sa | 9 | 22.2% | −1024 | 22.4 | ❌ Avoid — gets stomped early. |
-| Tristana | 7 | 28.6% | — | 19.5 | ❌ Avoid. |
+| **Miss Fortune** | 123 | **54.5%** | **+584** | 24.8 | ⭐ Genuinely his best champ. He plays her half as much as Sivir. NPC behavior. |
+| **Caitlyn** | 444 | 54.3% | +264 | 23.6 | ✅ The security blanket. 444 games and still presses E into the wall. |
+| Jhin | 38 | 50.0% | +402 | 19.3 | ⚪ Lowest damage share in the pool. A 4-shot champ for a man with 3 ideas. |
+| Jinx | 36 | 50.0% | −631 | 23.7 | ⚠️ Down −631 gold at 14 and prays for a 40-min scaling bailout. |
+| Ashe | 31 | 51.6% | −117 | 17.9 | ⚪ Utility pick for when he wants to do even less damage than usual. |
+| **Brand** | 24 | **62.5%** | — | 21.7 | 💡 His best win rate is on a champ he probably picked by accident. Let that sink in. |
+| **Sivir** | **67** | **40.3%** | −114 | 22.7 | ❌ **The grief pick.** Best CS/min, worst WR. He farms beautifully and loses anyway. |
+| Kai'Sa | 9 | 22.2% | −1024 | 22.4 | ❌ −1024 gold at 14. He gets sent to the shadow realm and calls it a "scaling pick." |
+| Tristana | 7 | 28.6% | — | 19.5 | ❌ 1.12 KDA. Please confiscate this champion from the gooner. |
 
-**The Sivir problem.** She has his *best* CS/min yet his *worst* win rate — a textbook sign of a champion he farms on but can't carry with. Replacing 67 Sivir games with his ~53% champs is worth roughly **+9 wins** — about two full divisions of LP over this sample.
+**The Sivir crime scene.** She has his *best* CS/min and his *worst* win rate — the textbook signature of a chud who farms gorgeously and contributes nothing. Swapping those 67 Sivir griefs for his ~53% champs is worth roughly **+9 wins**, or as he calls it, "variance" — the same word he uses for the number on the scale.
 
-### Caitlyn matchup map (his 444-game main)
+### Caitlyn matchup map (for the man who locks her blind every single game)
 
-Caitlyn's win rate swings massively by enemy ADC — **pick her on purpose, not on autopilot**:
-
-| ✅ First-pick / blind Caitlyn into | WR | ❌ Do NOT pick Caitlyn into | WR |
+| ✅ Caitlyn dabs on | WR | ❌ Caitlyn gets dabbed on (he picks her anyway) | WR |
 |---|---|---|---|
 | Twitch (9g) | 78% | **Sivir (15g)** | **33%** |
 | Draven (13g) | 69% | Zeri / Xayah / Ziggs (8g ea) | ~38% |
 | Aphelios (17g) | 65% | **Kai'Sa (25g)** | **40%** |
 | Jhin (56g) | 64% | Tristana (14g) | 43% |
-| Ezreal (27g) / Samira (11g) | 63–64% | **Jinx (46g)** | **48%** |
+| Ezreal / Samira | 63–64% | **Jinx (46g)** | **48%** |
 
-**Rule of thumb:** Caitlyn dominates immobile lane bullies she out-ranges (Jhin, Draven, Twitch, Aphelios). She loses to scaling/all-in carries that survive her early game (Kai'Sa, Jinx, Sivir, Zeri). **Into those, lock Miss Fortune.**
+**Rule for the NPC:** Caitlyn stomps immobile lane bullies she out-ranges (Jhin, Draven, Twitch). She loses to anything that survives her early game (Kai'Sa, Jinx, Sivir, Zeri). Into those, **lock Miss Fortune** — the champ he's literally better on. He won't. But he should — same way he should take the stairs.
 
-### Enemy ADCs that beat him regardless of his pick
+### Enemy ADCs that beat this chud no matter what he picks
 
-His lowest win rates by opponent: **Seraphine 0% (6g)**, Ziggs 33%, **Zeri 36%**, Tristana 39%, Sivir 40%, Lucian 41%, Twitch 42%. These are poke/scaling lanes and early bullies — flag them in champ select and **play safe-to-scale** rather than forcing trades.
-
----
-
-## 5. Early game & deaths
-
-Despite a low overall death count, the early game is leaky:
-
-- **Average first death: 7.7 minutes** — he's typically the first bot-laner to die.
-- **68% of games include a death before 10 minutes.**
-- Deaths before 15 min is a measurable win/loss differentiator.
-
-This squares with the profile: he plays safe *overall* but takes a **bad early trade/gank** in most games, conceding tempo and lane priority even when he's CSing fine. **Fixing early positioning (ward the lane brush, respect the level-2/6 power spikes, don't overstay for the last few CS) is a concrete, trackable goal.**
+His personal nightmares: **Seraphine 0% (6g)**, Ziggs 33%, **Zeri 36%**, Tristana 39%, Sivir 40%, Lucian 41%, Twitch 42%. A Seraphine — a *support champion* sometimes — has gone 6-0 on him. Frame that, then frame the before-photo.
 
 ---
 
-## 6. Tilt & scheduling
+## 5. The early game (where the gooner keeps dying)
 
-He plays **short sessions** (avg 2.5 games) — and *when* he plays matters as much as how.
+Despite his "I never die" cope, the early game is a war crime:
+
+- **Average first death: 7.7 minutes.** He is reliably the first bot-laner to hit the grey screen.
+- **68% of games include a death before 10 minutes.** More than two-thirds. He walks it in and blames mid for "no roam."
+- Dying before 15 minutes is a measurable loss-marker, and he treats it like a hobby.
+
+This is the whole personality: safe *overall*, but he donates one brain-dead early death almost every game, hands over lane priority, and then plays scared for 25 minutes to "recover." Ward the bush. Respect level 2. Stop walking up for the last caster minion like it owes you money. And maybe walk somewhere that isn't the fridge.
+
+---
+
+## 6. Tilt & scheduling (the chud cannot stop himself)
+
+He plays **short, deranged sessions** (avg 2.5 games) and the *timing* is half his problem.
 
 ![Win rate by streak state](web/public/charts/streak_wr.png)
 
-- **After 3+ losses: 41.3%** (63 games) — by far his worst state. **Hard rule: 3 losses → log off.** Continuing is statistically a losing proposition.
-- After 2 wins: 58.1% — he plays well with momentum; **ride hot streaks.**
+- **After 3+ losses: 41.3%** (63 games). His brain is soup and he queues anyway. **3 losses = log off, LTN.** Every game past that is a donation.
+- After 2 wins: 58.1% — he's fine with momentum, then throws it away by playing one game too many.
 
 ![Win rate by hour](web/public/charts/hour_wr.png)
 
-- **Best window: 8–9 PM local (60–65%).** This is when to grind ranked.
-- **Worst window: midnight–1 AM (40–49% across 159 games).** His single most-played hour is midnight — and it's below 50%. **Stop queuing ranked after midnight**; play normals or log off.
-- Afternoon (3 PM) also dips to ~43%.
+- **Best window: 8–9 PM (60–65%).** This is when the NPC is actually booted up and functioning.
+- **Worst window: midnight–1 AM (40–49% across 159 games).** His single most-played hour is **midnight**, and it's a loser. He's gooner-queueing into the void at 1 AM with one eye open.
+- Afternoon (3 PM) also dips to ~43%, presumably the post-lunch coma — and we both know it wasn't a light lunch.
 
 ![Win rate by games per day](web/public/charts/gamesperday_wr.png)
 
-- WR is *higher* on high-volume days (3–9 games) than on 1–2 game days (42%). **Caveat:** this is partly reverse-causation — losing early makes him quit, so bad days look like "short" days. The honest read isn't "play more," it's "**don't queue a single cold game late at night** and **warm up** before laddering."
+- WR is higher on grind days than on 1–2 game days (42%). **Fair caveat:** that's partly because losing makes him ragequit, so bad days *look* short. The honest read isn't "play more," it's "**don't cold-queue a single game at 1 AM**, chudffrey, and warm up before you ladder."
 
-*(Local time inferred from his activity pattern as UTC−6 / US Central — see methodology.)*
+*(Local time inferred from his sleep-deprived activity pattern as UTC−6 / US Central — see methodology.)*
 
 ---
 
-## 7. The action plan
+## 7. The intervention plan (read it twice, NPC)
 
-**This week (behavioral, trackable):**
-1. ❌ **Remove Sivir** from the ranked pool. Default to Caitlyn / Miss Fortune.
-2. 🐉 **Rotate to every dragon** with 30s+ of spawn warning — target 1.3 dragon takedowns/game (his win-rate level).
-3. 🛑 **Two hard stops:** log off after 3 losses; no ranked after midnight.
-4. 🎯 **Ward the lane bushes by 2:30** and avoid the pre-10-min death — aim to cut early-death games from 68% toward 50%.
+**This week (things even he can do):**
+1. ❌ **Delete Sivir** from the pool. Default Caitlyn / Miss Fortune. ~+9 wins for the low low price of self-awareness.
+2. 🐉 **Walk to the dragon** when it's up. Target 1.3 takedowns/game — his actual win-rate number. The drake is the big lizard. Mid is that way.
+3. 🛑 **Two hard stops:** log off after 3 losses; no ranked after midnight. Tape it to the monitor.
+4. 🎯 **Ward the bush by 2:30** and skip the minute-7 suicide — drag early-death games from 68% toward a non-embarrassing 50%.
 
-**This month (habit):**
+**This month (habits for the chud):**
 5. 🔀 **Counter-pick discipline:** Caitlyn only into her good matchups; Miss Fortune into Kai'Sa/Jinx/Sivir/Zeri.
-6. 💰 **Convert leads:** when ahead at 14 min, group for plates + dragon instead of farming side lane — turn the CS lead into gold/objectives (his win-defining metric).
-7. 👁️ **Buy a control ward every back** (he averages 0.45/game vs 0.71 for peers).
-8. ⏰ **Ladder in the 8–9 PM window** when possible.
+6. 💰 **Use your leads:** when ahead at 14, group for plates + drake instead of solo-farming a side lane like an LTN.
+7. 👁️ **Buy a control ward every back** (0.45/game now vs 0.71 for actual Diamonds). It's 75 gold, gooner.
+8. ⏰ **Ladder at 8–9 PM** when his brain is online.
 
-**Expected impact:** the Sivir cut + matchup discipline + the two scheduling rules each independently target 5–13 point WR swings on meaningful samples. Even partial adoption should move him from 51.5% toward 54–55% — enough to climb out of Diamond III.
+**Expected impact:** if this chud actually does even half of this, the Sivir cut + matchup discipline + the two scheduling rules each target 5–13 point swings on real samples. He'd climb from 51.5% toward **54–55%** — out of Diamond III and into a tier where he can find new people to disappoint. The LP is one intervention; the cardio is the other. Do both, gooner.
 
 ---
 
-## 8. Methodology & caveats
+## 8. Methodology & caveats (the part where we're nice for one paragraph)
 
-- **Data:** all 825 ranked-solo games + frame-by-frame timelines pulled from the Riot Match-V5 API (history reaches ~Jul 2024). Metrics use Riot's own `challenges` fields plus timeline-derived lane diffs at 10/14 min vs his direct opponent.
-- **Benchmark:** 194 ADC performances sampled from 120 Diamond-ladder players' recent solo games — a real peer baseline, not published/aspirational numbers.
+- **Data:** all 825 ranked-solo games + frame-by-frame timelines from the Riot Match-V5 API (history reaches ~Jul 2024). Metrics use Riot's own `challenges` fields plus timeline-derived lane diffs at 10/14 min vs his direct opponent.
+- **Benchmark:** 194 ADC performances sampled from 120 Diamond-ladder players' recent solo games — a real peer baseline, not aspirational numbers.
 - **Effect size** = Cohen's d (standardized win-mean − loss-mean); it ranks *how decisively* a metric differs, not causation.
-- **Caveats:** (1) KDA/gold correlate with winning by definition — excluded from "actionable." (2) Small-sample champs/matchups (<10 games) are directional only. (3) Games-per-day WR is confounded by quit-after-loss behavior. (4) Local time is inferred, not from his client. (5) Patch/meta shifts over a 2-year window aren't normalized.
+- **Caveats (genuine):** (1) KDA/gold correlate with winning by definition — excluded from "actionable." (2) Small-sample champs/matchups (<10 games) are directional only. (3) Games-per-day WR is confounded by quit-after-loss behavior. (4) Local time is inferred, not from his client. (5) Patch/meta shifts over two years aren't normalized. (6) Every insult above is affectionate and every number is real, which is the funniest possible combination.
 - **Reproduce:** `python fetch.py && python benchmark_fetch.py && python analyze.py && python charts.py`.
