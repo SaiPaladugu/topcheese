@@ -5695,5 +5695,186 @@
       "ffAndLost": 104,
       "wonVsFf": 84
     }
+  },
+  "deaths2": {
+    "timing": [
+      {
+        "bucket": "0-5",
+        "minute": 0,
+        "count": 366
+      },
+      {
+        "bucket": "5-10",
+        "minute": 5,
+        "count": 636
+      },
+      {
+        "bucket": "10-15",
+        "minute": 10,
+        "count": 858
+      },
+      {
+        "bucket": "15-20",
+        "minute": 15,
+        "count": 810
+      },
+      {
+        "bucket": "20-25",
+        "minute": 20,
+        "count": 773
+      },
+      {
+        "bucket": "25-30",
+        "minute": 25,
+        "count": 661
+      },
+      {
+        "bucket": "30-35",
+        "minute": 30,
+        "count": 321
+      },
+      {
+        "bucket": "35+",
+        "minute": 35,
+        "count": 127
+      }
+    ],
+    "totalDeaths": 4552,
+    "enemyHalfPct": 30.3,
+    "ownHalfPct": 69.7
+  },
+  "mastery": {
+    "rows": [
+      {
+        "champion": "Caitlyn",
+        "masteryPoints": 1004040,
+        "masteryLevel": 94,
+        "games": 444,
+        "wr": 54.3
+      },
+      {
+        "champion": "MissFortune",
+        "masteryPoints": 289303,
+        "masteryLevel": 29,
+        "games": 123,
+        "wr": 54.5
+      },
+      {
+        "champion": "Jhin",
+        "masteryPoints": 224993,
+        "masteryLevel": 23,
+        "games": 38,
+        "wr": 50.0
+      },
+      {
+        "champion": "Ashe",
+        "masteryPoints": 151425,
+        "masteryLevel": 16,
+        "games": 31,
+        "wr": 51.6
+      },
+      {
+        "champion": "Jinx",
+        "masteryPoints": 114042,
+        "masteryLevel": 13,
+        "games": 36,
+        "wr": 50.0
+      },
+      {
+        "champion": "Sivir",
+        "masteryPoints": 99895,
+        "masteryLevel": 12,
+        "games": 67,
+        "wr": 40.3
+      },
+      {
+        "champion": "Varus",
+        "masteryPoints": 56660,
+        "masteryLevel": 8,
+        "games": 9,
+        "wr": 44.4
+      },
+      {
+        "champion": "Brand",
+        "masteryPoints": 41903,
+        "masteryLevel": 6,
+        "games": 24,
+        "wr": 62.5
+      },
+      {
+        "champion": "Kaisa",
+        "masteryPoints": 40191,
+        "masteryLevel": 6,
+        "games": 9,
+        "wr": 22.2
+      },
+      {
+        "champion": "Lux",
+        "masteryPoints": 37550,
+        "masteryLevel": 6,
+        "games": 19,
+        "wr": 47.4
+      }
+    ]
+  },
+  "carry": {
+    "dmgRank": [
+      {
+        "rank": 1,
+        "games": 243,
+        "pct": 29.5
+      },
+      {
+        "rank": 2,
+        "games": 206,
+        "pct": 25.0
+      },
+      {
+        "rank": 3,
+        "games": 188,
+        "pct": 22.8
+      },
+      {
+        "rank": 4,
+        "games": 147,
+        "pct": 17.8
+      },
+      {
+        "rank": 5,
+        "games": 41,
+        "pct": 5.0
+      }
+    ],
+    "goldRank": [
+      {
+        "rank": 1,
+        "games": 342,
+        "pct": 41.5
+      },
+      {
+        "rank": 2,
+        "games": 189,
+        "pct": 22.9
+      },
+      {
+        "rank": 3,
+        "games": 163,
+        "pct": 19.8
+      },
+      {
+        "rank": 4,
+        "games": 103,
+        "pct": 12.5
+      },
+      {
+        "rank": 5,
+        "games": 28,
+        "pct": 3.4
+      }
+    ],
+    "topDmgPctWins": 30.8,
+    "topDmgPctLosses": 28.0,
+    "topDmgPctOverall": 29.5,
+    "avgDmgRank": 2.44
   }
 }

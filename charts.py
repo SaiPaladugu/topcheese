@@ -193,8 +193,85 @@ def chart_gamelength():
     save(fig, "gamelength_wr.png")
 
 
+def chart_deathmap():
+    dp_path = os.path.join(HERE, "data", "processed", "death_points.json")
+    if not os.path.exists(dp_path):
+        return
+    pts = json.load(open(dp_path))
+    if not pts:
+        return
+    MAX = 14870
+    xs = [p[1] for p in pts]
+    ys = [p[2] for p in pts]
+    fig, ax = plt.subplots(figsize=(7, 7))
+    hb = ax.hexbin(xs, ys, gridsize=28, cmap="inferno", mincnt=1,
+                   extent=(0, MAX, 0, MAX))
+    # lane reference + river diagonal
+    ax.plot([0, MAX], [MAX, 0], color="#58a6ff", ls="--", lw=1, alpha=0.5)  # river / anti-diagonal
+    ax.plot([0, MAX], [0, MAX], color=GRID, ls=":", lw=1, alpha=0.5)        # mid lane
+    ax.text(1400, 1100, "HIS BASE", color=WIN, fontsize=10, fontweight="bold")
+    ax.text(MAX - 3200, MAX - 1300, "ENEMY BASE", color=LOSS, fontsize=10, fontweight="bold")
+    ax.text(MAX - 3000, 900, "bot lane", color=FG, fontsize=9, alpha=0.7)
+    ax.text(700, MAX - 1200, "top lane", color=FG, fontsize=9, alpha=0.7)
+    ax.text(MAX / 2 - 600, MAX / 2 + 400, "mid", color=FG, fontsize=9, alpha=0.7, rotation=45)
+    cb = fig.colorbar(hb, ax=ax, shrink=0.8)
+    cb.set_label("deaths", color=FG)
+    cb.ax.yaxis.set_tick_params(color=FG)
+    ax.set_xlim(0, MAX); ax.set_ylim(0, MAX)
+    ax.set_xticks([]); ax.set_yticks([])
+    ax.set_title(f"Where he dies ({len(pts)} deaths, all side-normalized)\n~70% in his own half — caught walking, not diving")
+    ax.set_aspect("equal")
+    save(fig, "deathmap.png")
+
+
+def chart_carry():
+    c = A.get("carry")
+    if not c:
+        return
+    ranks = [r["rank"] for r in c["dmgRank"]]
+    pct = [r["pct"] for r in c["dmgRank"]]
+    colors = [WIN if r == 1 else (GRID if r <= 2 else LOSS) for r in ranks]
+    fig, ax = plt.subplots(figsize=(8, 4.4))
+    bars = ax.bar([f"#{r}" for r in ranks], pct, color=colors, edgecolor=GRID)
+    for b, r in zip(bars, c["dmgRank"]):
+        ax.text(b.get_x() + b.get_width() / 2, r["pct"] + 0.5, f"{r['pct']}%\n({r['games']}g)",
+                ha="center", va="bottom", fontsize=8, color=FG)
+    ax.set_title(f"His damage rank ON HIS OWN TEAM (1 = team carry)\nTop damage only {c['topDmgPctOverall']}% of games — avg rank {c['avgDmgRank']}/5, as the ADC")
+    ax.set_xlabel("damage rank among his 5 teammates")
+    ax.set_ylabel("% of games"); ax.set_ylim(0, max(pct) + 8)
+    ax.grid(axis="y", alpha=0.3)
+    save(fig, "carry_rank.png")
+
+
+def chart_mastery():
+    rows = A.get("mastery", {}).get("rows", [])
+    rows = [r for r in rows if r["games"] >= 8]
+    if not rows:
+        return
+    import math
+    xs = [max(1, r["masteryPoints"]) for r in rows]
+    ys = [r["wr"] for r in rows]
+    sizes = [40 + r["games"] * 3 for r in rows]
+    colors = [WIN if r["wr"] >= 51.5 else (LOSS if r["wr"] < 48 else ACC2) for r in rows]
+    fig, ax = plt.subplots(figsize=(9, 5.2))
+    ax.scatter(xs, ys, s=sizes, c=colors, edgecolor=FG, linewidth=0.5, alpha=0.85, zorder=3)
+    ax.axhline(51.5, **LINE50)
+    ax.set_xscale("log")
+    for r in rows:
+        ax.annotate(r["champion"], (max(1, r["masteryPoints"]), r["wr"]),
+                    textcoords="offset points", xytext=(7, 4), fontsize=8, color=FG)
+    ax.set_title("Mastery (comfort) vs reality (win rate)\nbubble = games · the more 'comfortable' isn't the more winning")
+    ax.set_xlabel("Champion mastery points (log scale →  more 'comfort')")
+    ax.set_ylabel("His ranked win rate %")
+    ax.grid(alpha=0.25)
+    save(fig, "mastery_wr.png")
+
+
 def main():
     print("Generating charts -> web/public/charts/")
+    chart_deathmap()
+    chart_carry()
+    chart_mastery()
     chart_support()
     chart_gamelength()
     chart_champion_wr()

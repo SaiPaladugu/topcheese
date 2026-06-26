@@ -240,7 +240,47 @@ doing nothing but dialing a different number. Hit the gym *and* hit ernump up.
   one time he gets ahead, there's a one-in-six chance he gives it back like a gentleman.
 - His team hit **/ff and lost 104 times** — that's a lot of trips to the fridge at minute 15.
 
-## 9. The intervention plan (read it twice, NPC)
+## 9. Three more brutal tells
+
+### Where he dies — at home, for no reason
+
+Plotting all **4,552 of his deaths** (side-normalized so his base is always bottom-left)
+reveals the least heroic death map imaginable: **~70% of his deaths happen in his own half
+of the map.** Only **30.3%** are in the enemy half — i.e., the only third of the time he's
+dying while actually doing something. The single brightest hotspot on the entire map is his
+own bot lane. He isn't dying on daring dives or deep objective steals; he's getting collapsed
+on while patrolling his own jungle like an NPC on a scripted route. ([death map on the site](https://topcheese044.vercel.app/#deathmap))
+
+### Is he ever the carry? No — he's a passenger
+
+He plays ADC, the role *designed* to be the team's primary damage dealer. Yet he is the
+**top-damage player on his own team in just 29.5% of games**, with an average damage rank of
+**2.44 out of 5**. The killer stat: **even in the games he WINS, he's the top-damage carry only
+30.8% of the time** — which means roughly **69% of his victories are someone else hard-carrying
+him** while he sits at 23% damage share farming minions. He is not climbing the ladder; he is
+being chauffeured up it.
+
+### The mastery delusion
+
+Mastery points measure how *much* he's played a champ, not how *well*. Cross-referencing the
+two is brutal:
+
+| Champion | Mastery pts | Games | His WR | |
+|---|---|---|---|---|
+| Caitlyn | 1,004,040 | 444 | 54.3% | ✅ earns it |
+| Miss Fortune | 289,303 | 123 | 54.5% | ✅ earns it |
+| Jhin | 224,993 | 38 | 50.0% | ⚪ |
+| Ashe | 151,425 | 31 | 51.6% | ✅ |
+| Jinx | 114,042 | 36 | 50.0% | ⚪ |
+| **Sivir** | **99,895** | **67** | **40.3%** | ❌ delusion |
+| Brand | 41,903 | 24 | **62.5%** | ✅ underplayed gem |
+
+He's sunk **~100,000 mastery points into Sivir** — a massive time investment — for a **40.3%**
+return, while **Brand**, on less than half the mastery, prints **62.5%**. He has confused "the
+champ I've played the most" with "the champ I'm good on" — the exact same error he makes with
+"the food I eat the most" and "the food that's good for me."
+
+## 10. The intervention plan (read it twice, NPC)
 
 **This week (things even he can do):**
 1. ❌ **Delete Sivir** from the pool. Default Caitlyn / Miss Fortune. ~+9 wins for the low low price of self-awareness.
@@ -258,7 +298,7 @@ doing nothing but dialing a different number. Hit the gym *and* hit ernump up.
 
 ---
 
-## 10. Methodology & caveats (the part where we're nice for one paragraph)
+## 11. Methodology & caveats (the part where we're nice for one paragraph)
 
 - **Data:** all 825 ranked-solo games + frame-by-frame timelines from the Riot Match-V5 API (history reaches ~Jul 2024). Metrics use Riot's own `challenges` fields plus timeline-derived lane diffs at 10/14 min vs his direct opponent.
 - **Benchmark:** 194 ADC performances sampled from 120 Diamond-ladder players' recent solo games — a real peer baseline, not aspirational numbers.

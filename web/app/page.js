@@ -86,6 +86,9 @@ export default function Page() {
           <a href="#tilt">Tilt &amp; scheduling</a>
           <a href="#duo">The Calatis effect</a>
           <a href="#social">Supports &amp; squad</a>
+          <a href="#deathmap">Death map</a>
+          <a href="#carry">Is he the carry?</a>
+          <a href="#mastery">Mastery delusion</a>
           <a href="#form">Form</a>
           <a href="#plan">Action plan</a>
         </nav>
@@ -601,6 +604,133 @@ export default function Page() {
               <div className="v bad">{A.social.surrender.ffAndLost}</div>
               <div className="k">typed &quot;/ff 15&quot; and went to the fridge</div>
             </div>
+          </div>
+        </section>
+
+        {/* ---------- DEATH MAP ---------- */}
+        <section id="deathmap">
+          <h2>Where the chud dies (spoiler: at home)</h2>
+          <p className="lead">
+            Every one of his <b>{A.deaths2.totalDeaths.toLocaleString()}</b> deaths, plotted
+            and side-normalized so his base is always bottom-left. If he were dying for
+            objectives you&apos;d see red in the enemy half. You do not.
+          </p>
+          <Chart src="/charts/deathmap.png" cap="Death heatmap, all games normalized to blue side. Hotspots: his own bot lane and mid river." />
+          <div className="cards">
+            <div className="card">
+              <div className="k">Deaths in his OWN half</div>
+              <div className="v bad">{A.deaths2.ownHalfPct}%</div>
+              <div className="k">caught walking, not diving</div>
+            </div>
+            <div className="card">
+              <div className="k">Deaths in the ENEMY half</div>
+              <div className="v">{A.deaths2.enemyHalfPct}%</div>
+              <div className="k">i.e. actually doing something</div>
+            </div>
+            <div className="card">
+              <div className="k">Total deaths logged</div>
+              <div className="v">{A.deaths2.totalDeaths.toLocaleString()}</div>
+              <div className="k">across {S.adcGames} ADC games</div>
+            </div>
+          </div>
+          <div className="callout loss">
+            <h3>Death with no purpose</h3>
+            <p>
+              <b>{A.deaths2.ownHalfPct}% of his deaths happen in his own half of the map.</b> He
+              isn&apos;t dying on a flashy dive or a deep objective contest — he&apos;s getting
+              collapsed on while shuffling around his own jungle and bot lane like an NPC on a
+              patrol route. The brightest hotspot on the entire map is his own bot lane. Tragic,
+              and burns zero calories.
+            </p>
+          </div>
+        </section>
+
+        {/* ---------- WHO CARRIES ---------- */}
+        <section id="carry">
+          <h2>Is he ever the carry? (he is not)</h2>
+          <p className="lead">
+            He&apos;s the ADC — the role literally designed to be the team&apos;s primary damage
+            dealer. So how often is he the top-damage player <i>on his own team?</i>
+          </p>
+          <Chart src="/charts/carry_rank.png" cap="His damage rank among his own 5 players. As the designated carry, he should live at rank #1. He doesn't." />
+          <div className="cards">
+            <div className="card">
+              <div className="k">Top damage on his team</div>
+              <div className="v bad">{A.carry.topDmgPctOverall}%</div>
+              <div className="k">of games — as the ADC</div>
+            </div>
+            <div className="card">
+              <div className="k">…even in his WINS</div>
+              <div className="v bad">{A.carry.topDmgPctWins}%</div>
+              <div className="k">so ~{(100 - A.carry.topDmgPctWins).toFixed(0)}% of wins, someone else carried him</div>
+            </div>
+            <div className="card">
+              <div className="k">Average damage rank</div>
+              <div className="v bad">{A.carry.avgDmgRank} / 5</div>
+              <div className="k">2nd–3rd fiddle on his own team</div>
+            </div>
+          </div>
+          <div className="callout loss">
+            <h3>Passenger princess</h3>
+            <p>
+              In the games he <i>wins</i>, he&apos;s the top-damage carry only {A.carry.topDmgPctWins}%
+              of the time — meaning roughly <b>{(100 - A.carry.topDmgPctWins).toFixed(0)}% of his
+              victories are someone else hard-carrying this gooner</b> while he sits at {S.adcGames > 0 ? "23%" : ""} damage
+              share farming his little minions. He&apos;s not climbing, he&apos;s being chauffeured.
+              The only thing he leads his team in is time spent at the buffet.
+            </p>
+          </div>
+        </section>
+
+        {/* ---------- MASTERY DELUSION ---------- */}
+        <section id="mastery">
+          <h2>Mastery vs reality — the comfort-pick delusion</h2>
+          <p className="lead">
+            Mastery points measure how much he&apos;s <i>played</i> a champ, not how well. Plotting
+            his comfort (mastery) against his actual win rate exposes which &quot;mains&quot; are
+            quietly griefing him.
+          </p>
+          <Chart src="/charts/mastery_wr.png" cap="Mastery points (comfort) vs win rate. Bubble size = games. The dashed line is his average." />
+          <div className="tablewrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Champion</th>
+                  <th className="num">Mastery pts</th>
+                  <th className="num">Games</th>
+                  <th className="num">WR</th>
+                  <th>Comfort vs competence</th>
+                </tr>
+              </thead>
+              <tbody>
+                {A.mastery.rows.map((r) => (
+                  <tr key={r.champion}>
+                    <td>{r.champion}</td>
+                    <td className="num">{r.masteryPoints.toLocaleString()}</td>
+                    <td className="num">{r.games}</td>
+                    <td className="num">
+                      <span className={"pill " + wrClass(r.wr)}>{r.wr}%</span>
+                    </td>
+                    <td>
+                      <span className={"pill " + (r.wr >= 51.5 ? "good" : "bad")}>
+                        {r.wr >= 51.5 ? "earns the comfort" : "delusional comfort"}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="callout loss">
+            <h3>The Sivir delusion, quantified</h3>
+            <p>
+              He&apos;s poured <b>~100,000 mastery points into Sivir</b> — a genuinely huge
+              investment — for a <b>40.3% return</b>. Meanwhile <b>Brand</b>, on a fraction of the
+              mastery, prints <b>62.5%</b>. He has confused &quot;the champ I&apos;ve played most&quot;
+              with &quot;the champ I&apos;m good on,&quot; which is the exact same error he makes at
+              the dinner table with &quot;the food I eat most&quot; and &quot;the food that&apos;s good
+              for me.&quot;
+            </p>
           </div>
         </section>
 
