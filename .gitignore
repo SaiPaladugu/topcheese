@@ -1,0 +1,28 @@
+# Secrets — never commit the API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node / Next (web app has its own .gitignore too)
+node_modules/
+.next/
+.vercel
+
+# ---- Raw API dumps ----
+# ~2.7 GB of match + timeline JSON. Regenerable via fetch.py / benchmark_fetch.py.
+# Kept locally (still on disk in data/), excluded from git — GitHub can't take this.
+data/raw/matches/
+data/raw/timelines/
+data/raw/active_game.json          # contains other players in his live game
+
+# ---- Benchmark cohort ----
+# Other Diamond players' raw games + puuids. The aggregate baseline is already
+# baked into data/processed/analysis.json, so none of this needs versioning.
+data/benchmark/
+
+# What IS committed: the scripts, data/static (ID→name maps), data/processed
+# (analysis.json), web/, REPORT.md, and his small account-level JSONs in data/raw/.

@@ -1,0 +1,5378 @@
+{
+  "summary": {
+    "player": "Topcheese044#NA1",
+    "puuid": "YjdM96oTQM4DnqbroX9G_BaMKfjc_IDyAhjq7MyDHyaEgxBXG2ehQOpQi_nAZcR4IhdRL6vTcHfyrA",
+    "rank": "Diamond III (84 LP at pull)",
+    "level": 346,
+    "nGames": 825,
+    "wins": 425,
+    "losses": 400,
+    "wr": 51.5,
+    "dateFrom": "2024-07-24",
+    "dateTo": "2026-06-25",
+    "adcGames": 761,
+    "championsPlayed": 22
+  },
+  "benchmark": {
+    "n": 194,
+    "means": {
+      "csPerMin": 7.45,
+      "kp": 48.7,
+      "teamDmgPct": 23.9,
+      "dmgPerMin": 875.01,
+      "goldPerMin": 486.04,
+      "deaths": 6.07,
+      "visionPerMin": 0.69,
+      "controlWards": 0.71,
+      "soloKills": 0.74,
+      "kda": 3.55,
+      "laneMinions10": 62.38
+    },
+    "hisMeans": {
+      "csPerMin": 7.23,
+      "kp": 44.45,
+      "teamDmgPct": 23.01,
+      "dmgPerMin": 819.55,
+      "goldPerMin": 457.04,
+      "deaths": 5.52,
+      "visionPerMin": 0.68,
+      "controlWards": 0.49,
+      "soloKills": 0.69,
+      "kda": 3.32,
+      "laneMinions10": 60.58
+    }
+  },
+  "winLoss": [
+    {
+      "key": "kda",
+      "label": "KDA",
+      "direction": "+",
+      "winMean": 5.0,
+      "lossMean": 1.54,
+      "delta": 3.46,
+      "cohensD": 1.08
+    },
+    {
+      "key": "goldPerMin",
+      "label": "Gold / min",
+      "direction": "+",
+      "winMean": 492.89,
+      "lossMean": 418.96,
+      "delta": 73.93,
+      "cohensD": 0.93
+    },
+    {
+      "key": "dragonTakedowns",
+      "label": "Dragon takedowns",
+      "direction": "+",
+      "winMean": 1.28,
+      "lossMean": 0.48,
+      "delta": 0.79,
+      "cohensD": 0.885
+    },
+    {
+      "key": "deaths",
+      "label": "Deaths",
+      "direction": "-",
+      "winMean": 4.39,
+      "lossMean": 6.72,
+      "delta": -2.33,
+      "cohensD": -0.853
+    },
+    {
+      "key": "deadPct",
+      "label": "Time dead %",
+      "direction": "-",
+      "winMean": 6.96,
+      "lossMean": 10.43,
+      "delta": -3.47,
+      "cohensD": -0.824
+    },
+    {
+      "key": "goldDiff14",
+      "label": "Gold diff vs lane @14",
+      "direction": "+",
+      "winMean": 582.16,
+      "lossMean": -256.79,
+      "delta": 838.95,
+      "cohensD": 0.654
+    },
+    {
+      "key": "turretPlates",
+      "label": "Turret plates",
+      "direction": "+",
+      "winMean": 5.36,
+      "lossMean": 2.62,
+      "delta": 2.74,
+      "cohensD": 0.577
+    },
+    {
+      "key": "xpDiff14",
+      "label": "XP diff vs lane @14",
+      "direction": "+",
+      "winMean": 312.32,
+      "lossMean": -133.79,
+      "delta": 446.11,
+      "cohensD": 0.567
+    },
+    {
+      "key": "dmgPerMin",
+      "label": "Damage / min",
+      "direction": "+",
+      "winMean": 904.43,
+      "lossMean": 729.36,
+      "delta": 175.06,
+      "cohensD": 0.522
+    },
+    {
+      "key": "deathsBefore15",
+      "label": "Deaths before 15min",
+      "direction": "-",
+      "winMean": 1.92,
+      "lossMean": 2.61,
+      "delta": -0.69,
+      "cohensD": -0.443
+    },
+    {
+      "key": "csDiff14",
+      "label": "CS diff vs lane @14",
+      "direction": "+",
+      "winMean": 7.78,
+      "lossMean": 0.99,
+      "delta": 6.79,
+      "cohensD": 0.328
+    },
+    {
+      "key": "firstDeathMin",
+      "label": "First death (min, later=better)",
+      "direction": "+",
+      "winMean": 8.45,
+      "lossMean": 6.86,
+      "delta": 1.6,
+      "cohensD": 0.299
+    },
+    {
+      "key": "controlWards",
+      "label": "Control wards",
+      "direction": "+",
+      "winMean": 0.57,
+      "lossMean": 0.4,
+      "delta": 0.17,
+      "cohensD": 0.209
+    },
+    {
+      "key": "csPerMin",
+      "label": "CS / min",
+      "direction": "+",
+      "winMean": 7.38,
+      "lossMean": 7.06,
+      "delta": 0.32,
+      "cohensD": 0.196
+    },
+    {
+      "key": "visionPerMin",
+      "label": "Vision / min",
+      "direction": "+",
+      "winMean": 0.71,
+      "lossMean": 0.66,
+      "delta": 0.05,
+      "cohensD": 0.171
+    },
+    {
+      "key": "soloKills",
+      "label": "Solo kills",
+      "direction": "+",
+      "winMean": 0.77,
+      "lossMean": 0.61,
+      "delta": 0.16,
+      "cohensD": 0.166
+    },
+    {
+      "key": "kp",
+      "label": "Kill participation %",
+      "direction": "+",
+      "winMean": 45.72,
+      "lossMean": 43.11,
+      "delta": 2.62,
+      "cohensD": 0.15
+    },
+    {
+      "key": "teamDmgPct",
+      "label": "Team damage share %",
+      "direction": "+",
+      "winMean": 23.41,
+      "lossMean": 22.6,
+      "delta": 0.81,
+      "cohensD": 0.109
+    },
+    {
+      "key": "laneMinions10",
+      "label": "Lane CS @10",
+      "direction": "+",
+      "winMean": 61.33,
+      "lossMean": 59.78,
+      "delta": 1.55,
+      "cohensD": 0.102
+    },
+    {
+      "key": "durationMin",
+      "label": "Game length (min)",
+      "direction": "0",
+      "winMean": 28.99,
+      "lossMean": 28.36,
+      "delta": 0.63,
+      "cohensD": 0.079
+    }
+  ],
+  "champions": [
+    {
+      "champion": "Caitlyn",
+      "games": 444,
+      "wins": 241,
+      "wr": 54.3,
+      "kda": 3.27,
+      "csPerMin": 7.28,
+      "kp": 43.6,
+      "teamDmgPct": 23.6,
+      "dmgPerMin": 833.0,
+      "goldDiff14": 264.0,
+      "deaths": 5.32,
+      "share": 53.8
+    },
+    {
+      "champion": "MissFortune",
+      "games": 123,
+      "wins": 67,
+      "wr": 54.5,
+      "kda": 3.7,
+      "csPerMin": 7.48,
+      "kp": 48.0,
+      "teamDmgPct": 24.8,
+      "dmgPerMin": 915.0,
+      "goldDiff14": 584.0,
+      "deaths": 5.98,
+      "share": 14.9
+    },
+    {
+      "champion": "Sivir",
+      "games": 67,
+      "wins": 27,
+      "wr": 40.3,
+      "kda": 3.98,
+      "csPerMin": 8.08,
+      "kp": 45.7,
+      "teamDmgPct": 22.7,
+      "dmgPerMin": 860.0,
+      "goldDiff14": -114.0,
+      "deaths": 5.34,
+      "share": 8.1
+    },
+    {
+      "champion": "Jhin",
+      "games": 38,
+      "wins": 19,
+      "wr": 50.0,
+      "kda": 4.25,
+      "csPerMin": 6.94,
+      "kp": 46.8,
+      "teamDmgPct": 19.3,
+      "dmgPerMin": 650.0,
+      "goldDiff14": 402.0,
+      "deaths": 4.47,
+      "share": 4.6
+    },
+    {
+      "champion": "Jinx",
+      "games": 36,
+      "wins": 18,
+      "wr": 50.0,
+      "kda": 3.47,
+      "csPerMin": 7.78,
+      "kp": 48.5,
+      "teamDmgPct": 23.7,
+      "dmgPerMin": 835.0,
+      "goldDiff14": -631.0,
+      "deaths": 5.28,
+      "share": 4.4
+    },
+    {
+      "champion": "Ashe",
+      "games": 31,
+      "wins": 16,
+      "wr": 51.6,
+      "kda": 2.41,
+      "csPerMin": 6.14,
+      "kp": 40.5,
+      "teamDmgPct": 17.9,
+      "dmgPerMin": 664.0,
+      "goldDiff14": -117.0,
+      "deaths": 6.26,
+      "share": 3.8
+    },
+    {
+      "champion": "Brand",
+      "games": 24,
+      "wins": 15,
+      "wr": 62.5,
+      "kda": 2.35,
+      "csPerMin": 5.23,
+      "kp": 39.7,
+      "teamDmgPct": 21.7,
+      "dmgPerMin": 764.0,
+      "goldDiff14": -283.0,
+      "deaths": 6.46,
+      "share": 2.9
+    },
+    {
+      "champion": "Lux",
+      "games": 19,
+      "wins": 9,
+      "wr": 47.4,
+      "kda": 3.21,
+      "csPerMin": 7.08,
+      "kp": 38.6,
+      "teamDmgPct": 21.2,
+      "dmgPerMin": 741.0,
+      "goldDiff14": 9.0,
+      "deaths": 4.79,
+      "share": 2.3
+    },
+    {
+      "champion": "Kaisa",
+      "games": 9,
+      "wins": 2,
+      "wr": 22.2,
+      "kda": 2.53,
+      "csPerMin": 7.37,
+      "kp": 46.1,
+      "teamDmgPct": 22.4,
+      "dmgPerMin": 678.0,
+      "goldDiff14": -1024.0,
+      "deaths": 6.33,
+      "share": 1.1
+    },
+    {
+      "champion": "Varus",
+      "games": 9,
+      "wins": 4,
+      "wr": 44.4,
+      "kda": 2.77,
+      "csPerMin": 7.23,
+      "kp": 52.3,
+      "teamDmgPct": 24.7,
+      "dmgPerMin": 836.0,
+      "goldDiff14": -15.0,
+      "deaths": 7.22,
+      "share": 1.1
+    },
+    {
+      "champion": "Tristana",
+      "games": 7,
+      "wins": 2,
+      "wr": 28.6,
+      "kda": 1.12,
+      "csPerMin": 7.02,
+      "kp": 35.2,
+      "teamDmgPct": 19.5,
+      "dmgPerMin": 576.0,
+      "goldDiff14": 51.0,
+      "deaths": 6.57,
+      "share": 0.8
+    },
+    {
+      "champion": "Nautilus",
+      "games": 3,
+      "wins": 1,
+      "wr": 33.3,
+      "kda": 3.15,
+      "csPerMin": 1.04,
+      "kp": 50.0,
+      "teamDmgPct": 7.0,
+      "dmgPerMin": 244.0,
+      "goldDiff14": 449.0,
+      "deaths": 6.0,
+      "share": 0.4
+    },
+    {
+      "champion": "Corki",
+      "games": 3,
+      "wins": 0,
+      "wr": 0.0,
+      "kda": 1.96,
+      "csPerMin": 7.09,
+      "kp": 53.2,
+      "teamDmgPct": 29.3,
+      "dmgPerMin": 922.0,
+      "goldDiff14": 797.0,
+      "deaths": 7.67,
+      "share": 0.4
+    },
+    {
+      "champion": "Annie",
+      "games": 2,
+      "wins": 0,
+      "wr": 0.0,
+      "kda": 1.21,
+      "csPerMin": 5.54,
+      "kp": 30.7,
+      "teamDmgPct": 18.7,
+      "dmgPerMin": 823.0,
+      "goldDiff14": -1054.0,
+      "deaths": 8.5,
+      "share": 0.2
+    },
+    {
+      "champion": "Malphite",
+      "games": 2,
+      "wins": 0,
+      "wr": 0.0,
+      "kda": 0.81,
+      "csPerMin": 4.69,
+      "kp": 22.4,
+      "teamDmgPct": 19.6,
+      "dmgPerMin": 542.0,
+      "goldDiff14": -1630.0,
+      "deaths": 7.5,
+      "share": 0.2
+    },
+    {
+      "champion": "Swain",
+      "games": 2,
+      "wins": 2,
+      "wr": 100.0,
+      "kda": 2.62,
+      "csPerMin": 7.21,
+      "kp": 37.3,
+      "teamDmgPct": 14.2,
+      "dmgPerMin": 764.0,
+      "goldDiff14": -109.0,
+      "deaths": 5.0,
+      "share": 0.2
+    },
+    {
+      "champion": "Ziggs",
+      "games": 1,
+      "wins": 1,
+      "wr": 100.0,
+      "kda": 4.0,
+      "csPerMin": 6.1,
+      "kp": 55.6,
+      "teamDmgPct": 24.4,
+      "dmgPerMin": 880.0,
+      "goldDiff14": 2008.0,
+      "deaths": 5.0,
+      "share": 0.1
+    },
+    {
+      "champion": "Kayle",
+      "games": 1,
+      "wins": 0,
+      "wr": 0.0,
+      "kda": 0.7,
+      "csPerMin": 7.18,
+      "kp": 38.9,
+      "teamDmgPct": 17.6,
+      "dmgPerMin": 695.0,
+      "goldDiff14": -1718.0,
+      "deaths": 10.0,
+      "share": 0.1
+    },
+    {
+      "champion": "Sona",
+      "games": 1,
+      "wins": 0,
+      "wr": 0.0,
+      "kda": 1.8,
+      "csPerMin": 0.91,
+      "kp": 58.1,
+      "teamDmgPct": 8.8,
+      "dmgPerMin": 449.0,
+      "goldDiff14": -590.0,
+      "deaths": 10.0,
+      "share": 0.1
+    },
+    {
+      "champion": "Senna",
+      "games": 1,
+      "wins": 0,
+      "wr": 0.0,
+      "kda": 0.71,
+      "csPerMin": 6.59,
+      "kp": 41.7,
+      "teamDmgPct": 19.0,
+      "dmgPerMin": 498.0,
+      "goldDiff14": -2268.0,
+      "deaths": 7.0,
+      "share": 0.1
+    },
+    {
+      "champion": "Nunu",
+      "games": 1,
+      "wins": 0,
+      "wr": 0.0,
+      "kda": 1.14,
+      "csPerMin": 5.86,
+      "kp": 50.0,
+      "teamDmgPct": 12.0,
+      "dmgPerMin": 341.0,
+      "goldDiff14": -1199.0,
+      "deaths": 7.0,
+      "share": 0.1
+    },
+    {
+      "champion": "Garen",
+      "games": 1,
+      "wins": 1,
+      "wr": 100.0,
+      "kda": 1.14,
+      "csPerMin": 6.43,
+      "kp": 17.8,
+      "teamDmgPct": 9.0,
+      "dmgPerMin": 364.0,
+      "goldDiff14": -1467.0,
+      "deaths": 7.0,
+      "share": 0.1
+    }
+  ],
+  "matchups": {
+    "byEnemyAdc": [
+      {
+        "enemyAdc": "Seraphine",
+        "games": 6,
+        "wins": 0,
+        "wr": 0.0
+      },
+      {
+        "enemyAdc": "Ziggs",
+        "games": 12,
+        "wins": 4,
+        "wr": 33.3
+      },
+      {
+        "enemyAdc": "Zeri",
+        "games": 14,
+        "wins": 5,
+        "wr": 35.7
+      },
+      {
+        "enemyAdc": "Tristana",
+        "games": 28,
+        "wins": 11,
+        "wr": 39.3
+      },
+      {
+        "enemyAdc": "Sivir",
+        "games": 25,
+        "wins": 10,
+        "wr": 40.0
+      },
+      {
+        "enemyAdc": "Lucian",
+        "games": 32,
+        "wins": 13,
+        "wr": 40.6
+      },
+      {
+        "enemyAdc": "Twitch",
+        "games": 24,
+        "wins": 10,
+        "wr": 41.7
+      },
+      {
+        "enemyAdc": "Caitlyn",
+        "games": 27,
+        "wins": 12,
+        "wr": 44.4
+      },
+      {
+        "enemyAdc": "Swain",
+        "games": 9,
+        "wins": 4,
+        "wr": 44.4
+      },
+      {
+        "enemyAdc": "Smolder",
+        "games": 39,
+        "wins": 18,
+        "wr": 46.2
+      },
+      {
+        "enemyAdc": "MissFortune",
+        "games": 48,
+        "wins": 23,
+        "wr": 47.9
+      },
+      {
+        "enemyAdc": "Kaisa",
+        "games": 43,
+        "wins": 21,
+        "wr": 48.8
+      },
+      {
+        "enemyAdc": "Vayne",
+        "games": 24,
+        "wins": 12,
+        "wr": 50.0
+      },
+      {
+        "enemyAdc": "Samira",
+        "games": 20,
+        "wins": 10,
+        "wr": 50.0
+      },
+      {
+        "enemyAdc": "Varus",
+        "games": 21,
+        "wins": 11,
+        "wr": 52.4
+      },
+      {
+        "enemyAdc": "Yunara",
+        "games": 21,
+        "wins": 11,
+        "wr": 52.4
+      },
+      {
+        "enemyAdc": "Jinx",
+        "games": 78,
+        "wins": 41,
+        "wr": 52.6
+      },
+      {
+        "enemyAdc": "Ashe",
+        "games": 49,
+        "wins": 27,
+        "wr": 55.1
+      },
+      {
+        "enemyAdc": "Ezreal",
+        "games": 48,
+        "wins": 27,
+        "wr": 56.2
+      },
+      {
+        "enemyAdc": "Xayah",
+        "games": 14,
+        "wins": 8,
+        "wr": 57.1
+      },
+      {
+        "enemyAdc": "Lux",
+        "games": 7,
+        "wins": 4,
+        "wr": 57.1
+      },
+      {
+        "enemyAdc": "Jhin",
+        "games": 80,
+        "wins": 47,
+        "wr": 58.8
+      },
+      {
+        "enemyAdc": "KogMaw",
+        "games": 10,
+        "wins": 6,
+        "wr": 60.0
+      },
+      {
+        "enemyAdc": "Draven",
+        "games": 29,
+        "wins": 18,
+        "wr": 62.1
+      },
+      {
+        "enemyAdc": "Aphelios",
+        "games": 29,
+        "wins": 19,
+        "wr": 65.5
+      },
+      {
+        "enemyAdc": "Corki",
+        "games": 12,
+        "wins": 8,
+        "wr": 66.7
+      },
+      {
+        "enemyAdc": "Veigar",
+        "games": 6,
+        "wins": 4,
+        "wr": 66.7
+      },
+      {
+        "enemyAdc": "Senna",
+        "games": 15,
+        "wins": 10,
+        "wr": 66.7
+      },
+      {
+        "enemyAdc": "Brand",
+        "games": 10,
+        "wins": 7,
+        "wr": 70.0
+      },
+      {
+        "enemyAdc": "Nilah",
+        "games": 7,
+        "wins": 5,
+        "wr": 71.4
+      }
+    ],
+    "byPair": [
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Sivir",
+        "games": 15,
+        "wins": 5,
+        "wr": 33.3
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Zeri",
+        "games": 8,
+        "wins": 3,
+        "wr": 37.5
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Xayah",
+        "games": 8,
+        "wins": 3,
+        "wr": 37.5
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Ziggs",
+        "games": 8,
+        "wins": 3,
+        "wr": 37.5
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Kaisa",
+        "games": 25,
+        "wins": 10,
+        "wr": 40.0
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Tristana",
+        "games": 14,
+        "wins": 6,
+        "wr": 42.9
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Varus",
+        "games": 17,
+        "wins": 8,
+        "wr": 47.1
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Jinx",
+        "games": 46,
+        "wins": 22,
+        "wr": 47.8
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "MissFortune",
+        "games": 30,
+        "wins": 15,
+        "wr": 50.0
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Smolder",
+        "games": 8,
+        "wins": 4,
+        "wr": 50.0
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Lucian",
+        "games": 19,
+        "wins": 10,
+        "wr": 52.6
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Ashe",
+        "games": 31,
+        "wins": 17,
+        "wr": 54.8
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Yunara",
+        "games": 9,
+        "wins": 5,
+        "wr": 55.6
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Vayne",
+        "games": 12,
+        "wins": 7,
+        "wr": 58.3
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Ezreal",
+        "games": 27,
+        "wins": 17,
+        "wr": 63.0
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Samira",
+        "games": 11,
+        "wins": 7,
+        "wr": 63.6
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Jhin",
+        "games": 56,
+        "wins": 36,
+        "wr": 64.3
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Aphelios",
+        "games": 17,
+        "wins": 11,
+        "wr": 64.7
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Draven",
+        "games": 13,
+        "wins": 9,
+        "wr": 69.2
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Corki",
+        "games": 7,
+        "wins": 5,
+        "wr": 71.4
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Twitch",
+        "games": 9,
+        "wins": 7,
+        "wr": 77.8
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Nilah",
+        "games": 6,
+        "wins": 5,
+        "wr": 83.3
+      },
+      {
+        "champion": "Caitlyn",
+        "enemyAdc": "Senna",
+        "games": 6,
+        "wins": 5,
+        "wr": 83.3
+      },
+      {
+        "champion": "Jhin",
+        "enemyAdc": "Caitlyn",
+        "games": 6,
+        "wins": 2,
+        "wr": 33.3
+      },
+      {
+        "champion": "MissFortune",
+        "enemyAdc": "Smolder",
+        "games": 14,
+        "wins": 5,
+        "wr": 35.7
+      },
+      {
+        "champion": "MissFortune",
+        "enemyAdc": "Twitch",
+        "games": 6,
+        "wins": 3,
+        "wr": 50.0
+      },
+      {
+        "champion": "MissFortune",
+        "enemyAdc": "Jinx",
+        "games": 11,
+        "wins": 6,
+        "wr": 54.5
+      },
+      {
+        "champion": "MissFortune",
+        "enemyAdc": "Kaisa",
+        "games": 7,
+        "wins": 4,
+        "wr": 57.1
+      },
+      {
+        "champion": "MissFortune",
+        "enemyAdc": "Jhin",
+        "games": 10,
+        "wins": 6,
+        "wr": 60.0
+      },
+      {
+        "champion": "MissFortune",
+        "enemyAdc": "Caitlyn",
+        "games": 6,
+        "wins": 4,
+        "wr": 66.7
+      },
+      {
+        "champion": "MissFortune",
+        "enemyAdc": "Ezreal",
+        "games": 6,
+        "wins": 5,
+        "wr": 83.3
+      },
+      {
+        "champion": "Sivir",
+        "enemyAdc": "MissFortune",
+        "games": 6,
+        "wins": 1,
+        "wr": 16.7
+      },
+      {
+        "champion": "Sivir",
+        "enemyAdc": "Tristana",
+        "games": 6,
+        "wins": 2,
+        "wr": 33.3
+      },
+      {
+        "champion": "Sivir",
+        "enemyAdc": "Jinx",
+        "games": 9,
+        "wins": 7,
+        "wr": 77.8
+      }
+    ]
+  },
+  "time": {
+    "inferredUtcOffset": -6,
+    "nSessions": 334,
+    "avgSessionLen": 2.47,
+    "bySessionGame": [
+      {
+        "bucket": "1",
+        "games": 334,
+        "wins": 170,
+        "wr": 50.9
+      },
+      {
+        "bucket": "2",
+        "games": 242,
+        "wins": 117,
+        "wr": 48.3
+      },
+      {
+        "bucket": "3",
+        "games": 135,
+        "wins": 78,
+        "wr": 57.8
+      },
+      {
+        "bucket": "4",
+        "games": 65,
+        "wins": 28,
+        "wr": 43.1
+      },
+      {
+        "bucket": "5",
+        "games": 49,
+        "wins": 32,
+        "wr": 65.3
+      }
+    ],
+    "byStreak": [
+      {
+        "bucket": "after 3+ losses",
+        "games": 63,
+        "wins": 26,
+        "wr": 41.3
+      },
+      {
+        "bucket": "after 2 losses",
+        "games": 95,
+        "wins": 48,
+        "wr": 50.5
+      },
+      {
+        "bucket": "after 1 loss",
+        "games": 195,
+        "wins": 100,
+        "wr": 51.3
+      },
+      {
+        "bucket": "first game",
+        "games": 1,
+        "wins": 1,
+        "wr": 100.0
+      },
+      {
+        "bucket": "after 1 win",
+        "games": 195,
+        "wins": 105,
+        "wr": 53.8
+      },
+      {
+        "bucket": "after 2 wins",
+        "games": 105,
+        "wins": 61,
+        "wr": 58.1
+      },
+      {
+        "bucket": "after 3+ wins",
+        "games": 63,
+        "wins": 32,
+        "wr": 50.8
+      }
+    ],
+    "byGamesPerDay": [
+      {
+        "bucket": "1-2",
+        "games": 228,
+        "wins": 96,
+        "wr": 42.1
+      },
+      {
+        "bucket": "3-5",
+        "games": 465,
+        "wins": 245,
+        "wr": 52.7
+      },
+      {
+        "bucket": "6-9",
+        "games": 121,
+        "wins": 77,
+        "wr": 63.6
+      },
+      {
+        "bucket": "10+",
+        "games": 11,
+        "wins": 7,
+        "wr": 63.6
+      }
+    ],
+    "byHour": [
+      {
+        "bucket": "0",
+        "games": 94,
+        "wins": 46,
+        "wr": 48.9
+      },
+      {
+        "bucket": "1",
+        "games": 65,
+        "wins": 26,
+        "wr": 40.0
+      },
+      {
+        "bucket": "2",
+        "games": 30,
+        "wins": 16,
+        "wr": 53.3
+      },
+      {
+        "bucket": "3",
+        "games": 2,
+        "wins": 2,
+        "wr": 100.0
+      },
+      {
+        "bucket": "4",
+        "games": 1,
+        "wins": 0,
+        "wr": 0.0
+      },
+      {
+        "bucket": "7",
+        "games": 2,
+        "wins": 1,
+        "wr": 50.0
+      },
+      {
+        "bucket": "8",
+        "games": 3,
+        "wins": 2,
+        "wr": 66.7
+      },
+      {
+        "bucket": "9",
+        "games": 6,
+        "wins": 3,
+        "wr": 50.0
+      },
+      {
+        "bucket": "10",
+        "games": 5,
+        "wins": 0,
+        "wr": 0.0
+      },
+      {
+        "bucket": "11",
+        "games": 15,
+        "wins": 9,
+        "wr": 60.0
+      },
+      {
+        "bucket": "12",
+        "games": 37,
+        "wins": 25,
+        "wr": 67.6
+      },
+      {
+        "bucket": "13",
+        "games": 41,
+        "wins": 19,
+        "wr": 46.3
+      },
+      {
+        "bucket": "14",
+        "games": 47,
+        "wins": 24,
+        "wr": 51.1
+      },
+      {
+        "bucket": "15",
+        "games": 49,
+        "wins": 21,
+        "wr": 42.9
+      },
+      {
+        "bucket": "16",
+        "games": 45,
+        "wins": 22,
+        "wr": 48.9
+      },
+      {
+        "bucket": "17",
+        "games": 47,
+        "wins": 24,
+        "wr": 51.1
+      },
+      {
+        "bucket": "18",
+        "games": 49,
+        "wins": 25,
+        "wr": 51.0
+      },
+      {
+        "bucket": "19",
+        "games": 35,
+        "wins": 19,
+        "wr": 54.3
+      },
+      {
+        "bucket": "20",
+        "games": 34,
+        "wins": 22,
+        "wr": 64.7
+      },
+      {
+        "bucket": "21",
+        "games": 40,
+        "wins": 24,
+        "wr": 60.0
+      },
+      {
+        "bucket": "22",
+        "games": 95,
+        "wins": 51,
+        "wr": 53.7
+      },
+      {
+        "bucket": "23",
+        "games": 83,
+        "wins": 44,
+        "wr": 53.0
+      }
+    ],
+    "byWeekday": [
+      {
+        "bucket": "Mon",
+        "games": 127,
+        "wins": 72,
+        "wr": 56.7
+      },
+      {
+        "bucket": "Tue",
+        "games": 103,
+        "wins": 48,
+        "wr": 46.6
+      },
+      {
+        "bucket": "Wed",
+        "games": 137,
+        "wins": 66,
+        "wr": 48.2
+      },
+      {
+        "bucket": "Thu",
+        "games": 105,
+        "wins": 55,
+        "wr": 52.4
+      },
+      {
+        "bucket": "Fri",
+        "games": 102,
+        "wins": 47,
+        "wr": 46.1
+      },
+      {
+        "bucket": "Sat",
+        "games": 130,
+        "wins": 73,
+        "wr": 56.2
+      },
+      {
+        "bucket": "Sun",
+        "games": 121,
+        "wins": 64,
+        "wr": 52.9
+      }
+    ]
+  },
+  "form": [
+    {
+      "i": 0,
+      "ts": 1721799438,
+      "rollingWR": 100.0
+    },
+    {
+      "i": 1,
+      "ts": 1721801408,
+      "rollingWR": 100.0
+    },
+    {
+      "i": 2,
+      "ts": 1721975128,
+      "rollingWR": 100.0
+    },
+    {
+      "i": 3,
+      "ts": 1722066918,
+      "rollingWR": 75.0
+    },
+    {
+      "i": 4,
+      "ts": 1722070359,
+      "rollingWR": 80.0
+    },
+    {
+      "i": 5,
+      "ts": 1722154684,
+      "rollingWR": 83.3
+    },
+    {
+      "i": 6,
+      "ts": 1722230457,
+      "rollingWR": 85.7
+    },
+    {
+      "i": 7,
+      "ts": 1722232476,
+      "rollingWR": 75.0
+    },
+    {
+      "i": 8,
+      "ts": 1722235082,
+      "rollingWR": 77.8
+    },
+    {
+      "i": 9,
+      "ts": 1722318070,
+      "rollingWR": 70.0
+    },
+    {
+      "i": 10,
+      "ts": 1722319964,
+      "rollingWR": 63.6
+    },
+    {
+      "i": 11,
+      "ts": 1722323626,
+      "rollingWR": 58.3
+    },
+    {
+      "i": 12,
+      "ts": 1722492016,
+      "rollingWR": 61.5
+    },
+    {
+      "i": 13,
+      "ts": 1722558883,
+      "rollingWR": 57.1
+    },
+    {
+      "i": 14,
+      "ts": 1722922165,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 15,
+      "ts": 1722924990,
+      "rollingWR": 62.5
+    },
+    {
+      "i": 16,
+      "ts": 1723003845,
+      "rollingWR": 64.7
+    },
+    {
+      "i": 17,
+      "ts": 1723005898,
+      "rollingWR": 66.7
+    },
+    {
+      "i": 18,
+      "ts": 1723008653,
+      "rollingWR": 68.4
+    },
+    {
+      "i": 19,
+      "ts": 1723010974,
+      "rollingWR": 65.0
+    },
+    {
+      "i": 20,
+      "ts": 1723342859,
+      "rollingWR": 66.7
+    },
+    {
+      "i": 21,
+      "ts": 1723346068,
+      "rollingWR": 63.6
+    },
+    {
+      "i": 22,
+      "ts": 1723346686,
+      "rollingWR": 60.9
+    },
+    {
+      "i": 23,
+      "ts": 1723348934,
+      "rollingWR": 58.3
+    },
+    {
+      "i": 24,
+      "ts": 1723434914,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 25,
+      "ts": 1723437580,
+      "rollingWR": 57.7
+    },
+    {
+      "i": 26,
+      "ts": 1723524117,
+      "rollingWR": 55.6
+    },
+    {
+      "i": 27,
+      "ts": 1723526933,
+      "rollingWR": 53.6
+    },
+    {
+      "i": 28,
+      "ts": 1723528901,
+      "rollingWR": 51.7
+    },
+    {
+      "i": 29,
+      "ts": 1723611918,
+      "rollingWR": 53.3
+    },
+    {
+      "i": 30,
+      "ts": 1723614265,
+      "rollingWR": 51.6
+    },
+    {
+      "i": 31,
+      "ts": 1723696375,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 32,
+      "ts": 1723942539,
+      "rollingWR": 48.5
+    },
+    {
+      "i": 33,
+      "ts": 1723944190,
+      "rollingWR": 47.1
+    },
+    {
+      "i": 34,
+      "ts": 1723946192,
+      "rollingWR": 45.7
+    },
+    {
+      "i": 35,
+      "ts": 1723948564,
+      "rollingWR": 44.4
+    },
+    {
+      "i": 36,
+      "ts": 1723962505,
+      "rollingWR": 43.2
+    },
+    {
+      "i": 37,
+      "ts": 1723964567,
+      "rollingWR": 42.1
+    },
+    {
+      "i": 38,
+      "ts": 1724221562,
+      "rollingWR": 41.0
+    },
+    {
+      "i": 39,
+      "ts": 1724472554,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 40,
+      "ts": 1724474356,
+      "rollingWR": 39.0
+    },
+    {
+      "i": 41,
+      "ts": 1724476742,
+      "rollingWR": 38.1
+    },
+    {
+      "i": 42,
+      "ts": 1724482428,
+      "rollingWR": 37.2
+    },
+    {
+      "i": 43,
+      "ts": 1724485306,
+      "rollingWR": 38.6
+    },
+    {
+      "i": 44,
+      "ts": 1724735221,
+      "rollingWR": 37.8
+    },
+    {
+      "i": 45,
+      "ts": 1724736763,
+      "rollingWR": 39.1
+    },
+    {
+      "i": 46,
+      "ts": 1724738317,
+      "rollingWR": 40.4
+    },
+    {
+      "i": 47,
+      "ts": 1724785860,
+      "rollingWR": 41.7
+    },
+    {
+      "i": 48,
+      "ts": 1724868427,
+      "rollingWR": 42.9
+    },
+    {
+      "i": 49,
+      "ts": 1724871430,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 50,
+      "ts": 1724873492,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 51,
+      "ts": 1724875700,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 52,
+      "ts": 1724991528,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 53,
+      "ts": 1725424900,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 54,
+      "ts": 1727072026,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 55,
+      "ts": 1728946686,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 56,
+      "ts": 1728948845,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 57,
+      "ts": 1728950980,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 58,
+      "ts": 1728953043,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 59,
+      "ts": 1728955208,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 60,
+      "ts": 1729091643,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 61,
+      "ts": 1729093016,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 62,
+      "ts": 1729313942,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 63,
+      "ts": 1729315941,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 64,
+      "ts": 1729318377,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 65,
+      "ts": 1729320452,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 66,
+      "ts": 1729399688,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 67,
+      "ts": 1729401912,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 68,
+      "ts": 1729743714,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 69,
+      "ts": 1729745633,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 70,
+      "ts": 1730268032,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 71,
+      "ts": 1730270856,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 72,
+      "ts": 1730677647,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 73,
+      "ts": 1730680384,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 74,
+      "ts": 1730682705,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 75,
+      "ts": 1731268112,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 76,
+      "ts": 1731270408,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 77,
+      "ts": 1731271214,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 78,
+      "ts": 1731272695,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 79,
+      "ts": 1731274825,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 80,
+      "ts": 1731387081,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 81,
+      "ts": 1731389753,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 82,
+      "ts": 1731392104,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 83,
+      "ts": 1731624482,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 84,
+      "ts": 1731711051,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 85,
+      "ts": 1731898384,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 86,
+      "ts": 1731900389,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 87,
+      "ts": 1732260053,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 88,
+      "ts": 1732262491,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 89,
+      "ts": 1732346732,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 90,
+      "ts": 1733781496,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 91,
+      "ts": 1733895231,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 92,
+      "ts": 1733898140,
+      "rollingWR": 66.0
+    },
+    {
+      "i": 93,
+      "ts": 1733968375,
+      "rollingWR": 66.0
+    },
+    {
+      "i": 94,
+      "ts": 1733971849,
+      "rollingWR": 66.0
+    },
+    {
+      "i": 95,
+      "ts": 1733978319,
+      "rollingWR": 66.0
+    },
+    {
+      "i": 96,
+      "ts": 1733979058,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 97,
+      "ts": 1733981299,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 98,
+      "ts": 1733983642,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 99,
+      "ts": 1733985931,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 100,
+      "ts": 1733988884,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 101,
+      "ts": 1733991546,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 102,
+      "ts": 1734725430,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 103,
+      "ts": 1734727848,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 104,
+      "ts": 1735611152,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 105,
+      "ts": 1736306817,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 106,
+      "ts": 1736319197,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 107,
+      "ts": 1736403082,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 108,
+      "ts": 1736405959,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 109,
+      "ts": 1736408519,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 110,
+      "ts": 1736648227,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 111,
+      "ts": 1736748201,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 112,
+      "ts": 1736751227,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 113,
+      "ts": 1736838996,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 114,
+      "ts": 1736841174,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 115,
+      "ts": 1736925880,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 116,
+      "ts": 1737265559,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 117,
+      "ts": 1737267407,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 118,
+      "ts": 1737270461,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 119,
+      "ts": 1737272681,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 120,
+      "ts": 1737273162,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 121,
+      "ts": 1737275924,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 122,
+      "ts": 1737348346,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 123,
+      "ts": 1737350468,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 124,
+      "ts": 1737355547,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 125,
+      "ts": 1737361307,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 126,
+      "ts": 1737417410,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 127,
+      "ts": 1737418939,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 128,
+      "ts": 1737420676,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 129,
+      "ts": 1737435777,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 130,
+      "ts": 1737436492,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 131,
+      "ts": 1737437937,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 132,
+      "ts": 1737700961,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 133,
+      "ts": 1737702532,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 134,
+      "ts": 1737703171,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 135,
+      "ts": 1737862679,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 136,
+      "ts": 1737864697,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 137,
+      "ts": 1737866204,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 138,
+      "ts": 1737867564,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 139,
+      "ts": 1737869715,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 140,
+      "ts": 1737959259,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 141,
+      "ts": 1737962356,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 142,
+      "ts": 1738130163,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 143,
+      "ts": 1738131602,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 144,
+      "ts": 1738397015,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 145,
+      "ts": 1738398896,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 146,
+      "ts": 1738563946,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 147,
+      "ts": 1738564433,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 148,
+      "ts": 1738646991,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 149,
+      "ts": 1738649391,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 150,
+      "ts": 1738651419,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 151,
+      "ts": 1738652520,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 152,
+      "ts": 1738817769,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 153,
+      "ts": 1738820445,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 154,
+      "ts": 1738822345,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 155,
+      "ts": 1738823255,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 156,
+      "ts": 1739083807,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 157,
+      "ts": 1739086123,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 158,
+      "ts": 1739088897,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 159,
+      "ts": 1739136010,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 160,
+      "ts": 1739257734,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 161,
+      "ts": 1739260727,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 162,
+      "ts": 1739431633,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 163,
+      "ts": 1739433121,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 164,
+      "ts": 1739435020,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 165,
+      "ts": 1739511935,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 166,
+      "ts": 1739513953,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 167,
+      "ts": 1739516463,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 168,
+      "ts": 1739518749,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 169,
+      "ts": 1739522200,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 170,
+      "ts": 1739602014,
+      "rollingWR": 36.0
+    },
+    {
+      "i": 171,
+      "ts": 1739603276,
+      "rollingWR": 34.0
+    },
+    {
+      "i": 172,
+      "ts": 1739605372,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 173,
+      "ts": 1739607904,
+      "rollingWR": 34.0
+    },
+    {
+      "i": 174,
+      "ts": 1739864232,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 175,
+      "ts": 1739867351,
+      "rollingWR": 34.0
+    },
+    {
+      "i": 176,
+      "ts": 1740037335,
+      "rollingWR": 36.0
+    },
+    {
+      "i": 177,
+      "ts": 1740040366,
+      "rollingWR": 36.0
+    },
+    {
+      "i": 178,
+      "ts": 1740214836,
+      "rollingWR": 36.0
+    },
+    {
+      "i": 179,
+      "ts": 1740217777,
+      "rollingWR": 36.0
+    },
+    {
+      "i": 180,
+      "ts": 1740220945,
+      "rollingWR": 36.0
+    },
+    {
+      "i": 181,
+      "ts": 1740264629,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 182,
+      "ts": 1740267790,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 183,
+      "ts": 1740470348,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 184,
+      "ts": 1740472456,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 185,
+      "ts": 1741159556,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 186,
+      "ts": 1741160764,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 187,
+      "ts": 1741163259,
+      "rollingWR": 36.0
+    },
+    {
+      "i": 188,
+      "ts": 1741164831,
+      "rollingWR": 34.0
+    },
+    {
+      "i": 189,
+      "ts": 1741327437,
+      "rollingWR": 34.0
+    },
+    {
+      "i": 190,
+      "ts": 1741329998,
+      "rollingWR": 34.0
+    },
+    {
+      "i": 191,
+      "ts": 1741332906,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 192,
+      "ts": 1741667088,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 193,
+      "ts": 1741669826,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 194,
+      "ts": 1741672461,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 195,
+      "ts": 1741674365,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 196,
+      "ts": 1741676378,
+      "rollingWR": 34.0
+    },
+    {
+      "i": 197,
+      "ts": 1741753086,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 198,
+      "ts": 1741755916,
+      "rollingWR": 30.0
+    },
+    {
+      "i": 199,
+      "ts": 1741758025,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 200,
+      "ts": 1741760733,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 201,
+      "ts": 1742009524,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 202,
+      "ts": 1742011855,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 203,
+      "ts": 1742014419,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 204,
+      "ts": 1742016818,
+      "rollingWR": 30.0
+    },
+    {
+      "i": 205,
+      "ts": 1742018911,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 206,
+      "ts": 1742020917,
+      "rollingWR": 30.0
+    },
+    {
+      "i": 207,
+      "ts": 1742273381,
+      "rollingWR": 30.0
+    },
+    {
+      "i": 208,
+      "ts": 1742275740,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 209,
+      "ts": 1742278028,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 210,
+      "ts": 1742280643,
+      "rollingWR": 32.0
+    },
+    {
+      "i": 211,
+      "ts": 1742446675,
+      "rollingWR": 34.0
+    },
+    {
+      "i": 212,
+      "ts": 1742447326,
+      "rollingWR": 36.0
+    },
+    {
+      "i": 213,
+      "ts": 1742448080,
+      "rollingWR": 36.0
+    },
+    {
+      "i": 214,
+      "ts": 1742449808,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 215,
+      "ts": 1742452195,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 216,
+      "ts": 1742531384,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 217,
+      "ts": 1742532656,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 218,
+      "ts": 1742534169,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 219,
+      "ts": 1742536240,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 220,
+      "ts": 1742538312,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 221,
+      "ts": 1742710542,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 222,
+      "ts": 1742712796,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 223,
+      "ts": 1742714996,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 224,
+      "ts": 1742778748,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 225,
+      "ts": 1742800427,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 226,
+      "ts": 1742878311,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 227,
+      "ts": 1742880396,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 228,
+      "ts": 1742883554,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 229,
+      "ts": 1742967147,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 230,
+      "ts": 1742969879,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 231,
+      "ts": 1742972331,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 232,
+      "ts": 1743107489,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 233,
+      "ts": 1743110081,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 234,
+      "ts": 1743112279,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 235,
+      "ts": 1743116261,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 236,
+      "ts": 1743131787,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 237,
+      "ts": 1743370179,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 238,
+      "ts": 1743372811,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 239,
+      "ts": 1743375608,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 240,
+      "ts": 1743377036,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 241,
+      "ts": 1743389596,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 242,
+      "ts": 1743396981,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 243,
+      "ts": 1743397416,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 244,
+      "ts": 1743400163,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 245,
+      "ts": 1743404292,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 246,
+      "ts": 1743481714,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 247,
+      "ts": 1743483899,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 248,
+      "ts": 1743486765,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 249,
+      "ts": 1743567679,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 250,
+      "ts": 1743569338,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 251,
+      "ts": 1743571509,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 252,
+      "ts": 1743749026,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 253,
+      "ts": 1743838085,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 254,
+      "ts": 1743840647,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 255,
+      "ts": 1743919128,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 256,
+      "ts": 1743921246,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 257,
+      "ts": 1743924309,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 258,
+      "ts": 1744352935,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 259,
+      "ts": 1744442188,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 260,
+      "ts": 1744444668,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 261,
+      "ts": 1744492147,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 262,
+      "ts": 1744494193,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 263,
+      "ts": 1744496598,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 264,
+      "ts": 1744522464,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 265,
+      "ts": 1744524837,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 266,
+      "ts": 1744527209,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 267,
+      "ts": 1744529395,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 268,
+      "ts": 1744599496,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 269,
+      "ts": 1744609693,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 270,
+      "ts": 1744611904,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 271,
+      "ts": 1744614423,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 272,
+      "ts": 1744617049,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 273,
+      "ts": 1744693648,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 274,
+      "ts": 1744695521,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 275,
+      "ts": 1744698551,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 276,
+      "ts": 1744777696,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 277,
+      "ts": 1744781021,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 278,
+      "ts": 1744872513,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 279,
+      "ts": 1744874979,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 280,
+      "ts": 1745090902,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 281,
+      "ts": 1745093025,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 282,
+      "ts": 1745215207,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 283,
+      "ts": 1745218126,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 284,
+      "ts": 1745220312,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 285,
+      "ts": 1745288946,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 286,
+      "ts": 1745291962,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 287,
+      "ts": 1745293925,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 288,
+      "ts": 1745295771,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 289,
+      "ts": 1745652275,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 290,
+      "ts": 1745654964,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 291,
+      "ts": 1745656879,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 292,
+      "ts": 1745703123,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 293,
+      "ts": 1745705869,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 294,
+      "ts": 1745707945,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 295,
+      "ts": 1745733949,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 296,
+      "ts": 1745738416,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 297,
+      "ts": 1747886925,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 298,
+      "ts": 1748007618,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 299,
+      "ts": 1748008490,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 300,
+      "ts": 1748010925,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 301,
+      "ts": 1748012787,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 302,
+      "ts": 1748021516,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 303,
+      "ts": 1748112284,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 304,
+      "ts": 1748734518,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 305,
+      "ts": 1748735724,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 306,
+      "ts": 1748743936,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 307,
+      "ts": 1748746194,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 308,
+      "ts": 1748748566,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 309,
+      "ts": 1748750655,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 310,
+      "ts": 1748811409,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 311,
+      "ts": 1748814569,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 312,
+      "ts": 1748919891,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 313,
+      "ts": 1748923410,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 314,
+      "ts": 1749090273,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 315,
+      "ts": 1749092260,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 316,
+      "ts": 1749093706,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 317,
+      "ts": 1749182934,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 318,
+      "ts": 1749185482,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 319,
+      "ts": 1749358213,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 320,
+      "ts": 1749360666,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 321,
+      "ts": 1750132319,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 322,
+      "ts": 1751429635,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 323,
+      "ts": 1751431942,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 324,
+      "ts": 1751507331,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 325,
+      "ts": 1751509461,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 326,
+      "ts": 1751515180,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 327,
+      "ts": 1751693274,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 328,
+      "ts": 1751737884,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 329,
+      "ts": 1751742168,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 330,
+      "ts": 1751743543,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 331,
+      "ts": 1751751868,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 332,
+      "ts": 1751781786,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 333,
+      "ts": 1751826727,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 334,
+      "ts": 1751829578,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 335,
+      "ts": 1751833119,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 336,
+      "ts": 1751944579,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 337,
+      "ts": 1751949235,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 338,
+      "ts": 1752035877,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 339,
+      "ts": 1752203524,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 340,
+      "ts": 1752269307,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 341,
+      "ts": 1752334038,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 342,
+      "ts": 1752385099,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 343,
+      "ts": 1752423361,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 344,
+      "ts": 1752444688,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 345,
+      "ts": 1752447289,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 346,
+      "ts": 1752626442,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 347,
+      "ts": 1752707521,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 348,
+      "ts": 1752791570,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 349,
+      "ts": 1752794084,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 350,
+      "ts": 1752795463,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 351,
+      "ts": 1753227826,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 352,
+      "ts": 1753244362,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 353,
+      "ts": 1753503268,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 354,
+      "ts": 1753571018,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 355,
+      "ts": 1753573029,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 356,
+      "ts": 1753590155,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 357,
+      "ts": 1753592318,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 358,
+      "ts": 1753749233,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 359,
+      "ts": 1753831241,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 360,
+      "ts": 1753833120,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 361,
+      "ts": 1753835347,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 362,
+      "ts": 1753850678,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 363,
+      "ts": 1754020435,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 364,
+      "ts": 1754022690,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 365,
+      "ts": 1754241523,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 366,
+      "ts": 1754288446,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 367,
+      "ts": 1754331331,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 368,
+      "ts": 1754333353,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 369,
+      "ts": 1754335675,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 370,
+      "ts": 1754337896,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 371,
+      "ts": 1754365539,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 372,
+      "ts": 1754367349,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 373,
+      "ts": 1754432276,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 374,
+      "ts": 1754440218,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 375,
+      "ts": 1754453761,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 376,
+      "ts": 1754455857,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 377,
+      "ts": 1754626273,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 378,
+      "ts": 1754627320,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 379,
+      "ts": 1754629918,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 380,
+      "ts": 1754694844,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 381,
+      "ts": 1754702159,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 382,
+      "ts": 1754702958,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 383,
+      "ts": 1754704208,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 384,
+      "ts": 1754795770,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 385,
+      "ts": 1754796898,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 386,
+      "ts": 1754858160,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 387,
+      "ts": 1754860842,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 388,
+      "ts": 1754886599,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 389,
+      "ts": 1754888000,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 390,
+      "ts": 1755321810,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 391,
+      "ts": 1755324263,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 392,
+      "ts": 1755363291,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 393,
+      "ts": 1755405203,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 394,
+      "ts": 1755407829,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 395,
+      "ts": 1755486693,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 396,
+      "ts": 1755488731,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 397,
+      "ts": 1755752410,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 398,
+      "ts": 1755754685,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 399,
+      "ts": 1755833708,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 400,
+      "ts": 1756269589,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 401,
+      "ts": 1756765745,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 402,
+      "ts": 1756768686,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 403,
+      "ts": 1758397499,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 404,
+      "ts": 1758477624,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 405,
+      "ts": 1758480179,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 406,
+      "ts": 1758490888,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 407,
+      "ts": 1758493057,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 408,
+      "ts": 1759382964,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 409,
+      "ts": 1759386095,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 410,
+      "ts": 1759429509,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 411,
+      "ts": 1759431794,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 412,
+      "ts": 1759471326,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 413,
+      "ts": 1759976333,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 414,
+      "ts": 1759978399,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 415,
+      "ts": 1759980746,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 416,
+      "ts": 1759983779,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 417,
+      "ts": 1760057858,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 418,
+      "ts": 1760060045,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 419,
+      "ts": 1760062392,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 420,
+      "ts": 1760928350,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 421,
+      "ts": 1761279821,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 422,
+      "ts": 1761282444,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 423,
+      "ts": 1761285103,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 424,
+      "ts": 1761376714,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 425,
+      "ts": 1761798556,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 426,
+      "ts": 1761800843,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 427,
+      "ts": 1761804954,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 428,
+      "ts": 1761964482,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 429,
+      "ts": 1761966656,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 430,
+      "ts": 1761969393,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 431,
+      "ts": 1761971782,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 432,
+      "ts": 1761973682,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 433,
+      "ts": 1762314650,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 434,
+      "ts": 1762316766,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 435,
+      "ts": 1762475369,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 436,
+      "ts": 1762991321,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 437,
+      "ts": 1762996041,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 438,
+      "ts": 1762998810,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 439,
+      "ts": 1763000934,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 440,
+      "ts": 1763070365,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 441,
+      "ts": 1763073056,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 442,
+      "ts": 1763157521,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 443,
+      "ts": 1763160431,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 444,
+      "ts": 1763163175,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 445,
+      "ts": 1763252662,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 446,
+      "ts": 1763254588,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 447,
+      "ts": 1763504507,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 448,
+      "ts": 1763506989,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 449,
+      "ts": 1763595945,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 450,
+      "ts": 1763597175,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 451,
+      "ts": 1763599049,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 452,
+      "ts": 1763706011,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 453,
+      "ts": 1763708559,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 454,
+      "ts": 1763711595,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 455,
+      "ts": 1763959476,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 456,
+      "ts": 1763960874,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 457,
+      "ts": 1764142438,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 458,
+      "ts": 1764202172,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 459,
+      "ts": 1764204830,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 460,
+      "ts": 1764232034,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 461,
+      "ts": 1764233880,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 462,
+      "ts": 1764289539,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 463,
+      "ts": 1764291790,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 464,
+      "ts": 1764314749,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 465,
+      "ts": 1764316409,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 466,
+      "ts": 1764318913,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 467,
+      "ts": 1764536222,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 468,
+      "ts": 1764537433,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 469,
+      "ts": 1764658506,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 470,
+      "ts": 1764660202,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 471,
+      "ts": 1764737027,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 472,
+      "ts": 1764739083,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 473,
+      "ts": 1764741735,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 474,
+      "ts": 1764916888,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 475,
+      "ts": 1764919123,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 476,
+      "ts": 1764987885,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 477,
+      "ts": 1765081727,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 478,
+      "ts": 1765083060,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 479,
+      "ts": 1765182008,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 480,
+      "ts": 1766105477,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 481,
+      "ts": 1766208354,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 482,
+      "ts": 1766209598,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 483,
+      "ts": 1766265327,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 484,
+      "ts": 1766342979,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 485,
+      "ts": 1766345139,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 486,
+      "ts": 1766384655,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 487,
+      "ts": 1766386315,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 488,
+      "ts": 1766388541,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 489,
+      "ts": 1766449105,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 490,
+      "ts": 1766451212,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 491,
+      "ts": 1766470999,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 492,
+      "ts": 1766551148,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 493,
+      "ts": 1766553450,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 494,
+      "ts": 1766556404,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 495,
+      "ts": 1766640614,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 496,
+      "ts": 1766642698,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 497,
+      "ts": 1766697267,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 498,
+      "ts": 1766699417,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 499,
+      "ts": 1766723983,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 500,
+      "ts": 1766726877,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 501,
+      "ts": 1766729058,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 502,
+      "ts": 1766778397,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 503,
+      "ts": 1766779796,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 504,
+      "ts": 1766781949,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 505,
+      "ts": 1766898554,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 506,
+      "ts": 1766901131,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 507,
+      "ts": 1766988485,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 508,
+      "ts": 1767046515,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 509,
+      "ts": 1767207892,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 510,
+      "ts": 1767210070,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 511,
+      "ts": 1767391245,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 512,
+      "ts": 1767393481,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 513,
+      "ts": 1767422588,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 514,
+      "ts": 1767424408,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 515,
+      "ts": 1767426707,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 516,
+      "ts": 1767587066,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 517,
+      "ts": 1767595228,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 518,
+      "ts": 1767651212,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 519,
+      "ts": 1767652975,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 520,
+      "ts": 1767655013,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 521,
+      "ts": 1767657874,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 522,
+      "ts": 1767660006,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 523,
+      "ts": 1767671453,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 524,
+      "ts": 1767742603,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 525,
+      "ts": 1767745164,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 526,
+      "ts": 1767762027,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 527,
+      "ts": 1767823888,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 528,
+      "ts": 1767826171,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 529,
+      "ts": 1767832920,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 530,
+      "ts": 1767838382,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 531,
+      "ts": 1767841603,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 532,
+      "ts": 1767904299,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 533,
+      "ts": 1767906503,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 534,
+      "ts": 1767907685,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 535,
+      "ts": 1767997412,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 536,
+      "ts": 1767999786,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 537,
+      "ts": 1768009224,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 538,
+      "ts": 1768011858,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 539,
+      "ts": 1768088200,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 540,
+      "ts": 1768090233,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 541,
+      "ts": 1768107850,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 542,
+      "ts": 1768109931,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 543,
+      "ts": 1768111796,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 544,
+      "ts": 1768118568,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 545,
+      "ts": 1768120554,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 546,
+      "ts": 1768174340,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 547,
+      "ts": 1768175807,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 548,
+      "ts": 1768178396,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 549,
+      "ts": 1768180326,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 550,
+      "ts": 1768181785,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 551,
+      "ts": 1768186237,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 552,
+      "ts": 1768261447,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 553,
+      "ts": 1768263659,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 554,
+      "ts": 1768266913,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 555,
+      "ts": 1768269237,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 556,
+      "ts": 1768271845,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 557,
+      "ts": 1768279617,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 558,
+      "ts": 1768343586,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 559,
+      "ts": 1768348692,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 560,
+      "ts": 1768350706,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 561,
+      "ts": 1768519271,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 562,
+      "ts": 1768521681,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 563,
+      "ts": 1768592596,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 564,
+      "ts": 1768595040,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 565,
+      "ts": 1768597824,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 566,
+      "ts": 1768601228,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 567,
+      "ts": 1768809001,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 568,
+      "ts": 1768811007,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 569,
+      "ts": 1768944866,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 570,
+      "ts": 1768975933,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 571,
+      "ts": 1768978592,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 572,
+      "ts": 1768980326,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 573,
+      "ts": 1769026912,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 574,
+      "ts": 1769028396,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 575,
+      "ts": 1769030477,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 576,
+      "ts": 1769032559,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 577,
+      "ts": 1769227958,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 578,
+      "ts": 1769229973,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 579,
+      "ts": 1769240448,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 580,
+      "ts": 1769242230,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 581,
+      "ts": 1769282898,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 582,
+      "ts": 1769284855,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 583,
+      "ts": 1769287428,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 584,
+      "ts": 1769288098,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 585,
+      "ts": 1769290862,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 586,
+      "ts": 1769294201,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 587,
+      "ts": 1769366708,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 588,
+      "ts": 1769455103,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 589,
+      "ts": 1769458164,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 590,
+      "ts": 1769460651,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 591,
+      "ts": 1769563916,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 592,
+      "ts": 1769567860,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 593,
+      "ts": 1769582878,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 594,
+      "ts": 1769584313,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 595,
+      "ts": 1769633288,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 596,
+      "ts": 1769635721,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 597,
+      "ts": 1769707433,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 598,
+      "ts": 1769709540,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 599,
+      "ts": 1769971260,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 600,
+      "ts": 1770078440,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 601,
+      "ts": 1770081229,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 602,
+      "ts": 1770137703,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 603,
+      "ts": 1770140456,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 604,
+      "ts": 1770142917,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 605,
+      "ts": 1770155431,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 606,
+      "ts": 1770319814,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 607,
+      "ts": 1770412726,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 608,
+      "ts": 1770510659,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 609,
+      "ts": 1770513983,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 610,
+      "ts": 1770515719,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 611,
+      "ts": 1770580317,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 612,
+      "ts": 1770582611,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 613,
+      "ts": 1770585242,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 614,
+      "ts": 1770593317,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 615,
+      "ts": 1770595136,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 616,
+      "ts": 1770844772,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 617,
+      "ts": 1770848170,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 618,
+      "ts": 1770850053,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 619,
+      "ts": 1770879110,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 620,
+      "ts": 1770880501,
+      "rollingWR": 36.0
+    },
+    {
+      "i": 621,
+      "ts": 1770882536,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 622,
+      "ts": 1770885372,
+      "rollingWR": 38.0
+    },
+    {
+      "i": 623,
+      "ts": 1771440668,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 624,
+      "ts": 1771443434,
+      "rollingWR": 40.0
+    },
+    {
+      "i": 625,
+      "ts": 1771445617,
+      "rollingWR": 42.0
+    },
+    {
+      "i": 626,
+      "ts": 1771447504,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 627,
+      "ts": 1771450005,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 628,
+      "ts": 1771451944,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 629,
+      "ts": 1771454049,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 630,
+      "ts": 1771464250,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 631,
+      "ts": 1771466267,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 632,
+      "ts": 1771467606,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 633,
+      "ts": 1771477061,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 634,
+      "ts": 1771639778,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 635,
+      "ts": 1771646751,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 636,
+      "ts": 1771649506,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 637,
+      "ts": 1771652662,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 638,
+      "ts": 1771692222,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 639,
+      "ts": 1771701861,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 640,
+      "ts": 1771704081,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 641,
+      "ts": 1771741489,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 642,
+      "ts": 1771743849,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 643,
+      "ts": 1771747378,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 644,
+      "ts": 1771891325,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 645,
+      "ts": 1771893495,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 646,
+      "ts": 1771895985,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 647,
+      "ts": 1771898184,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 648,
+      "ts": 1771955661,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 649,
+      "ts": 1771957875,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 650,
+      "ts": 1771959741,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 651,
+      "ts": 1771961401,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 652,
+      "ts": 1772050627,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 653,
+      "ts": 1772052585,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 654,
+      "ts": 1772054486,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 655,
+      "ts": 1772142625,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 656,
+      "ts": 1772144665,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 657,
+      "ts": 1772146981,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 658,
+      "ts": 1772218022,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 659,
+      "ts": 1772220317,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 660,
+      "ts": 1772338600,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 661,
+      "ts": 1772340540,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 662,
+      "ts": 1772343098,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 663,
+      "ts": 1772398620,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 664,
+      "ts": 1772401001,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 665,
+      "ts": 1772480383,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 666,
+      "ts": 1772485861,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 667,
+      "ts": 1772487923,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 668,
+      "ts": 1772503425,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 669,
+      "ts": 1772568728,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 670,
+      "ts": 1772584764,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 671,
+      "ts": 1772587255,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 672,
+      "ts": 1772660585,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 673,
+      "ts": 1772663093,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 674,
+      "ts": 1772665638,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 675,
+      "ts": 1772667757,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 676,
+      "ts": 1772764384,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 677,
+      "ts": 1772851720,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 678,
+      "ts": 1772853236,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 679,
+      "ts": 1773012703,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 680,
+      "ts": 1773014942,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 681,
+      "ts": 1773016972,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 682,
+      "ts": 1773020780,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 683,
+      "ts": 1773024587,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 684,
+      "ts": 1773031930,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 685,
+      "ts": 1773182701,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 686,
+      "ts": 1773204085,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 687,
+      "ts": 1773271028,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 688,
+      "ts": 1773272873,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 689,
+      "ts": 1773296165,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 690,
+      "ts": 1773374960,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 691,
+      "ts": 1773377080,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 692,
+      "ts": 1773428267,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 693,
+      "ts": 1773528196,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 694,
+      "ts": 1773606063,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 695,
+      "ts": 1773607990,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 696,
+      "ts": 1773772295,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 697,
+      "ts": 1773774306,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 698,
+      "ts": 1773778846,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 699,
+      "ts": 1773780924,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 700,
+      "ts": 1773860619,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 701,
+      "ts": 1773862887,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 702,
+      "ts": 1773864704,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 703,
+      "ts": 1773868271,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 704,
+      "ts": 1773868669,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 705,
+      "ts": 1773871891,
+      "rollingWR": 44.0
+    },
+    {
+      "i": 706,
+      "ts": 1773874201,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 707,
+      "ts": 1773876158,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 708,
+      "ts": 1773952530,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 709,
+      "ts": 1773954299,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 710,
+      "ts": 1773956303,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 711,
+      "ts": 1774028432,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 712,
+      "ts": 1774031543,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 713,
+      "ts": 1774049329,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 714,
+      "ts": 1774051676,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 715,
+      "ts": 1774146962,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 716,
+      "ts": 1774149772,
+      "rollingWR": 46.0
+    },
+    {
+      "i": 717,
+      "ts": 1774152217,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 718,
+      "ts": 1774203288,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 719,
+      "ts": 1774206297,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 720,
+      "ts": 1774228462,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 721,
+      "ts": 1774231121,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 722,
+      "ts": 1774296609,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 723,
+      "ts": 1774306635,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 724,
+      "ts": 1774308919,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 725,
+      "ts": 1774310540,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 726,
+      "ts": 1774398898,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 727,
+      "ts": 1774463836,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 728,
+      "ts": 1774465964,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 729,
+      "ts": 1774467248,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 730,
+      "ts": 1774813851,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 731,
+      "ts": 1774815488,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 732,
+      "ts": 1774817476,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 733,
+      "ts": 1774905997,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 734,
+      "ts": 1774908507,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 735,
+      "ts": 1774911219,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 736,
+      "ts": 1774914037,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 737,
+      "ts": 1774980086,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 738,
+      "ts": 1775083807,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 739,
+      "ts": 1775086764,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 740,
+      "ts": 1775089904,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 741,
+      "ts": 1775607847,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 742,
+      "ts": 1775609881,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 743,
+      "ts": 1775669343,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 744,
+      "ts": 1775671147,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 745,
+      "ts": 1775673237,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 746,
+      "ts": 1775676062,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 747,
+      "ts": 1775929274,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 748,
+      "ts": 1776147451,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 749,
+      "ts": 1776398660,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 750,
+      "ts": 1776401469,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 751,
+      "ts": 1776403640,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 752,
+      "ts": 1776459236,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 753,
+      "ts": 1776460740,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 754,
+      "ts": 1776746388,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 755,
+      "ts": 1776748638,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 756,
+      "ts": 1776843604,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 757,
+      "ts": 1776917978,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 758,
+      "ts": 1776920589,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 759,
+      "ts": 1776965857,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 760,
+      "ts": 1776968038,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 761,
+      "ts": 1776970422,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 762,
+      "ts": 1777004779,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 763,
+      "ts": 1777071755,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 764,
+      "ts": 1777074399,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 765,
+      "ts": 1777075737,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 766,
+      "ts": 1777078956,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 767,
+      "ts": 1777089094,
+      "rollingWR": 64.0
+    },
+    {
+      "i": 768,
+      "ts": 1777140428,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 769,
+      "ts": 1777144279,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 770,
+      "ts": 1777146687,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 771,
+      "ts": 1777164552,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 772,
+      "ts": 1777166909,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 773,
+      "ts": 1777316144,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 774,
+      "ts": 1777317881,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 775,
+      "ts": 1777355351,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 776,
+      "ts": 1777408712,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 777,
+      "ts": 1777410702,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 778,
+      "ts": 1777421701,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 779,
+      "ts": 1777574466,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 780,
+      "ts": 1781374436,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 781,
+      "ts": 1781408711,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 782,
+      "ts": 1781410683,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 783,
+      "ts": 1781447232,
+      "rollingWR": 62.0
+    },
+    {
+      "i": 784,
+      "ts": 1781477973,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 785,
+      "ts": 1781480000,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 786,
+      "ts": 1781482086,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 787,
+      "ts": 1781548696,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 788,
+      "ts": 1781550698,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 789,
+      "ts": 1781830877,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 790,
+      "ts": 1781832226,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 791,
+      "ts": 1781835260,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 792,
+      "ts": 1781838269,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 793,
+      "ts": 1781841377,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 794,
+      "ts": 1781895255,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 795,
+      "ts": 1781897832,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 796,
+      "ts": 1781898426,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 797,
+      "ts": 1781900621,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 798,
+      "ts": 1781988155,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 799,
+      "ts": 1781991289,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 800,
+      "ts": 1781993425,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 801,
+      "ts": 1782010970,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 802,
+      "ts": 1782013233,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 803,
+      "ts": 1782054382,
+      "rollingWR": 60.0
+    },
+    {
+      "i": 804,
+      "ts": 1782056325,
+      "rollingWR": 58.0
+    },
+    {
+      "i": 805,
+      "ts": 1782074180,
+      "rollingWR": 56.0
+    },
+    {
+      "i": 806,
+      "ts": 1782074537,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 807,
+      "ts": 1782151203,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 808,
+      "ts": 1782153809,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 809,
+      "ts": 1782155729,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 810,
+      "ts": 1782187631,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 811,
+      "ts": 1782244748,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 812,
+      "ts": 1782318989,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 813,
+      "ts": 1782321112,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 814,
+      "ts": 1782321533,
+      "rollingWR": 54.0
+    },
+    {
+      "i": 815,
+      "ts": 1782325600,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 816,
+      "ts": 1782327413,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 817,
+      "ts": 1782338617,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 818,
+      "ts": 1782356410,
+      "rollingWR": 48.0
+    },
+    {
+      "i": 819,
+      "ts": 1782358183,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 820,
+      "ts": 1782360738,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 821,
+      "ts": 1782398351,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 822,
+      "ts": 1782409407,
+      "rollingWR": 52.0
+    },
+    {
+      "i": 823,
+      "ts": 1782411244,
+      "rollingWR": 50.0
+    },
+    {
+      "i": 824,
+      "ts": 1782413610,
+      "rollingWR": 52.0
+    }
+  ],
+  "deaths": {
+    "avgFirstDeathMin": 7.66,
+    "avgDeathsBefore15": 2.25,
+    "pctGamesEarlyDeath": 68.4
+  }
+}
