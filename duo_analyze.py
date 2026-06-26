@@ -19,9 +19,9 @@ MDIR = os.path.join(RAW, "matches")
 OUT = os.path.join(HERE, "data", "processed")
 ME = "YjdM96oTQM4DnqbroX9G_BaMKfjc_IDyAhjq7MyDHyaEgxBXG2ehQOpQi_nAZcR4IhdRL6vTcHfyrA"
 
+# All of these accounts are the same real-life person, Tony.
 PEOPLE = {
-    "Calatis": {"gameNames": {"calatis"}},
-    "Tony": {"gameNames": {"ernump", "chaewon"}},
+    "Tony": {"gameNames": {"ernump", "chaewon", "calatis"}},  # ernump#NA1, chaewon#쌈무요정, Calatis#uwu/#zoe/#owo
 }
 
 
@@ -121,8 +121,8 @@ def main():
     blocks = {name: analyze(name, cfg["gameNames"]) for name, cfg in PEOPLE.items()}
     apath = os.path.join(OUT, "analysis.json")
     A = json.load(open(apath, encoding="utf-8"))
-    A["duo"] = blocks["Calatis"]      # the Calatis section reads this
     A["tony"] = blocks["Tony"]
+    A.pop("duo", None)  # Calatis is just one of Tony's accounts; no separate block
     json.dump(A, open(apath, "w", encoding="utf-8"), indent=2)
     for name, b in blocks.items():
         print(f"\n=== {name} ({b['sharedGamesAnyQueue']} shared, accts {[a['id'] for a in b['accounts']]}) ===")

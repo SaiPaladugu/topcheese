@@ -142,74 +142,47 @@ He plays **short, deranged sessions** (avg 2.5 games) and the *timing* is half h
 
 ---
 
-## 7. The Calatis effect (does his duo carry him? no.)
+## 7. The Tony effect — his one real duo (and only win condition)
 
-This chud has queued up with his buddy **Calatis** **63 times** across three meme alt
-accounts (`Calatis#uwu` ×45, `Calatis#zoe` ×16, `Calatis#owo` ×2). Restricting to ranked
-solo/duo for a fair, apples-to-apples read, here's the brutal truth: **his friend cannot
-drag him up the ladder either.**
-
-| | Games | His WR |
-|---|---|---|
-| **Duo'd with Calatis** | 38 | **50.0%** |
-| **Flying solo** | 787 | **51.6%** |
-
-Net effect of bringing his friend along: **−1.6%**. He plays *worse* with backup. Friendship
-is many things; a win condition for this gooner is not one of them.
-
-### Same friend, different account, opposite results
-
-| Calatis account | Games | His WR duo'd | Verdict |
-|---|---|---|---|
-| **Calatis#uwu** | 22 | **45.5%** | ❌ anchor |
-| **Calatis#zoe** | 16 | **56.2%** | ✅ win condition |
-
-His **most-played** Calatis account is the 45.5% griefing one — and he keeps re-queueing with
-it anyway, because pattern recognition is not in this NPC's kit. The `#zoe` account is
-genuinely good for him; he plays it less. Of course he does.
-
-### It's not the teammates — it's the chud
-
-His own stats barely flinch whether Calatis is there or not:
-
-| His stat | With Calatis | Without |
-|---|---|---|
-| KDA | 3.49 | 3.32 |
-| CS / min | 7.15 | 7.23 |
-| Kill participation % | 43.8 | 44.5 |
-| Team damage % | 22.7 | 23.0 |
-| Deaths | 5.1 | 5.5 |
-| Dragon takedowns | 0.89 | 0.89 |
-
-Identical. The passive-farming-chud personality is load-bearing and travels with him. Worse:
-**Calatis is statistically the better player.** From the jungle/mid (Jarvan, Zoe, Nidalee),
-Calatis posts a **5.19 KDA** and **55.5% kill participation** — while topcheese sits bot at
-**44% KP** and a feather-light **23% damage share** — and they *still* only scrape 50%. When
-your friend is hard-carrying you to a coin flip, the leak was never the duo. It was the chud
-in the bot lane who should be running it back on a treadmill.
-
-### Meanwhile — Tony actually carries this chud 🐐
-
-Plot twist: **`ernump#NA1` and `chaewon` are the same person — Tony** — and unlike Calatis,
-Tony is an absolute unit. Amalgamated across both accounts, here's what Tony does for Jeffrey:
+Plot twist that reframes everything: **nearly every game Jeffrey has ever duo'd is the same
+human — his friend Tony — spread across five accounts** (`ernump#NA1`, `chaewon#쌈무요정`,
+`Calatis#uwu`, `Calatis#zoe`, `Calatis#owo`). Amalgamated into one person, the truth is
+unambiguous: **Tony is the only reason this chud is in Diamond.**
 
 | | Games | Jeffrey's WR |
 |---|---|---|
-| **Jeffrey duo'd with Tony** | 40 | **72.5%** |
-| **Jeffrey without Tony** | 785 | **50.4%** |
-| Tony per account: `ernump#NA1` | 32 | 68.8% |
-| Tony per account: `chaewon` | 8 | 87.5% |
+| **Duo'd with Tony** | 78 | **61.5%** |
+| **Flying solo (no Tony)** | 747 | **50.5%** |
 
-That is a **+22.1 point** swing. Let's be unambiguous: **Tony is a genuinely good player** — a
-**5.03 KDA** and **53.9% kill participation** from mid/jungle (Zoe, Jarvan, Hwei, Nidalee) — and
-he single-handedly drags this gooner from a 50.4% coin-flip to a **72.5% smurf-tier win rate**.
+That's a **+11 point** swing from one friend. Per account, Jeffrey's win rate riding shotgun
+with Tony:
 
-Tony is so good he even makes the chud less useless: with Tony on the team, **Jeffrey's own kill
-participation jumps from 44.1% to 50.8%** and his dragon takedowns climb from 0.88 to 1.10 — for
-once the NPC shows up to the map, purely because a competent human is dragging him to objectives
-by the collar. And how does Jeffrey repay this? **He keeps loyally duo-queuing Calatis (50%)
-instead of Tony (72.5%).** Salute Tony. Give Tony a raise. Give Jeffrey a treadmill and a long,
-hard look in the mirror.
+| Tony account | Games | Jeffrey's WR | |
+|---|---|---|---|
+| `ernump#NA1` | 32 | **68.8%** | ✅ Tony carries |
+| `Calatis#zoe` | 16 | 56.2% | ✅ |
+| `Calatis#uwu` | 22 | 45.5% | ❌ lost even WITH Tony |
+| `chaewon#쌈무요정` | 8 | **87.5%** | ✅ Tony smurfs |
+
+### Tony is a real player; Jeffrey is luggage
+
+**Tony is genuinely good** — a **5.11 KDA** and **54.7% kill participation** from mid/jungle
+(Jarvan, Zoe, Nidalee, Hwei) — and across all five alts he hauls this gooner to a **61.5% win
+rate**, a full 11 points above Jeffrey's sad **50.5%** solo baseline. Tony is so good he even
+makes the chud play better:
+
+| Jeffrey's stat | With Tony | Solo |
+|---|---|---|
+| KDA | 3.66 | 3.29 |
+| Kill participation % | 47.4 | 44.1 |
+| Team damage % | 23.7 | 22.9 |
+| Dragon takedowns | 1.00 | 0.88 |
+| Deaths | 5.49 | 5.52 |
+
+For once the NPC actually shows up to the map — kill participation up, dragons up — purely
+because a competent human is dragging him to objectives by the collar. The brutal bottom line:
+**Jeffrey is a 50.5% player being chauffeured to Diamond by a guy with five accounts.** Salute
+Tony. Give Tony a medal. Give Jeffrey a treadmill and a long, hard look in the mirror.
 
 ## 8. Who he plays with — supports & squad
 
@@ -235,24 +208,24 @@ attaches itself to him and he *still* loses. The lesson: hand him a playmaking o
 that creates kills *for* him and he wins; pair him with an enchanter expecting him to be the
 carry and he farms 7 CS/min straight into a loss. He is a passenger who needs a driver.
 
-### The squad — ranked by who's actually helping
+### The squad — it's basically one guy
 
 Teammates he's queued **≥5 ranked games** with:
 
-| Teammate | Games | His WR | Verdict |
+| Teammate | Games | His WR | Who is it? |
 |---|---|---|---|
-| **ernump** | 31 | **67.7%** | ✅ his real win condition |
-| Calatis#uwu | 22 | 45.5% | ❌ anchor (yet his most-played duo) |
-| Calatis#zoe | 13 | 46.2% | ❌ anchor |
-| chaewon | 7 | 100.0% | ✅ (small sample, but undefeated) |
-| Lil Mecca | 6 | 66.7% | ✅ |
-| HalfSugarHalfIce | 6 | 33.3% | ❌ |
+| **ernump** | 31 | 67.7% | = Tony 🐐 |
+| Calatis#uwu | 22 | 45.5% | = Tony |
+| Calatis#zoe | 13 | 46.2% | = Tony |
+| chaewon | 7 | 100.0% | = Tony |
+| Lil Mecca | 6 | 66.7% | actual other friend |
+| HalfSugarHalfIce | 6 | 33.3% | actual other friend |
 
-**He is loyal to the wrong friend.** Note that `ernump` and `chaewon` are both **Tony**, who
-amalgamated is a **72.5% win condition over 40 games** (see the Calatis section above) — while he
-keeps re-queuing with Calatis at ~50%. If this chud simply swapped his go-to duo from Calatis to
-Tony, he'd gain roughly **+22 points of win rate** by doing nothing but dialing a different
-number. Hit the gym *and* hit Tony up.
+**His entire "squad" is one human.** Every Calatis account, ernump, and chaewon are all the
+same person — **Tony** — who amalgamated is a **61.5% win condition over 78 games** (see §7).
+The only genuinely *other* duos he has are Lil Mecca (66.7%) and HalfSugarHalfIce (33.3%). Strip
+Tony out of his history and Jeffrey is a flat **50.5% player**. He isn't climbing the ladder —
+he's being chauffeured up it by a guy with five accounts. Hit the gym *and* thank Tony.
 
 ### Bonus tells
 

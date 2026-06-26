@@ -5375,102 +5375,6 @@
     "avgDeathsBefore15": 2.25,
     "pctGamesEarlyDeath": 68.4
   },
-  "duo": {
-    "partner": "Calatis",
-    "note": "Ranked solo/duo (queue 420), all of this person's alt accounts amalgamated.",
-    "sharedGamesAnyQueue": 63,
-    "accounts": [
-      {
-        "id": "Calatis#uwu",
-        "games": 45
-      },
-      {
-        "id": "Calatis#zoe",
-        "games": 16
-      },
-      {
-        "id": "Calatis#owo",
-        "games": 2
-      }
-    ],
-    "together": {
-      "games": 38,
-      "wr": 50.0
-    },
-    "alone": {
-      "games": 787,
-      "wr": 51.6
-    },
-    "perAccount": [
-      {
-        "id": "Calatis#uwu",
-        "games": 22,
-        "wins": 10,
-        "wr": 45.5
-      },
-      {
-        "id": "Calatis#zoe",
-        "games": 16,
-        "wins": 9,
-        "wr": 56.2
-      }
-    ],
-    "hisStatsTogether": {
-      "kda": 3.49,
-      "csPerMin": 7.15,
-      "kp": 43.82,
-      "teamDmgPct": 22.65,
-      "deaths": 5.11,
-      "dragonTakedowns": 0.89
-    },
-    "hisStatsAlone": {
-      "kda": 3.32,
-      "csPerMin": 7.23,
-      "kp": 44.48,
-      "teamDmgPct": 23.03,
-      "deaths": 5.54,
-      "dragonTakedowns": 0.89
-    },
-    "partnerRoles": {
-      "JUNGLE": 19,
-      "MIDDLE": 17,
-      "UTILITY": 2
-    },
-    "partnerChamps": [
-      [
-        "JarvanIV",
-        15
-      ],
-      [
-        "Zoe",
-        13
-      ],
-      [
-        "Nidalee",
-        4
-      ],
-      [
-        "Hwei",
-        2
-      ],
-      [
-        "Seraphine",
-        2
-      ],
-      [
-        "Akali",
-        1
-      ]
-    ],
-    "partnerSelf": {
-      "wr": 50.0,
-      "kda": 5.19,
-      "kp": 55.52,
-      "csPerMin": 6.43,
-      "deaths": 5.53,
-      "teamDmgPct": 22.79
-    }
-  },
   "social": {
     "support": [
       {
@@ -5881,24 +5785,36 @@
   "tony": {
     "partner": "Tony",
     "note": "Ranked solo/duo (queue 420), all of this person's alt accounts amalgamated.",
-    "sharedGamesAnyQueue": 40,
+    "sharedGamesAnyQueue": 103,
     "accounts": [
+      {
+        "id": "Calatis#uwu",
+        "games": 45
+      },
       {
         "id": "ernump#NA1",
         "games": 32
       },
       {
+        "id": "Calatis#zoe",
+        "games": 16
+      },
+      {
         "id": "chaewon#\uc308\ubb34\uc694\uc815",
         "games": 8
+      },
+      {
+        "id": "Calatis#owo",
+        "games": 2
       }
     ],
     "together": {
-      "games": 40,
-      "wr": 72.5
+      "games": 78,
+      "wr": 61.5
     },
     "alone": {
-      "games": 785,
-      "wr": 50.4
+      "games": 747,
+      "wr": 50.5
     },
     "perAccount": [
       {
@@ -5908,6 +5824,18 @@
         "wr": 68.8
       },
       {
+        "id": "Calatis#uwu",
+        "games": 22,
+        "wins": 10,
+        "wr": 45.5
+      },
+      {
+        "id": "Calatis#zoe",
+        "games": 16,
+        "wins": 9,
+        "wr": 56.2
+      },
+      {
         "id": "chaewon#\uc308\ubb34\uc694\uc815",
         "games": 8,
         "wins": 7,
@@ -5915,59 +5843,59 @@
       }
     ],
     "hisStatsTogether": {
-      "kda": 3.82,
+      "kda": 3.66,
       "csPerMin": 7.15,
-      "kp": 50.84,
-      "teamDmgPct": 24.66,
-      "deaths": 5.85,
-      "dragonTakedowns": 1.1
+      "kp": 47.42,
+      "teamDmgPct": 23.68,
+      "deaths": 5.49,
+      "dragonTakedowns": 1
     },
     "hisStatsAlone": {
-      "kda": 3.3,
+      "kda": 3.29,
       "csPerMin": 7.23,
-      "kp": 44.13,
-      "teamDmgPct": 22.93,
-      "deaths": 5.5,
+      "kp": 44.14,
+      "teamDmgPct": 22.94,
+      "deaths": 5.52,
       "dragonTakedowns": 0.88
     },
     "partnerRoles": {
-      "MIDDLE": 21,
-      "JUNGLE": 16,
-      "UTILITY": 3
+      "MIDDLE": 38,
+      "JUNGLE": 35,
+      "UTILITY": 5
     },
     "partnerChamps": [
       [
-        "Zoe",
-        10
+        "JarvanIV",
+        24
       ],
       [
-        "JarvanIV",
+        "Zoe",
+        23
+      ],
+      [
+        "Nidalee",
         9
       ],
       [
         "Hwei",
-        6
-      ],
-      [
-        "Nidalee",
-        5
+        8
       ],
       [
         "Akali",
-        3
+        4
       ],
       [
         "Smolder",
-        3
+        4
       ]
     ],
     "partnerSelf": {
-      "wr": 72.5,
-      "kda": 5.03,
-      "kp": 53.93,
-      "csPerMin": 6.36,
-      "deaths": 4.95,
-      "teamDmgPct": 21.83
+      "wr": 61.5,
+      "kda": 5.11,
+      "kp": 54.7,
+      "csPerMin": 6.39,
+      "deaths": 5.23,
+      "teamDmgPct": 22.3
     }
   }
 }

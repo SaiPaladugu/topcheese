@@ -2,7 +2,6 @@ import A from "../data/analysis.json";
 
 const S = A.summary;
 const B = A.benchmark;
-const D = A.duo;
 const T = A.tony;
 
 function wrClass(wr, ref = 51.5) {
@@ -85,7 +84,7 @@ export default function Page() {
           <a href="#champs">Champions</a>
           <a href="#matchups">Matchups</a>
           <a href="#tilt">Tilt &amp; scheduling</a>
-          <a href="#duo">The Calatis effect</a>
+          <a href="#tony">The Tony effect</a>
           <a href="#social">Supports &amp; squad</a>
           <a href="#deathmap">Death map</a>
           <a href="#carry">Is he the carry?</a>
@@ -390,138 +389,14 @@ export default function Page() {
           <Chart src="/charts/gamesperday_wr.png" cap="Win rate by games per day (short days look bad partly because he ragequits after losing)." />
         </section>
 
-        {/* ---------- THE CALATIS EFFECT ---------- */}
-        <section id="duo">
-          <h2>The Calatis effect — can the duo carry this chud?</h2>
+        {/* ---------- THE TONY EFFECT ---------- */}
+        <section id="tony">
+          <h2>The Tony effect — his one real duo (and only win condition)</h2>
           <p className="lead">
-            He&apos;s queued up with <b>Calatis</b> {D.sharedGamesAnyQueue} times across{" "}
-            {D.accounts.length} alt accounts ({D.accounts.map((a) => a.id).join(", ")}).
-            Restricting to ranked solo/duo for a fair read: the verdict is that not even his
-            friend can drag this NPC up the ladder.
-          </p>
-          <div className="cards">
-            <div className="card">
-              <div className="k">WR duo&apos;d with Calatis</div>
-              <div className={"v " + (D.together.wr >= D.alone.wr ? "good" : "bad")}>
-                {D.together.wr}%
-              </div>
-              <div className="k">{D.together.games} ranked games</div>
-            </div>
-            <div className="card">
-              <div className="k">WR without Calatis</div>
-              <div className="v">{D.alone.wr}%</div>
-              <div className="k">{D.alone.games} ranked games</div>
-            </div>
-            <div className="card">
-              <div className="k">Net effect of the duo</div>
-              <div className={"v " + (D.together.wr - D.alone.wr >= 0 ? "good" : "bad")}>
-                {(D.together.wr - D.alone.wr).toFixed(1)}%
-              </div>
-              <div className="k">friendship is not a win condition</div>
-            </div>
-            <div className="card">
-              <div className="k">Calatis&apos; own KDA / KP</div>
-              <div className="v good">
-                {D.partnerSelf.kda} / {D.partnerSelf.kp}%
-              </div>
-              <div className="k">
-                vs his {D.hisStatsAlone.kda} / {D.hisStatsAlone.kp}% — the jungler does more
-              </div>
-            </div>
-          </div>
-
-          <h3 style={{ margin: "24px 0 4px 2px", fontSize: 17 }}>
-            Same friend, different account, opposite results
-          </h3>
-          <div className="tablewrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Calatis account</th>
-                  <th className="num">Games</th>
-                  <th className="num">His WR duo&apos;d</th>
-                  <th>Verdict</th>
-                </tr>
-              </thead>
-              <tbody>
-                {D.perAccount.map((a) => (
-                  <tr key={a.id}>
-                    <td>{a.id}</td>
-                    <td className="num">{a.games}</td>
-                    <td className="num">
-                      <span className={"pill " + wrClass(a.wr)}>{a.wr}%</span>
-                    </td>
-                    <td>
-                      <span className={"pill " + (a.wr >= 51.5 ? "good" : "bad")}>
-                        {a.wr >= 51.5 ? "win condition ✅" : "anchor ❌"}
-                      </span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="lead" style={{ marginTop: 14 }}>
-            His most-played Calatis account ({D.perAccount[0].id}, {D.perAccount[0].games}{" "}
-            games) is a {D.perAccount[0].wr}% grief — and he keeps re-queueing with it anyway.
-            Calatis is a jungle/mid main (
-            {Object.keys(D.partnerRoles)
-              .slice(0, 2)
-              .map((r) => r.toLowerCase())
-              .join(" / ")}
-            ), mostly on {D.partnerChamps.slice(0, 3).map((c) => c[0]).join(", ")}.
-          </p>
-
-          <h3 style={{ margin: "24px 0 4px 2px", fontSize: 17 }}>
-            Does Calatis change how he plays? No. He&apos;s a chud either way.
-          </h3>
-          <div className="tablewrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>His stat</th>
-                  <th className="num">With Calatis</th>
-                  <th className="num">Without</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  ["KDA", "kda"],
-                  ["CS / min", "csPerMin"],
-                  ["Kill participation %", "kp"],
-                  ["Team damage %", "teamDmgPct"],
-                  ["Deaths", "deaths"],
-                  ["Dragon takedowns", "dragonTakedowns"],
-                ].map(([label, k]) => (
-                  <tr key={k}>
-                    <td>{label}</td>
-                    <td className="num">{D.hisStatsTogether[k]}</td>
-                    <td className="num">{D.hisStatsAlone[k]}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="callout loss">
-            <h3>It&apos;s not the teammates — it&apos;s the chud</h3>
-            <p>
-              Identical. The passive-farming-chud personality is load-bearing and travels with
-              him. Worse: <b>Calatis is statistically the better player.</b> From the jungle/mid
-              (Jarvan, Zoe, Nidalee), Calatis posts a <b>5.19 KDA</b> and <b>55.5% kill
-              participation</b> — while topcheese sits bot at <b>44% KP</b> and a feather-light{" "}
-              <b>23% damage share</b> — and they <i>still</i> only scrape 50%. When your friend
-              is hard-carrying you to a coin flip, the leak was never the duo. It was the chud in
-              the bot lane who should be running it back on a treadmill.
-            </p>
-          </div>
-
-          <h3 style={{ margin: "32px 0 4px 2px", fontSize: 18 }}>
-            Meanwhile — Tony actually carries this chud 🐐
-          </h3>
-          <p className="lead" style={{ marginTop: 0 }}>
-            Now meet <b>Tony</b> — the friend Jeffrey <i>should</i> be spamming. Tony, amalgamated
-            across his accounts ({T.accounts.map((a) => a.id).join(" + ")}), has played{" "}
-            {T.together.games} ranked games with him, and the difference is night and day.
+            Plot twist: nearly every game Jeffrey has ever duo&apos;d is the <i>same person</i> —
+            his friend <b>Tony</b> — spread across <b>{T.accounts.length} accounts</b> (
+            {T.accounts.map((a) => a.id).join(", ")}). Amalgamated into one human, here&apos;s
+            what a single competent friend does for this chud.
           </p>
           <div className="cards">
             <div className="card">
@@ -532,7 +407,7 @@ export default function Page() {
             <div className="card">
               <div className="k">Jeffrey&apos;s WR WITHOUT Tony</div>
               <div className="v bad">{T.alone.wr}%</div>
-              <div className="k">{T.alone.games} games of mid</div>
+              <div className="k">{T.alone.games} games of solo mid</div>
             </div>
             <div className="card">
               <div className="k">Net Tony carry</div>
@@ -547,6 +422,10 @@ export default function Page() {
               <div className="k">a real player (mid/jungle)</div>
             </div>
           </div>
+
+          <h3 style={{ margin: "24px 0 4px 2px", fontSize: 17 }}>
+            Tony&apos;s {T.perAccount.length}+ accounts — Jeffrey&apos;s WR on each
+          </h3>
           <div className="tablewrap">
             <table>
               <thead>
@@ -566,8 +445,48 @@ export default function Page() {
                       <span className={"pill " + wrClass(a.wr)}>{a.wr}%</span>
                     </td>
                     <td>
-                      <span className="pill good">hard carry ✅</span>
+                      <span className={"pill " + (a.wr >= 51.5 ? "good" : "bad")}>
+                        {a.wr >= 51.5 ? "Tony carries ✅" : "lost even WITH Tony ❌"}
+                      </span>
                     </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="lead" style={{ marginTop: 14 }}>
+            Yes — it&apos;s all the same human. Tony plays mid/jungle (
+            {Object.keys(T.partnerRoles).slice(0, 2).map((r) => r.toLowerCase()).join(" / ")}) on{" "}
+            {T.partnerChamps.slice(0, 3).map((c) => c[0]).join(", ")}, and across every alt he&apos;s
+            a net win for Jeffrey. The only blemishes are the handful of games Jeffrey managed to
+            lose even with a competent human holding his hand.
+          </p>
+
+          <h3 style={{ margin: "24px 0 4px 2px", fontSize: 17 }}>
+            Tony literally makes the chud play better
+          </h3>
+          <div className="tablewrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Jeffrey&apos;s stat</th>
+                  <th className="num">With Tony</th>
+                  <th className="num">Solo</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["KDA", "kda"],
+                  ["CS / min", "csPerMin"],
+                  ["Kill participation %", "kp"],
+                  ["Team damage %", "teamDmgPct"],
+                  ["Deaths", "deaths"],
+                  ["Dragon takedowns", "dragonTakedowns"],
+                ].map(([label, k]) => (
+                  <tr key={k}>
+                    <td>{label}</td>
+                    <td className="num">{T.hisStatsTogether[k]}</td>
+                    <td className="num">{T.hisStatsAlone[k]}</td>
                   </tr>
                 ))}
               </tbody>
@@ -578,17 +497,17 @@ export default function Page() {
             <p>
               Let&apos;s be clear: <b>Tony is a genuinely good player.</b> A {T.partnerSelf.kda} KDA
               and {T.partnerSelf.kp}% kill participation from mid/jungle (
-              {T.partnerChamps.slice(0, 3).map((c) => c[0]).join(", ")}), and he drags this gooner
-              to a <b>{T.together.wr}% win rate</b> — a full{" "}
+              {T.partnerChamps.slice(0, 3).map((c) => c[0]).join(", ")}), and across all{" "}
+              {T.accounts.length} of his accounts he drags this gooner to a{" "}
+              <b>{T.together.wr}% win rate</b> — a full{" "}
               <b>+{(T.together.wr - T.alone.wr).toFixed(1)} points</b> over Jeffrey&apos;s sad{" "}
               {T.alone.wr}% solo baseline. Tony is so good he even makes the chud play better: with
-              Tony around, Jeffrey&apos;s kill participation jumps from {T.hisStatsAlone.kp}% to{" "}
-              {T.hisStatsTogether.kp}% and his dragon takedowns climb from {T.hisStatsAlone.dragonTakedowns}{" "}
-              to {T.hisStatsTogether.dragonTakedowns} — for once the NPC actually shows up, because
-              someone competent is dragging him to the objective by the collar. And what does
-              Jeffrey do with this gift? He keeps loyally duo-queuing <b>Calatis ({D.together.wr}%)</b>{" "}
-              instead of <b>Tony ({T.together.wr}%)</b>. Salute Tony. Shame on Jeffrey. Give the man
-              a medal and give the chud a treadmill.
+              Tony around, Jeffrey&apos;s kill participation climbs from {T.hisStatsAlone.kp}% to{" "}
+              {T.hisStatsTogether.kp}% and his dragon takedowns rise from {T.hisStatsAlone.dragonTakedowns}{" "}
+              to {T.hisStatsTogether.dragonTakedowns} — for once the NPC actually shows up, purely
+              because a competent human is dragging him to the objective by the collar. The brutal
+              takeaway: <b>Jeffrey is a {T.alone.wr}% player being carried to Diamond by his
+              friend.</b> Salute Tony. Give Tony a medal. Give the chud a treadmill.
             </p>
           </div>
         </section>
@@ -620,8 +539,8 @@ export default function Page() {
             His squad — ranked by how much they help (or grief)
           </h3>
           <p className="lead" style={{ marginTop: 0 }}>
-            Teammates he&apos;s queued ≥5 ranked games with. Spoiler: he&apos;s loyal to the
-            wrong friend.
+            Teammates he&apos;s queued ≥5 ranked games with. Plot twist: almost every name here is
+            the <i>same human</i> — Tony — on a different alt.
           </p>
           <div className="tablewrap">
             <table>
@@ -630,7 +549,7 @@ export default function Page() {
                   <th>Teammate</th>
                   <th className="num">Games</th>
                   <th className="num">His WR</th>
-                  <th>Verdict</th>
+                  <th>Who is it?</th>
                 </tr>
               </thead>
               <tbody>
@@ -642,9 +561,13 @@ export default function Page() {
                       <span className={"pill " + wrClass(t.wr)}>{t.wr}%</span>
                     </td>
                     <td>
-                      <span className={"pill " + (t.wr >= 55 ? "good" : t.wr < 48 ? "bad" : "mid")}>
-                        {t.wr >= 55 ? "real win condition ✅" : t.wr < 48 ? "anchor ❌" : "coin flip"}
-                      </span>
+                      {isTony(t.name) ? (
+                        <span className="pill good">= Tony 🐐</span>
+                      ) : (
+                        <span className={"pill " + (t.wr >= 55 ? "good" : t.wr < 48 ? "bad" : "mid")}>
+                          {t.wr >= 55 ? "actual other friend ✅" : t.wr < 48 ? "anchor ❌" : "coin flip"}
+                        </span>
+                      )}
                     </td>
                   </tr>
                 ))}
@@ -652,15 +575,15 @@ export default function Page() {
             </table>
           </div>
           <div className="callout win">
-            <h3>He&apos;s duoing the wrong friend</h3>
+            <h3>His whole &quot;squad&quot; is just Tony</h3>
             <p>
-              Heads up: <b>ernump and chaewon are the same person — Tony</b> — and amalgamated,{" "}
-              <b>Tony is a {T.together.wr}% win condition over {T.together.games} games</b>. Yet this
-              chud keeps loyally re-queuing with <b>Calatis ({D.together.wr}%)</b> instead. Swapping
-              his go-to duo from Calatis to Tony is worth a staggering{" "}
-              <b>+{(T.together.wr - T.alone.wr).toFixed(0)} points of win rate</b> for doing nothing
-              but picking up a different phone. (Full Tony worship in the Calatis section above.) Hit
-              the gym <i>and</i> hit Tony up.
+              Look closely: <b>ernump, both Calatis rows, and chaewon are all the same person — Tony.</b>{" "}
+              Jeffrey&apos;s entire duo career is essentially <i>one</i> competent friend hauling him up
+              the ladder ({T.together.wr}% together over {T.together.games} games — see the Tony section
+              above). The only genuinely different duos he has are <b>HalfSugarHalfIce ({socMate("HalfSugarHalfIce")}%)</b>{" "}
+              and <b>Lil Mecca ({socMate("Lil Mecca")}%)</b>. Strip Tony out and Jeffrey is a flat{" "}
+              <b>{T.alone.wr}% player</b>. He&apos;s not climbing — he&apos;s being chauffeured by a guy
+              with five accounts. Hit the gym and thank Tony.
             </p>
           </div>
 
@@ -925,4 +848,8 @@ function socSup(champ) {
 function socMate(name) {
   const m = A.social.squad.find((x) => x.name === name);
   return m ? m.wr : "?";
+}
+const TONY_NAMES = new Set(["ernump", "chaewon", "calatis"]);
+function isTony(name) {
+  return TONY_NAMES.has((name || "").toLowerCase());
 }
