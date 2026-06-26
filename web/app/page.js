@@ -498,14 +498,15 @@ export default function Page() {
             </table>
           </div>
           <div className="callout loss">
-            <h3>The cope-destroying verdict</h3>
+            <h3>It&apos;s not the teammates — it&apos;s the chud</h3>
             <p>
-              His numbers are basically identical with or without his friend — so no, it&apos;s
-              not his teammates. Calatis posts a {D.calatisSelf.kda} KDA and {D.calatisSelf.kp}%
-              kill participation from the jungle while this gooner coasts at {D.hisStatsAlone.teamDmgPct}%
-              damage share, and they still only manage {D.together.wr}%. When your buddy is
-              statistically carrying you to a coin flip, the problem was never the duo — it was
-              the {D.hisStatsTogether.teamDmgPct}%-damage chud sitting bot. Run it back at the gym instead.
+              Identical. The passive-farming-chud personality is load-bearing and travels with
+              him. Worse: <b>Calatis is statistically the better player.</b> From the jungle/mid
+              (Jarvan, Zoe, Nidalee), Calatis posts a <b>5.19 KDA</b> and <b>55.5% kill
+              participation</b> — while topcheese sits bot at <b>44% KP</b> and a feather-light{" "}
+              <b>23% damage share</b> — and they <i>still</i> only scrape 50%. When your friend
+              is hard-carrying you to a coin flip, the leak was never the duo. It was the chud in
+              the bot lane who should be running it back on a treadmill.
             </p>
           </div>
         </section>
