@@ -188,6 +188,29 @@ Calatis posts a **5.19 KDA** and **55.5% kill participation** — while topchees
 your friend is hard-carrying you to a coin flip, the leak was never the duo. It was the chud
 in the bot lane who should be running it back on a treadmill.
 
+### Meanwhile — Tony actually carries this chud 🐐
+
+Plot twist: **`ernump#NA1` and `chaewon` are the same person — Tony** — and unlike Calatis,
+Tony is an absolute unit. Amalgamated across both accounts, here's what Tony does for Jeffrey:
+
+| | Games | Jeffrey's WR |
+|---|---|---|
+| **Jeffrey duo'd with Tony** | 40 | **72.5%** |
+| **Jeffrey without Tony** | 785 | **50.4%** |
+| Tony per account: `ernump#NA1` | 32 | 68.8% |
+| Tony per account: `chaewon` | 8 | 87.5% |
+
+That is a **+22.1 point** swing. Let's be unambiguous: **Tony is a genuinely good player** — a
+**5.03 KDA** and **53.9% kill participation** from mid/jungle (Zoe, Jarvan, Hwei, Nidalee) — and
+he single-handedly drags this gooner from a 50.4% coin-flip to a **72.5% smurf-tier win rate**.
+
+Tony is so good he even makes the chud less useless: with Tony on the team, **Jeffrey's own kill
+participation jumps from 44.1% to 50.8%** and his dragon takedowns climb from 0.88 to 1.10 — for
+once the NPC shows up to the map, purely because a competent human is dragging him to objectives
+by the collar. And how does Jeffrey repay this? **He keeps loyally duo-queuing Calatis (50%)
+instead of Tony (72.5%).** Salute Tony. Give Tony a raise. Give Jeffrey a treadmill and a long,
+hard look in the mirror.
+
 ## 8. Who he plays with — supports & squad
 
 ### His support is his whole personality
@@ -225,10 +248,11 @@ Teammates he's queued **≥5 ranked games** with:
 | Lil Mecca | 6 | 66.7% | ✅ |
 | HalfSugarHalfIce | 6 | 33.3% | ❌ |
 
-**He is loyal to the wrong friend.** `ernump` wins him **two out of every three games** over a
-real 31-game sample, while he keeps re-queuing with Calatis at ~45%. If this chud simply
-swapped his go-to duo from Calatis to ernump, he'd gain roughly **20 points of win rate** by
-doing nothing but dialing a different number. Hit the gym *and* hit ernump up.
+**He is loyal to the wrong friend.** Note that `ernump` and `chaewon` are both **Tony**, who
+amalgamated is a **72.5% win condition over 40 games** (see the Calatis section above) — while he
+keeps re-queuing with Calatis at ~50%. If this chud simply swapped his go-to duo from Calatis to
+Tony, he'd gain roughly **+22 points of win rate** by doing nothing but dialing a different
+number. Hit the gym *and* hit Tony up.
 
 ### Bonus tells
 

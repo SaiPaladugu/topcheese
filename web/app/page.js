@@ -3,6 +3,7 @@ import A from "../data/analysis.json";
 const S = A.summary;
 const B = A.benchmark;
 const D = A.duo;
+const T = A.tony;
 
 function wrClass(wr, ref = 51.5) {
   if (wr >= ref + 1.5) return "good";
@@ -421,7 +422,7 @@ export default function Page() {
             <div className="card">
               <div className="k">Calatis&apos; own KDA / KP</div>
               <div className="v good">
-                {D.calatisSelf.kda} / {D.calatisSelf.kp}%
+                {D.partnerSelf.kda} / {D.partnerSelf.kp}%
               </div>
               <div className="k">
                 vs his {D.hisStatsAlone.kda} / {D.hisStatsAlone.kp}% — the jungler does more
@@ -464,11 +465,11 @@ export default function Page() {
             His most-played Calatis account ({D.perAccount[0].id}, {D.perAccount[0].games}{" "}
             games) is a {D.perAccount[0].wr}% grief — and he keeps re-queueing with it anyway.
             Calatis is a jungle/mid main (
-            {Object.keys(D.calatisRoles)
+            {Object.keys(D.partnerRoles)
               .slice(0, 2)
               .map((r) => r.toLowerCase())
               .join(" / ")}
-            ), mostly on {D.calatisChamps.slice(0, 3).map((c) => c[0]).join(", ")}.
+            ), mostly on {D.partnerChamps.slice(0, 3).map((c) => c[0]).join(", ")}.
           </p>
 
           <h3 style={{ margin: "24px 0 4px 2px", fontSize: 17 }}>
@@ -511,6 +512,83 @@ export default function Page() {
               <b>23% damage share</b> — and they <i>still</i> only scrape 50%. When your friend
               is hard-carrying you to a coin flip, the leak was never the duo. It was the chud in
               the bot lane who should be running it back on a treadmill.
+            </p>
+          </div>
+
+          <h3 style={{ margin: "32px 0 4px 2px", fontSize: 18 }}>
+            Meanwhile — Tony actually carries this chud 🐐
+          </h3>
+          <p className="lead" style={{ marginTop: 0 }}>
+            Now meet <b>Tony</b> — the friend Jeffrey <i>should</i> be spamming. Tony, amalgamated
+            across his accounts ({T.accounts.map((a) => a.id).join(" + ")}), has played{" "}
+            {T.together.games} ranked games with him, and the difference is night and day.
+          </p>
+          <div className="cards">
+            <div className="card">
+              <div className="k">Jeffrey&apos;s WR WITH Tony</div>
+              <div className="v good">{T.together.wr}%</div>
+              <div className="k">{T.together.games} ranked games</div>
+            </div>
+            <div className="card">
+              <div className="k">Jeffrey&apos;s WR WITHOUT Tony</div>
+              <div className="v bad">{T.alone.wr}%</div>
+              <div className="k">{T.alone.games} games of mid</div>
+            </div>
+            <div className="card">
+              <div className="k">Net Tony carry</div>
+              <div className="v good">+{(T.together.wr - T.alone.wr).toFixed(1)}%</div>
+              <div className="k">a one-man elevator</div>
+            </div>
+            <div className="card">
+              <div className="k">Tony&apos;s own KDA / KP</div>
+              <div className="v good">
+                {T.partnerSelf.kda} / {T.partnerSelf.kp}%
+              </div>
+              <div className="k">a real player (mid/jungle)</div>
+            </div>
+          </div>
+          <div className="tablewrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Tony account</th>
+                  <th className="num">Games</th>
+                  <th className="num">Jeffrey&apos;s WR</th>
+                  <th>Verdict</th>
+                </tr>
+              </thead>
+              <tbody>
+                {T.perAccount.map((a) => (
+                  <tr key={a.id}>
+                    <td>{a.id}</td>
+                    <td className="num">{a.games}</td>
+                    <td className="num">
+                      <span className={"pill " + wrClass(a.wr)}>{a.wr}%</span>
+                    </td>
+                    <td>
+                      <span className="pill good">hard carry ✅</span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="callout win">
+            <h3>Tony is the GOAT, Jeffrey is the freeloader</h3>
+            <p>
+              Let&apos;s be clear: <b>Tony is a genuinely good player.</b> A {T.partnerSelf.kda} KDA
+              and {T.partnerSelf.kp}% kill participation from mid/jungle (
+              {T.partnerChamps.slice(0, 3).map((c) => c[0]).join(", ")}), and he drags this gooner
+              to a <b>{T.together.wr}% win rate</b> — a full{" "}
+              <b>+{(T.together.wr - T.alone.wr).toFixed(1)} points</b> over Jeffrey&apos;s sad{" "}
+              {T.alone.wr}% solo baseline. Tony is so good he even makes the chud play better: with
+              Tony around, Jeffrey&apos;s kill participation jumps from {T.hisStatsAlone.kp}% to{" "}
+              {T.hisStatsTogether.kp}% and his dragon takedowns climb from {T.hisStatsAlone.dragonTakedowns}{" "}
+              to {T.hisStatsTogether.dragonTakedowns} — for once the NPC actually shows up, because
+              someone competent is dragging him to the objective by the collar. And what does
+              Jeffrey do with this gift? He keeps loyally duo-queuing <b>Calatis ({D.together.wr}%)</b>{" "}
+              instead of <b>Tony ({T.together.wr}%)</b>. Salute Tony. Shame on Jeffrey. Give the man
+              a medal and give the chud a treadmill.
             </p>
           </div>
         </section>
@@ -576,11 +654,13 @@ export default function Page() {
           <div className="callout win">
             <h3>He&apos;s duoing the wrong friend</h3>
             <p>
-              <b>ernump</b> is his actual win condition — <b>{socMate("ernump")}% over 31 games</b> —
-              while he keeps loyally re-queuing with <b>Calatis (~45%)</b>. If this chud swapped
-              his duo from Calatis to ernump and never touched a solo queue again, he&apos;d gain
-              roughly <b>20 points of win rate</b> by doing literally nothing but picking up a
-              different phone. Hit the gym <i>and</i> hit ernump up.
+              Heads up: <b>ernump and chaewon are the same person — Tony</b> — and amalgamated,{" "}
+              <b>Tony is a {T.together.wr}% win condition over {T.together.games} games</b>. Yet this
+              chud keeps loyally re-queuing with <b>Calatis ({D.together.wr}%)</b> instead. Swapping
+              his go-to duo from Calatis to Tony is worth a staggering{" "}
+              <b>+{(T.together.wr - T.alone.wr).toFixed(0)} points of win rate</b> for doing nothing
+              but picking up a different phone. (Full Tony worship in the Calatis section above.) Hit
+              the gym <i>and</i> hit Tony up.
             </p>
           </div>
 

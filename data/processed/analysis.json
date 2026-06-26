@@ -5377,7 +5377,7 @@
   },
   "duo": {
     "partner": "Calatis",
-    "note": "Core comparison is ranked solo/duo (queue 420) only, for a fair apples-to-apples read.",
+    "note": "Ranked solo/duo (queue 420), all of this person's alt accounts amalgamated.",
     "sharedGamesAnyQueue": 63,
     "accounts": [
       {
@@ -5431,12 +5431,12 @@
       "deaths": 5.54,
       "dragonTakedowns": 0.89
     },
-    "calatisRoles": {
+    "partnerRoles": {
       "JUNGLE": 19,
       "MIDDLE": 17,
       "UTILITY": 2
     },
-    "calatisChamps": [
+    "partnerChamps": [
       [
         "JarvanIV",
         15
@@ -5462,12 +5462,13 @@
         1
       ]
     ],
-    "calatisSelf": {
+    "partnerSelf": {
       "wr": 50.0,
       "kda": 5.19,
       "kp": 55.52,
       "csPerMin": 6.43,
-      "deaths": 5.53
+      "deaths": 5.53,
+      "teamDmgPct": 22.79
     }
   },
   "social": {
@@ -5876,5 +5877,97 @@
     "topDmgPctLosses": 28.0,
     "topDmgPctOverall": 29.5,
     "avgDmgRank": 2.44
+  },
+  "tony": {
+    "partner": "Tony",
+    "note": "Ranked solo/duo (queue 420), all of this person's alt accounts amalgamated.",
+    "sharedGamesAnyQueue": 40,
+    "accounts": [
+      {
+        "id": "ernump#NA1",
+        "games": 32
+      },
+      {
+        "id": "chaewon#\uc308\ubb34\uc694\uc815",
+        "games": 8
+      }
+    ],
+    "together": {
+      "games": 40,
+      "wr": 72.5
+    },
+    "alone": {
+      "games": 785,
+      "wr": 50.4
+    },
+    "perAccount": [
+      {
+        "id": "ernump#NA1",
+        "games": 32,
+        "wins": 22,
+        "wr": 68.8
+      },
+      {
+        "id": "chaewon#\uc308\ubb34\uc694\uc815",
+        "games": 8,
+        "wins": 7,
+        "wr": 87.5
+      }
+    ],
+    "hisStatsTogether": {
+      "kda": 3.82,
+      "csPerMin": 7.15,
+      "kp": 50.84,
+      "teamDmgPct": 24.66,
+      "deaths": 5.85,
+      "dragonTakedowns": 1.1
+    },
+    "hisStatsAlone": {
+      "kda": 3.3,
+      "csPerMin": 7.23,
+      "kp": 44.13,
+      "teamDmgPct": 22.93,
+      "deaths": 5.5,
+      "dragonTakedowns": 0.88
+    },
+    "partnerRoles": {
+      "MIDDLE": 21,
+      "JUNGLE": 16,
+      "UTILITY": 3
+    },
+    "partnerChamps": [
+      [
+        "Zoe",
+        10
+      ],
+      [
+        "JarvanIV",
+        9
+      ],
+      [
+        "Hwei",
+        6
+      ],
+      [
+        "Nidalee",
+        5
+      ],
+      [
+        "Akali",
+        3
+      ],
+      [
+        "Smolder",
+        3
+      ]
+    ],
+    "partnerSelf": {
+      "wr": 72.5,
+      "kda": 5.03,
+      "kp": 53.93,
+      "csPerMin": 6.36,
+      "deaths": 4.95,
+      "teamDmgPct": 21.83
+    }
   }
 }
