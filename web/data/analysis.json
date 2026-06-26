@@ -6855,5 +6855,115 @@
         }
       ]
     ]
+  },
+  "ml": {
+    "features": 14,
+    "nGames": 825,
+    "cvAccuracy": 80.7,
+    "cvAuc": 0.866,
+    "coefs": [
+      {
+        "key": "goldPerMin",
+        "label": "Gold / min",
+        "coef": 1.318,
+        "odds": 3.74
+      },
+      {
+        "key": "deaths",
+        "label": "Deaths",
+        "coef": -1.164,
+        "odds": 0.31
+      },
+      {
+        "key": "dmgPerMin",
+        "label": "Damage / min",
+        "coef": 0.846,
+        "odds": 2.33
+      },
+      {
+        "key": "teamDmgPct",
+        "label": "Team damage %",
+        "coef": -0.688,
+        "odds": 0.5
+      },
+      {
+        "key": "csPerMin",
+        "label": "CS / min",
+        "coef": -0.577,
+        "odds": 0.56
+      },
+      {
+        "key": "killParticipation",
+        "label": "Kill participation",
+        "coef": -0.285,
+        "odds": 0.75
+      },
+      {
+        "key": "laneMinions10",
+        "label": "Lane CS @10",
+        "coef": 0.271,
+        "odds": 1.31
+      },
+      {
+        "key": "csDiff14",
+        "label": "CS lead @14",
+        "coef": -0.247,
+        "odds": 0.78
+      },
+      {
+        "key": "controlWards",
+        "label": "Control wards",
+        "coef": 0.237,
+        "odds": 1.27
+      },
+      {
+        "key": "deadPct",
+        "label": "Time dead %",
+        "coef": -0.22,
+        "odds": 0.8
+      },
+      {
+        "key": "turretPlates",
+        "label": "Turret plates",
+        "coef": 0.136,
+        "odds": 1.15
+      },
+      {
+        "key": "visionPerMin",
+        "label": "Vision / min",
+        "coef": 0.126,
+        "odds": 1.13
+      },
+      {
+        "key": "soloKills",
+        "label": "Solo kills",
+        "coef": -0.088,
+        "odds": 0.92
+      },
+      {
+        "key": "goldDiff14",
+        "label": "Gold lead @14",
+        "coef": 0.023,
+        "odds": 1.02
+      }
+    ],
+    "threw": {
+      "champ": "Caitlyn",
+      "deaths": "4",
+      "kp": 60.6,
+      "g14": "1548",
+      "predWin": 95.2,
+      "matchId": "NA1_5495512191"
+    },
+    "carried": {
+      "champ": "Ashe",
+      "deaths": "11",
+      "kp": 46.0,
+      "g14": "-456",
+      "predWin": 7.9,
+      "matchId": "NA1_5404264673"
+    },
+    "playLikeWin": 79.5,
+    "playLikeLoss": 24.4
   }
 }

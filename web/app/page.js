@@ -95,6 +95,7 @@ export default function Page() {
           <a href="#maps">Heatmaps</a>
           <a href="#misc">More stats</a>
           <a href="#threed">3D / interactive</a>
+          <a href="#algorithm">The Algorithm</a>
           <a href="#form">Form</a>
           <a href="#plan">Action plan</a>
         </nav>
@@ -879,6 +880,71 @@ export default function Page() {
 
         {/* ---------- 3D / INTERACTIVE ---------- */}
         <Interactive3D />
+
+        {/* ---------- THE ALGORITHM ---------- */}
+        <section id="algorithm">
+          <h2>We trained an actual AI to predict his losses 🤖</h2>
+          <p className="lead">
+            We fed all {A.ml.nGames} of his games into a logistic-regression model with{" "}
+            {A.ml.features} behavioral features. It predicts whether he won with{" "}
+            <b>{A.ml.cvAccuracy}% cross-validated accuracy</b> (AUC {A.ml.cvAuc}). Translation: this
+            chud is so formulaic a machine can call his games before they end.
+          </p>
+          <div className="cards">
+            <div className="card">
+              <div className="k">Model accuracy</div>
+              <div className="v bad">{A.ml.cvAccuracy}%</div>
+              <div className="k">he is highly predictable</div>
+            </div>
+            <div className="card">
+              <div className="k">AUC</div>
+              <div className="v bad">{A.ml.cvAuc}</div>
+              <div className="k">1.0 = fully solved chud</div>
+            </div>
+            <div className="card">
+              <div className="k">If he played like his avg WIN</div>
+              <div className="v good">{A.ml.playLikeWin}%</div>
+              <div className="k">predicted win rate</div>
+            </div>
+            <div className="card">
+              <div className="k">…like his avg LOSS</div>
+              <div className="v bad">{A.ml.playLikeLoss}%</div>
+              <div className="k">predicted win rate</div>
+            </div>
+          </div>
+          <Chart src="/charts/ml_coefs.png" cap="The model's standardized weights. Green = the AI thinks it wins him games; red = loses them." />
+          <div className="callout">
+            <h3>The machine independently discovered he&apos;s a farming andy</h3>
+            <p>
+              Nobody told the algorithm anything. It looked at {A.ml.nGames} games and decided{" "}
+              <b>gold/min and not-dying</b> win his games — while it assigns his beloved{" "}
+              <b>CS/min a negative weight</b>. The model learned, on its own, that when this gooner
+              is farming his heart out his team is usually losing. Two years of his identity,
+              statistically flagged as a red flag. (Yes, it&apos;s partly collinearity. No, that
+              doesn&apos;t make it less funny.)
+            </p>
+          </div>
+          <div className="grid2">
+            <div className="callout loss">
+              <h3>🎯 The throw of the century</h3>
+              <p>
+                <b>{A.ml.threw.champ}</b>, {A.ml.threw.deaths} deaths, {A.ml.threw.kp}% KP,{" "}
+                <b>+{A.ml.threw.g14} gold at 14</b>. The model gave him a <b>{A.ml.threw.predWin}%</b>{" "}
+                chance to win. He lost it. A near-statistically-impossible throw — he had to work for
+                that one.
+              </p>
+            </div>
+            <div className="callout win">
+              <h3>🛗 The hardest carry he ever received</h3>
+              <p>
+                <b>{A.ml.carried.champ}</b>, <b>{A.ml.carried.deaths} deaths</b>, down{" "}
+                {A.ml.carried.g14} gold at 14. The model gave him a{" "}
+                <b>{A.ml.carried.predWin}%</b> chance to win. He won. Somewhere a teammate (probably
+                Tony) deserves an apology and a medal.
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* ---------- FORM ---------- */}
         <section id="form">
