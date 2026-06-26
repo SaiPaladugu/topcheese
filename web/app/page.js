@@ -85,6 +85,7 @@ export default function Page() {
           <a href="#matchups">Matchups</a>
           <a href="#tilt">Tilt &amp; scheduling</a>
           <a href="#duo">The Calatis effect</a>
+          <a href="#social">Supports &amp; squad</a>
           <a href="#form">Form</a>
           <a href="#plan">Action plan</a>
         </nav>
@@ -511,6 +512,98 @@ export default function Page() {
           </div>
         </section>
 
+        {/* ---------- SUPPORTS & SQUAD ---------- */}
+        <section id="social">
+          <h2>Who he plays with (and who&apos;s dragging him down)</h2>
+          <p className="lead">
+            His win rate swings a violent <b>33% → 69%</b> depending on which support is
+            babysitting him bot lane. For a chud whose whole game is &quot;farm safe and let
+            someone else make plays,&quot; the support he gets is basically his entire
+            personality.
+          </p>
+          <Chart src="/charts/support_wr.png" cap="His win rate by support champion (≥12 games). The bot lane carries him, not the other way around." />
+          <div className="callout loss">
+            <h3>The babysitter report</h3>
+            <p>
+              His most-common support is <b>Nami (49 games)</b> — a {socSup("Nami")}% loss
+              machine. His best high-sample partner is <b>Thresh (47 games, {socSup("Thresh")}%)</b>,
+              who makes the plays this gooner won&apos;t. And with <b>Yuumi he&apos;s {socSup("Yuumi")}%</b> —
+              a literal cat attaches to him and he <i>still</i> loses. The pattern is damning:
+              he needs a support with an engage or a poke button, because he will not press his
+              own. Pair him with a playmaker and feed him; hand him an enchanter expecting him
+              to carry and watch him farm 7 CS/min into a loss.
+            </p>
+          </div>
+
+          <h3 style={{ margin: "28px 0 4px 2px", fontSize: 17 }}>
+            His squad — ranked by how much they help (or grief)
+          </h3>
+          <p className="lead" style={{ marginTop: 0 }}>
+            Teammates he&apos;s queued ≥5 ranked games with. Spoiler: he&apos;s loyal to the
+            wrong friend.
+          </p>
+          <div className="tablewrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Teammate</th>
+                  <th className="num">Games</th>
+                  <th className="num">His WR</th>
+                  <th>Verdict</th>
+                </tr>
+              </thead>
+              <tbody>
+                {A.social.squad.map((t, i) => (
+                  <tr key={i}>
+                    <td>{t.name}</td>
+                    <td className="num">{t.games}</td>
+                    <td className="num">
+                      <span className={"pill " + wrClass(t.wr)}>{t.wr}%</span>
+                    </td>
+                    <td>
+                      <span className={"pill " + (t.wr >= 55 ? "good" : t.wr < 48 ? "bad" : "mid")}>
+                        {t.wr >= 55 ? "real win condition ✅" : t.wr < 48 ? "anchor ❌" : "coin flip"}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="callout win">
+            <h3>He&apos;s duoing the wrong friend</h3>
+            <p>
+              <b>ernump</b> is his actual win condition — <b>{socMate("ernump")}% over 31 games</b> —
+              while he keeps loyally re-queuing with <b>Calatis (~45%)</b>. If this chud swapped
+              his duo from Calatis to ernump and never touched a solo queue again, he&apos;d gain
+              roughly <b>20 points of win rate</b> by doing literally nothing but picking up a
+              different phone. Hit the gym <i>and</i> hit ernump up.
+            </p>
+          </div>
+
+          <h3 style={{ margin: "28px 0 4px 2px", fontSize: 17 }}>
+            Bonus: he&apos;s a scaling coward
+          </h3>
+          <Chart src="/charts/gamelength_wr.png" cap="Win rate by game length. He loses the short ones and wins the long ones — because he has no early-game agency." />
+          <div className="cards">
+            <div className="card">
+              <div className="k">Throw rate (ahead 2k+ @15)</div>
+              <div className="v bad">{A.social.throw.rate}%</div>
+              <div className="k">{A.social.throw.count}/{A.social.throw.eligible} leads coughed up</div>
+            </div>
+            <div className="card">
+              <div className="k">Comeback rate (behind 2k+ @15)</div>
+              <div className="v">{A.social.comeback.rate}%</div>
+              <div className="k">{A.social.comeback.count}/{A.social.comeback.eligible} deficits clawed back</div>
+            </div>
+            <div className="card">
+              <div className="k">Games his team surrendered</div>
+              <div className="v bad">{A.social.surrender.ffAndLost}</div>
+              <div className="k">typed &quot;/ff 15&quot; and went to the fridge</div>
+            </div>
+          </div>
+        </section>
+
         {/* ---------- FORM ---------- */}
         <section id="form">
           <h2>Two-year form: a plateau (and not the only thing that&apos;s plateaued)</h2>
@@ -614,4 +707,12 @@ function hourGames(h) {
 function wlDragon() {
   const r = A.winLoss.find((x) => x.key === "dragonTakedowns");
   return r ? `${r.winMean} vs ${r.lossMean}` : "";
+}
+function socSup(champ) {
+  const s = A.social.support.find((x) => x.champion === champ);
+  return s ? s.wr : "?";
+}
+function socMate(name) {
+  const m = A.social.squad.find((x) => x.name === name);
+  return m ? m.wr : "?";
 }

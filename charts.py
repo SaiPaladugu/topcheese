@@ -154,8 +154,49 @@ def chart_benchmark():
     save(fig, "benchmark.png")
 
 
+def chart_support():
+    soc = A.get("social")
+    if not soc or not soc.get("support"):
+        return
+    sups = sorted(soc["support"], key=lambda s: s["wr"])
+    labels = [f"{s['champion']} ({s['games']})" for s in sups]
+    val = [s["wr"] for s in sups]
+    colors = [WIN if v >= 51.5 else (LOSS if v < 48 else ACC2) for v in val]
+    fig, ax = plt.subplots(figsize=(8.5, max(5, 0.36 * len(sups) + 1)))
+    ax.barh(labels, val, color=colors, edgecolor=GRID)
+    ax.axvline(51.5, **LINE50)
+    for i, v in enumerate(val):
+        ax.text(v + 0.5, i, f"{v}%", va="center", fontsize=8, color=FG)
+    ax.set_title("His win rate by support champion in his lane (≥12 games)\nNami (49g) sinks him · Thresh (47g) lifts him · 33%→69% swing")
+    ax.set_xlabel("Win rate %"); ax.set_xlim(0, max(val) + 9)
+    ax.grid(axis="x", alpha=0.3)
+    save(fig, "support_wr.png")
+
+
+def chart_gamelength():
+    soc = A.get("social")
+    if not soc or not soc.get("gameLength"):
+        return
+    g = soc["gameLength"]
+    labels = [x["bucket"] for x in g]
+    val = [x["wr"] for x in g]
+    colors = [WIN if v >= 51.5 else LOSS for v in val]
+    fig, ax = plt.subplots(figsize=(7, 4.2))
+    bars = ax.bar(labels, val, color=colors, edgecolor=GRID)
+    ax.axhline(51.5, **LINE50)
+    for b, x in zip(bars, g):
+        ax.text(b.get_x() + b.get_width() / 2, x["wr"] + 0.4, f"{x['wr']}%\n({x['games']}g)",
+                ha="center", va="bottom", fontsize=8, color=FG)
+    ax.set_title("Win rate by game length — a scaling chud who wins the long ones")
+    ax.set_ylabel("Win rate %"); ax.set_ylim(0, max(val) + 12)
+    ax.grid(axis="y", alpha=0.3)
+    save(fig, "gamelength_wr.png")
+
+
 def main():
     print("Generating charts -> web/public/charts/")
+    chart_support()
+    chart_gamelength()
     chart_champion_wr()
     chart_winloss_effect()
     chart_gold14_dist()

@@ -188,7 +188,59 @@ Calatis posts a **5.19 KDA** and **55.5% kill participation** — while topchees
 your friend is hard-carrying you to a coin flip, the leak was never the duo. It was the chud
 in the bot lane who should be running it back on a treadmill.
 
-## 8. The intervention plan (read it twice, NPC)
+## 8. Who he plays with — supports & squad
+
+### His support is his whole personality
+
+His win rate swings a violent **33% → 69%** purely based on which support champion is
+babysitting him bot lane. For a chud whose entire gameplan is "farm safe and let someone
+else make the play," that's not a coincidence — it's a diagnosis.
+
+| 🍼 Worst supports for him | His WR | 🛡️ Best supports for him | His WR |
+|---|---|---|---|
+| **Yuumi (12g)** | 33.3% | Neeko (13g) | 69.2% |
+| Zyra (16g) | 37.5% | Lulu (18g) | 66.7% |
+| Senna (23g) | 39.1% | Morgana (26g) | 65.4% |
+| Janna (28g) | 39.3% | Seraphine (20g) | 65.0% |
+| Leona (22g) | 40.9% | Vel'Koz (21g) | 61.9% |
+| **Nami (49g)** | **42.9%** | **Thresh (47g)** | **57.4%** |
+
+The two big-sample tells: his **most-common** support is **Nami (49 games at 42.9%)** — a
+losing pairing he keeps getting — while his best high-volume partner is **Thresh (47 games,
+57.4%)**, who makes the plays this gooner won't. And with **Yuumi he's 33%** — a literal cat
+attaches itself to him and he *still* loses. The lesson: hand him a playmaking or poke support
+that creates kills *for* him and he wins; pair him with an enchanter expecting him to be the
+carry and he farms 7 CS/min straight into a loss. He is a passenger who needs a driver.
+
+### The squad — ranked by who's actually helping
+
+Teammates he's queued **≥5 ranked games** with:
+
+| Teammate | Games | His WR | Verdict |
+|---|---|---|---|
+| **ernump** | 31 | **67.7%** | ✅ his real win condition |
+| Calatis#uwu | 22 | 45.5% | ❌ anchor (yet his most-played duo) |
+| Calatis#zoe | 13 | 46.2% | ❌ anchor |
+| chaewon | 7 | 100.0% | ✅ (small sample, but undefeated) |
+| Lil Mecca | 6 | 66.7% | ✅ |
+| HalfSugarHalfIce | 6 | 33.3% | ❌ |
+
+**He is loyal to the wrong friend.** `ernump` wins him **two out of every three games** over a
+real 31-game sample, while he keeps re-queuing with Calatis at ~45%. If this chud simply
+swapped his go-to duo from Calatis to ernump, he'd gain roughly **20 points of win rate** by
+doing nothing but dialing a different number. Hit the gym *and* hit ernump up.
+
+### Bonus tells
+
+- **He's a scaling coward.** WR by game length: **48.9%** in sub-25-minute games → **52.1%** at
+  25–32 → **53.8%** in 32-minute-plus slugfests. He has no early-game agency, so he only wins
+  once the game lasts long enough for his farm to matter. Translation: he can't make things
+  happen, he can only wait for them.
+- **17.6% throw rate** — he's coughed up a 2k+ gold lead at 15 minutes in 44 of 250 games. The
+  one time he gets ahead, there's a one-in-six chance he gives it back like a gentleman.
+- His team hit **/ff and lost 104 times** — that's a lot of trips to the fridge at minute 15.
+
+## 9. The intervention plan (read it twice, NPC)
 
 **This week (things even he can do):**
 1. ❌ **Delete Sivir** from the pool. Default Caitlyn / Miss Fortune. ~+9 wins for the low low price of self-awareness.
@@ -206,7 +258,7 @@ in the bot lane who should be running it back on a treadmill.
 
 ---
 
-## 9. Methodology & caveats (the part where we're nice for one paragraph)
+## 10. Methodology & caveats (the part where we're nice for one paragraph)
 
 - **Data:** all 825 ranked-solo games + frame-by-frame timelines from the Riot Match-V5 API (history reaches ~Jul 2024). Metrics use Riot's own `challenges` fields plus timeline-derived lane diffs at 10/14 min vs his direct opponent.
 - **Benchmark:** 194 ADC performances sampled from 120 Diamond-ladder players' recent solo games — a real peer baseline, not aspirational numbers.
