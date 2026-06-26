@@ -5897,5 +5897,963 @@
       "deaths": 5.23,
       "teamDmgPct": 22.3
     }
+  },
+  "advanced": {
+    "winProb15": [
+      {
+        "k": -6,
+        "label": "-6k",
+        "games": 72,
+        "wr": 4.2
+      },
+      {
+        "k": -4,
+        "label": "-4k",
+        "games": 98,
+        "wr": 19.4
+      },
+      {
+        "k": -2,
+        "label": "-2k",
+        "games": 156,
+        "wr": 35.9
+      },
+      {
+        "k": 0,
+        "label": "+0k",
+        "games": 159,
+        "wr": 55.3
+      },
+      {
+        "k": 2,
+        "label": "+2k",
+        "games": 132,
+        "wr": 68.9
+      },
+      {
+        "k": 4,
+        "label": "+4k",
+        "games": 103,
+        "wr": 82.5
+      },
+      {
+        "k": 6,
+        "label": "+6k",
+        "games": 74,
+        "wr": 93.2
+      }
+    ],
+    "multikills": {
+      "x2": 673,
+      "x3": 109,
+      "x4": 17,
+      "x5": 6
+    },
+    "damageMix": {
+      "physical": 18273460,
+      "magic": 1838083,
+      "true": 665141
+    },
+    "reportCard": [
+      {
+        "category": "Farming",
+        "him": 7.23,
+        "dia": 7.45,
+        "grade": "D"
+      },
+      {
+        "category": "Teamfighting",
+        "him": 44.45,
+        "dia": 48.7,
+        "grade": "F"
+      },
+      {
+        "category": "Carrying",
+        "him": 23.01,
+        "dia": 23.9,
+        "grade": "D"
+      },
+      {
+        "category": "Damage",
+        "him": 819.55,
+        "dia": 875.01,
+        "grade": "D"
+      },
+      {
+        "category": "Economy",
+        "him": 457.04,
+        "dia": 486.04,
+        "grade": "D"
+      },
+      {
+        "category": "Not Dying",
+        "him": 5.52,
+        "dia": 6.07,
+        "grade": "A"
+      },
+      {
+        "category": "Vision",
+        "him": 0.68,
+        "dia": 0.69,
+        "grade": "C"
+      },
+      {
+        "category": "Warding",
+        "him": 0.49,
+        "dia": 0.71,
+        "grade": "F"
+      },
+      {
+        "category": "Dueling",
+        "him": 0.69,
+        "dia": 0.74,
+        "grade": "D"
+      }
+    ],
+    "matchup": {
+      "champs": [
+        "Caitlyn",
+        "MissFortune",
+        "Sivir",
+        "Jhin",
+        "Jinx",
+        "Ashe"
+      ],
+      "enemies": [
+        "Jhin",
+        "Jinx",
+        "Ashe",
+        "Ezreal",
+        "MissFortune",
+        "Kaisa",
+        "Smolder",
+        "Lucian",
+        "Draven"
+      ],
+      "wr": [
+        [
+          64.0,
+          48.0,
+          55.0,
+          63.0,
+          50.0,
+          40.0,
+          50.0,
+          53.0,
+          69.0
+        ],
+        [
+          60.0,
+          55.0,
+          80.0,
+          83.0,
+          null,
+          57.0,
+          36.0,
+          50.0,
+          100.0
+        ],
+        [
+          0.0,
+          78.0,
+          0.0,
+          40.0,
+          17.0,
+          null,
+          null,
+          null,
+          0.0
+        ],
+        [
+          null,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          null,
+          50.0,
+          50.0,
+          50.0
+        ],
+        [
+          null,
+          null,
+          null,
+          25.0,
+          null,
+          null,
+          75.0,
+          null,
+          50.0
+        ],
+        [
+          75.0,
+          50.0,
+          null,
+          50.0,
+          50.0,
+          67.0,
+          null,
+          0.0,
+          null
+        ]
+      ],
+      "games": [
+        [
+          56,
+          46,
+          31,
+          27,
+          30,
+          25,
+          8,
+          19,
+          13
+        ],
+        [
+          10,
+          11,
+          5,
+          6,
+          0,
+          7,
+          14,
+          4,
+          2
+        ],
+        [
+          5,
+          9,
+          4,
+          5,
+          6,
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          4,
+          2,
+          2,
+          2,
+          1,
+          4,
+          2,
+          4
+        ],
+        [
+          0,
+          0,
+          1,
+          4,
+          1,
+          1,
+          4,
+          1,
+          2
+        ],
+        [
+          4,
+          2,
+          0,
+          2,
+          2,
+          3,
+          0,
+          2,
+          1
+        ]
+      ]
+    },
+    "hourWeekday": [
+      [
+        {
+          "wins": 12,
+          "games": 17
+        },
+        {
+          "wins": 6,
+          "games": 7
+        },
+        {
+          "wins": 1,
+          "games": 3
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 4,
+          "games": 6
+        },
+        {
+          "wins": 3,
+          "games": 6
+        },
+        {
+          "wins": 3,
+          "games": 4
+        },
+        {
+          "wins": 2,
+          "games": 4
+        },
+        {
+          "wins": 3,
+          "games": 8
+        },
+        {
+          "wins": 3,
+          "games": 7
+        },
+        {
+          "wins": 8,
+          "games": 14
+        },
+        {
+          "wins": 2,
+          "games": 6
+        },
+        {
+          "wins": 2,
+          "games": 4
+        },
+        {
+          "wins": 5,
+          "games": 7
+        },
+        {
+          "wins": 6,
+          "games": 13
+        },
+        {
+          "wins": 12,
+          "games": 21
+        }
+      ],
+      [
+        {
+          "wins": 7,
+          "games": 15
+        },
+        {
+          "wins": 1,
+          "games": 9
+        },
+        {
+          "wins": 1,
+          "games": 2
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 1
+        },
+        {
+          "wins": 2,
+          "games": 2
+        },
+        {
+          "wins": 3,
+          "games": 4
+        },
+        {
+          "wins": 2,
+          "games": 5
+        },
+        {
+          "wins": 2,
+          "games": 4
+        },
+        {
+          "wins": 0,
+          "games": 3
+        },
+        {
+          "wins": 2,
+          "games": 4
+        },
+        {
+          "wins": 2,
+          "games": 6
+        },
+        {
+          "wins": 3,
+          "games": 10
+        },
+        {
+          "wins": 1,
+          "games": 2
+        },
+        {
+          "wins": 0,
+          "games": 1
+        },
+        {
+          "wins": 1,
+          "games": 2
+        },
+        {
+          "wins": 12,
+          "games": 19
+        },
+        {
+          "wins": 9,
+          "games": 14
+        }
+      ],
+      [
+        {
+          "wins": 4,
+          "games": 16
+        },
+        {
+          "wins": 1,
+          "games": 7
+        },
+        {
+          "wins": 0,
+          "games": 2
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 2,
+          "games": 2
+        },
+        {
+          "wins": 0,
+          "games": 1
+        },
+        {
+          "wins": 2,
+          "games": 4
+        },
+        {
+          "wins": 5,
+          "games": 7
+        },
+        {
+          "wins": 3,
+          "games": 9
+        },
+        {
+          "wins": 5,
+          "games": 9
+        },
+        {
+          "wins": 4,
+          "games": 10
+        },
+        {
+          "wins": 7,
+          "games": 10
+        },
+        {
+          "wins": 4,
+          "games": 9
+        },
+        {
+          "wins": 4,
+          "games": 6
+        },
+        {
+          "wins": 4,
+          "games": 6
+        },
+        {
+          "wins": 5,
+          "games": 9
+        },
+        {
+          "wins": 4,
+          "games": 6
+        },
+        {
+          "wins": 8,
+          "games": 13
+        },
+        {
+          "wins": 4,
+          "games": 11
+        }
+      ],
+      [
+        {
+          "wins": 7,
+          "games": 14
+        },
+        {
+          "wins": 4,
+          "games": 8
+        },
+        {
+          "wins": 2,
+          "games": 6
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 1
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 2,
+          "games": 4
+        },
+        {
+          "wins": 5,
+          "games": 6
+        },
+        {
+          "wins": 1,
+          "games": 2
+        },
+        {
+          "wins": 2,
+          "games": 3
+        },
+        {
+          "wins": 5,
+          "games": 10
+        },
+        {
+          "wins": 2,
+          "games": 5
+        },
+        {
+          "wins": 2,
+          "games": 4
+        },
+        {
+          "wins": 3,
+          "games": 6
+        },
+        {
+          "wins": 3,
+          "games": 4
+        },
+        {
+          "wins": 3,
+          "games": 3
+        },
+        {
+          "wins": 3,
+          "games": 6
+        },
+        {
+          "wins": 6,
+          "games": 15
+        },
+        {
+          "wins": 5,
+          "games": 8
+        }
+      ],
+      [
+        {
+          "wins": 5,
+          "games": 12
+        },
+        {
+          "wins": 3,
+          "games": 11
+        },
+        {
+          "wins": 1,
+          "games": 3
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 1,
+          "games": 2
+        },
+        {
+          "wins": 1,
+          "games": 1
+        },
+        {
+          "wins": 0,
+          "games": 1
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 1,
+          "games": 2
+        },
+        {
+          "wins": 2,
+          "games": 4
+        },
+        {
+          "wins": 1,
+          "games": 5
+        },
+        {
+          "wins": 4,
+          "games": 7
+        },
+        {
+          "wins": 3,
+          "games": 5
+        },
+        {
+          "wins": 2,
+          "games": 6
+        },
+        {
+          "wins": 3,
+          "games": 6
+        },
+        {
+          "wins": 1,
+          "games": 2
+        },
+        {
+          "wins": 5,
+          "games": 5
+        },
+        {
+          "wins": 4,
+          "games": 5
+        },
+        {
+          "wins": 3,
+          "games": 5
+        },
+        {
+          "wins": 5,
+          "games": 11
+        },
+        {
+          "wins": 2,
+          "games": 9
+        }
+      ],
+      [
+        {
+          "wins": 3,
+          "games": 8
+        },
+        {
+          "wins": 7,
+          "games": 13
+        },
+        {
+          "wins": 6,
+          "games": 8
+        },
+        {
+          "wins": 2,
+          "games": 2
+        },
+        {
+          "wins": 0,
+          "games": 1
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 1
+        },
+        {
+          "wins": 0,
+          "games": 2
+        },
+        {
+          "wins": 2,
+          "games": 2
+        },
+        {
+          "wins": 1,
+          "games": 3
+        },
+        {
+          "wins": 4,
+          "games": 8
+        },
+        {
+          "wins": 5,
+          "games": 6
+        },
+        {
+          "wins": 4,
+          "games": 7
+        },
+        {
+          "wins": 4,
+          "games": 7
+        },
+        {
+          "wins": 5,
+          "games": 6
+        },
+        {
+          "wins": 3,
+          "games": 6
+        },
+        {
+          "wins": 1,
+          "games": 5
+        },
+        {
+          "wins": 4,
+          "games": 6
+        },
+        {
+          "wins": 5,
+          "games": 10
+        },
+        {
+          "wins": 9,
+          "games": 16
+        },
+        {
+          "wins": 8,
+          "games": 13
+        }
+      ],
+      [
+        {
+          "wins": 8,
+          "games": 12
+        },
+        {
+          "wins": 4,
+          "games": 10
+        },
+        {
+          "wins": 5,
+          "games": 6
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 0,
+          "games": 0
+        },
+        {
+          "wins": 1,
+          "games": 1
+        },
+        {
+          "wins": 1,
+          "games": 2
+        },
+        {
+          "wins": 0,
+          "games": 1
+        },
+        {
+          "wins": 0,
+          "games": 1
+        },
+        {
+          "wins": 5,
+          "games": 7
+        },
+        {
+          "wins": 5,
+          "games": 6
+        },
+        {
+          "wins": 3,
+          "games": 14
+        },
+        {
+          "wins": 3,
+          "games": 10
+        },
+        {
+          "wins": 2,
+          "games": 5
+        },
+        {
+          "wins": 5,
+          "games": 9
+        },
+        {
+          "wins": 3,
+          "games": 5
+        },
+        {
+          "wins": 3,
+          "games": 7
+        },
+        {
+          "wins": 4,
+          "games": 6
+        },
+        {
+          "wins": 3,
+          "games": 4
+        },
+        {
+          "wins": 5,
+          "games": 8
+        },
+        {
+          "wins": 4,
+          "games": 7
+        }
+      ]
+    ]
   }
 }

@@ -89,6 +89,10 @@ export default function Page() {
           <a href="#deathmap">Death map</a>
           <a href="#carry">Is he the carry?</a>
           <a href="#mastery">Mastery delusion</a>
+          <a href="#report-card">Report card</a>
+          <a href="#diagnostics">Filthy diagnostics</a>
+          <a href="#maps">Heatmaps</a>
+          <a href="#misc">More stats</a>
           <a href="#form">Form</a>
           <a href="#plan">Action plan</a>
         </nav>
@@ -737,6 +741,140 @@ export default function Page() {
           </div>
         </section>
 
+        {/* ---------- REPORT CARD ---------- */}
+        <section id="report-card">
+          <h2>The official chud scouting report card 📋</h2>
+          <p className="lead">
+            We graded every facet of his game against Diamond ADCs on a curve. He brought home a
+            report card his parents would hide. One A — in <i>not dying</i> — because cowardice is
+            the only thing he&apos;s elite at.
+          </p>
+          <div className="cards">
+            {A.advanced.reportCard.map((c) => (
+              <div className="card" key={c.category}>
+                <div className="k">{c.category}</div>
+                <div className={"v " + gradeColor(c.grade)} style={{ fontSize: 36 }}>
+                  {c.grade}
+                </div>
+                <div className="k">
+                  {c.him} vs {c.dia} (Diamond)
+                </div>
+              </div>
+            ))}
+          </div>
+          <Chart src="/charts/radar.png" cap="Him (red) vs his own rank (gold). He is inside the line on nearly every axis — a blob of pure mediocrity with a control-ward-shaped dent." />
+          <div className="callout loss">
+            <h3>GPA: bottom of the class</h3>
+            <p>
+              Straight <b>D&apos;s and F&apos;s</b> across farming, teamfighting, carrying, damage,
+              economy, and warding — and a lone <b>A in &quot;Not Dying.&quot;</b> He&apos;s the kid
+              who avoids every fight, hands in nothing, and proudly tells you he&apos;s &quot;never
+              the one who feeds.&quot; Held back a grade. Held back a division. Held back from the
+              salad bar, never.
+            </p>
+          </div>
+        </section>
+
+        {/* ---------- FILTHY DIAGNOSTICS ---------- */}
+        <section id="diagnostics">
+          <h2>Filthy diagnostics 🔬</h2>
+          <p className="lead">
+            Now the over-engineered stuff nobody asked for. We correlated every metric against every
+            other metric and against winning itself, because if we&apos;re going to roast this gooner
+            we&apos;re going to do it with a <i>p-value</i>.
+          </p>
+          <Chart src="/charts/corr_heatmap.png" cap="Correlation matrix of his every metric. Top row = correlation with WINNING. Note CS/min ↔ WIN is a pathetic 0.10, while Deaths ↔ WIN is −0.39." />
+          <div className="callout">
+            <h3>The numbers indict him</h3>
+            <p>
+              His sacred <b>CS/min correlates with winning at a limp 0.10</b> — statistically, his
+              farming barely matters. What actually moves his win column? <b>Not dying (−0.39)</b> and
+              KDA. The man has spent two years perfecting the one thing the math says is least
+              important. That&apos;s not a playstyle, that&apos;s a diagnosis.
+            </p>
+          </div>
+          <Chart src="/charts/gold_ekg.png" cap="Team gold-diff 'EKG', averaged minute-by-minute across every game. His winning games and losing games fork early and never reconcile — like his New Year's resolutions." />
+          <Chart src="/charts/winprob.png" cap="Win probability vs his team's gold lead at minute 15. A textbook S-curve: the game is basically decided before he's finished his first energy drink." />
+          <div className="callout loss">
+            <h3>Decided by 15:00</h3>
+            <p>
+              At a <b>2k gold lead by 15 minutes he wins {wp(2)}%</b>; at a 2k deficit he wins{" "}
+              {wp(-2)}%. The entire game is settled in the first 15 minutes — the exact window where
+              this passive chud is busy last-hitting caster minions and avoiding eye contact with the
+              enemy. Win the early game or don&apos;t bother. He chose don&apos;t.
+            </p>
+          </div>
+        </section>
+
+        {/* ---------- HEATMAPS ---------- */}
+        <section id="maps">
+          <h2>Heatmaps of a hardstuck man 🗺️</h2>
+          <p className="lead">
+            We pulled his exact position from every frame of every game. Here is, spatially, where
+            this chud exists on the Rift — and where good and bad things happen to him.
+          </p>
+          <Chart src="/charts/loiter_map.png" cap="Position density across all games (side-normalized, his base bottom-left). A creature of habit: bot lane, mid, and a worrying amount of time near his own fountain." />
+          <Chart src="/charts/killdeath_map.png" cap="Kill/death territory — green where he gets kills, red where he dies. The red bleeds into his own half; the green requires a competent teammate (hi, Tony) to set up." />
+          <div className="callout loss">
+            <h3>A man and his 9 square meters</h3>
+            <p>
+              He occupies the bot lane and the safest sliver of mid like a goldfish that&apos;s
+              learned the dimensions of its bowl. The brightest non-lane spot on his entire map is
+              his own <b>base</b> — recalling, shopping, and existing somewhere nothing can hurt him.
+              The treadmill has more square footage than his average game.
+            </p>
+          </div>
+        </section>
+
+        {/* ---------- MORE STATS ---------- */}
+        <section id="misc">
+          <h2>Stats that prove nothing but hurt anyway</h2>
+          <p className="lead">
+            The junk-drawer of diagnostics. Useless, exhaustive, and devastating — exactly as
+            requested.
+          </p>
+          <Chart src="/charts/matchup_heatmap.png" cap="His champ (rows) × enemy ADC (cols) win-rate matrix. A patchwork quilt of revenge and trauma." />
+          <Chart src="/charts/hourweekday.png" cap="Win rate by hour × weekday. Bright = winning, red = tilting, blank = asleep or (rarely) touching grass." />
+          <div className="grid2">
+            <div>
+              <Chart src="/charts/damage_donut.png" cap="Lifetime damage mix: overwhelmingly physical. One-dimensional, much like his personality and his diet." />
+            </div>
+            <div className="cards" style={{ alignContent: "start" }}>
+              <div className="card">
+                <div className="k">Double kills</div>
+                <div className="v">{A.advanced.multikills.x2}</div>
+              </div>
+              <div className="card">
+                <div className="k">Triple kills</div>
+                <div className="v">{A.advanced.multikills.x3}</div>
+              </div>
+              <div className="card">
+                <div className="k">Quadra kills</div>
+                <div className="v">{A.advanced.multikills.x4}</div>
+              </div>
+              <div className="card">
+                <div className="k">PENTAKILLS</div>
+                <div className="v good">{A.advanced.multikills.x5}</div>
+                <div className="k">a broken clock is right 6 times</div>
+              </div>
+              <div className="card">
+                <div className="k">Physical damage share</div>
+                <div className="v">{physPct()}%</div>
+                <div className="k">imagination: 0%</div>
+              </div>
+            </div>
+          </div>
+          <div className="callout">
+            <h3>Yes, he has 6 pentakills</h3>
+            <p>
+              Even a passive farming chud, given {S.nGames} games and a hard-carrying friend named
+              Tony, will eventually stumble into <b>6 pentakills</b> — eight if you count the two he
+              probably flamed his team for &quot;stealing.&quot; A broken clock is right twice a day;
+              this one&apos;s right six times in two years.
+            </p>
+          </div>
+        </section>
+
         {/* ---------- FORM ---------- */}
         <section id="form">
           <h2>Two-year form: a plateau (and not the only thing that&apos;s plateaued)</h2>
@@ -852,4 +990,18 @@ function socMate(name) {
 const TONY_NAMES = new Set(["ernump", "chaewon", "calatis"]);
 function isTony(name) {
   return TONY_NAMES.has((name || "").toLowerCase());
+}
+function gradeColor(g) {
+  if (g.startsWith("A") || g.startsWith("B")) return "good";
+  if (g.startsWith("C")) return "mid";
+  return "bad";
+}
+function wp(k) {
+  const b = A.advanced.winProb15.find((x) => x.k === k);
+  return b ? b.wr : "?";
+}
+function physPct() {
+  const d = A.advanced.damageMix;
+  const tot = d.physical + d.magic + d.true;
+  return tot ? Math.round((100 * d.physical) / tot) : 0;
 }
